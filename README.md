@@ -1,3 +1,11 @@
+# C919 驾驶舱模拟器（公开站点仅含驾驶舱页）
+
+公开 GitHub Pages **只**提供 `c919-cockpit.html` + `three.min.js`。三维结构模型 / GLB / 涂装贴图不在公开站点发布。
+
+体验：https://caleseele.github.io/c919-autonomy/c919-cockpit.html
+
+---
+
 # 自主 · C919 科普交互式网站
 
 第二章核心：自制低模 C919，在浏览器里旋转缩放、点击部件看科普、点机身国旗切换涂装。
