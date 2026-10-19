@@ -67,3 +67,4 @@ public/models/**/*.glb
 public/models/**/*.blend*
 public/tex/c919_livery_*.jpg
 public/tex/c919_livery_*.png
+refs/tex/
