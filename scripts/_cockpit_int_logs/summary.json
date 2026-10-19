@@ -1,0 +1,49 @@
+{
+  "deleted": [
+    {
+      "name": "CockpitCabin",
+      "faces": 6,
+      "verts": 8
+    },
+    {
+      "name": "PilotSeats",
+      "faces": 144,
+      "verts": 192
+    }
+  ],
+  "added": [
+    "CockpitInterior",
+    "CockpitGlareShield",
+    "CockpitGlareWing_L",
+    "CockpitGlareWing_R",
+    "CockpitInstrumentPanel",
+    "CockpitSeat_L_Base",
+    "CockpitSeat_L_Back",
+    "CockpitSeat_R_Base",
+    "CockpitSeat_R_Back",
+    "CockpitSeals",
+    "Wiper_L_Arm",
+    "Wiper_L_Blade",
+    "Wiper_R_Arm",
+    "Wiper_R_Blade",
+    "CockpitPillar_Center",
+    "CockpitPillar_L",
+    "CockpitPillar_R"
+  ],
+  "glass": {
+    "base": "#2E3A3E",
+    "alpha": 0.45,
+    "trans": 1.0,
+    "ior": 1.5,
+    "rough": 0.03,
+    "blend": "BLEND",
+    "surface": "BLENDED"
+  },
+  "islands": 4,
+  "glb_bytes": 1472528,
+  "previews": [
+    "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\cockpit-int\\front.png",
+    "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\cockpit-int\\oblique45.png",
+    "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\cockpit-int\\side.png"
+  ]
+}

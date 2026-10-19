@@ -1,0 +1,73 @@
+{
+  "backup": "public/models/c919.bak-section6.blend",
+  "upper_aft_block": {
+    "name": "REF_尾段天线",
+    "zmax": 2.556,
+    "under_belly": false,
+    "tip_aft": 34.628
+  },
+  "gearbay": {
+    "name": "GearBayDoors",
+    "zmax": -1.835,
+    "under_belly": true
+  },
+  "deleted": [
+    "REF_尾段天线",
+    "DoorFrames",
+    "DoorWindows",
+    "Doors",
+    "WindowFrames",
+    "Windows"
+  ],
+  "kept": [
+    "GearBayDoors"
+  ],
+  "imported": [
+    "REF_舱门缝线",
+    "REF_舷窗玻璃"
+  ],
+  "import_path": "refs/C919_REF_舱门舷窗.obj",
+  "counts": {
+    "REF_舱门缝线": {
+      "islands": 8,
+      "verts": 852
+    },
+    "REF_舷窗玻璃": {
+      "islands": 86,
+      "verts": 5528
+    }
+  },
+  "measurements": [
+    {
+      "item": "舷窗玻璃岛屿(双侧合计)",
+      "actual": 86,
+      "ref": 82,
+      "delta": 4,
+      "pass": false
+    },
+    {
+      "item": "舱门缝线岛屿(约)",
+      "actual": 8,
+      "ref": 8,
+      "delta": 0,
+      "pass": true
+    },
+    {
+      "item": "GearBayDoors保留",
+      "actual": 1,
+      "ref": 1,
+      "delta": 0,
+      "pass": true
+    }
+  ],
+  "camera": {
+    "tip_screen_x": 0.053776,
+    "tail_screen_x": 0.946224,
+    "orient_ok": true
+  },
+  "compare": "public/models/section6/side_compare_20261018_130500.png",
+  "stamp": "20261018_130500",
+  "scripts": [
+    "section6_cabin_import.py"
+  ]
+}

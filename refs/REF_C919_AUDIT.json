@@ -1,0 +1,573 @@
+{
+  "plausible_aircraft_ref": true,
+  "fbx": "C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\REF_C919.fbx",
+  "filesize": 4622316,
+  "fbx_version": "7400",
+  "source_hint": "3d66 / V-Ray materials (3ds Max export)",
+  "all_meshes": [
+    {
+      "name": "Cube",
+      "verts": 8,
+      "faces": 6,
+      "dimensions_raw": [
+        2.0,
+        2.000000238418579,
+        2.000000238418579
+      ],
+      "materials": [
+        "Material"
+      ]
+    },
+    {
+      "name": "Obj3d66-19714258-1-818",
+      "verts": 28,
+      "faces": 26,
+      "dimensions_raw": [
+        110734.421875,
+        110734.42578125,
+        0.01804092712700367
+      ],
+      "materials": [
+        "3d66-VRayMtl-19714258-001"
+      ]
+    },
+    {
+      "name": "Obj3d66-19714258-2-287",
+      "verts": 67618,
+      "faces": 121368,
+      "dimensions_raw": [
+        5032.947509765625,
+        5148.0413818359375,
+        1213.3640846014023
+      ],
+      "materials": [
+        "3d66-VRayMtl-19714258-003_3d66Model-19714258-files-001",
+        "3d66-VRayMtl-19714258-004_3d66Model-19714258-files-002",
+        "3d66-VRayMtl-19714258-005_3d66Model-19714258-files-004",
+        "3d66-VRayMtl-19714258-006_3d66Model-19714258-files-005",
+        "3d66-VRayMtl-19714258-007_3d66Model-19714258-files-007",
+        "3d66-VRayMtl-19714258-008",
+        "3d66-VRayMtl-19714258-009_3d66Model-19714258-files-003",
+        "3d66-VRayMtl-19714258-010_3d66Model-19714258-files-006",
+        "3d66-VRayMtl-19714258-011",
+        "3d66-VRayMtl-19714258-012",
+        "3d66-VRayMtl-19714258-013",
+        "3d66-VRayMtl-19714258-014",
+        "3d66-VRayMtl-19714258-015",
+        "3d66-VRayMtl-19714258-016",
+        "3d66-VRayMtl-19714258-017"
+      ]
+    }
+  ],
+  "primary_mesh": "Obj3d66-19714258-2-287",
+  "helpers": [
+    "Cube",
+    "Obj3d66-19714258-1-818"
+  ],
+  "helper_note": "Obj3d66-...-1-818 is a huge near-flat helper (~110km); ignore for scale. Factory Cube may appear if not purged.",
+  "primary_dimensions_raw_xyz": [
+    5032.947509765625,
+    5148.0413818359375,
+    1213.3640846014023
+  ],
+  "recommended_scale": 0.01,
+  "scale_note": "cm->m",
+  "scaled_overall_xyz_m": [
+    50.32947509765625,
+    51.480413818359374,
+    12.133640846014023
+  ],
+  "axis_roles": {
+    "length": "Y",
+    "span_width": "X",
+    "height": "Z",
+    "forward": "-Y",
+    "nose_at": "min",
+    "up": "Z"
+  },
+  "c919_targets_m": {
+    "length": 38.9,
+    "wingspan": 35.88,
+    "overall_height": 11.95,
+    "fuselage_width": 3.96,
+    "fuselage_height": 4.166
+  },
+  "scale_hypotheses": [
+    {
+      "scale": 0.01,
+      "label": "cm->m",
+      "scaled_xyz": [
+        50.32947509765625,
+        51.480413818359374,
+        12.133640846014023
+      ],
+      "err_len": 0.3234039541994698,
+      "err_span": 0.4027166972590927,
+      "err_overall_h": 0.015367434812889018,
+      "score": 0.7414880862714516
+    },
+    {
+      "scale": 0.001,
+      "label": "mm->m",
+      "scaled_xyz": [
+        5.032947509765625,
+        5.148041381835937,
+        1.2133640846014022
+      ],
+      "err_len": 0.867659604580053,
+      "err_span": 0.8597283302740907,
+      "err_overall_h": 0.8984632565187112,
+      "score": 2.625851191372855
+    },
+    {
+      "scale": 0.1,
+      "label": "dm->m",
+      "scaled_xyz": [
+        503.2947509765625,
+        514.8041381835938,
+        121.33640846014023
+      ],
+      "err_len": 12.234039541994699,
+      "err_span": 13.027166972590928,
+      "err_overall_h": 9.15367434812889,
+      "score": 34.41488086271452
+    },
+    {
+      "scale": 1.0,
+      "label": "meters",
+      "scaled_xyz": [
+        5032.947509765625,
+        5148.0413818359375,
+        1213.3640846014023
+      ],
+      "err_len": 131.340395419947,
+      "err_span": 139.27166972590928,
+      "err_overall_h": 100.5367434812889,
+      "score": 371.1488086271452
+    },
+    {
+      "scale": 100.0,
+      "label": "*100",
+      "scaled_xyz": [
+        503294.7509765625,
+        514804.13818359375,
+        121336.40846014023
+      ],
+      "err_len": 13233.039541994698,
+      "err_span": 14026.166972590927,
+      "err_overall_h": 10152.67434812889,
+      "score": 37411.88086271452
+    }
+  ],
+  "fuselage_section_estimate_m": {
+    "width_m_median": 10.937711486816406,
+    "height_m_median": 4.294060974121094,
+    "sample_bins": [
+      {
+        "bin": 21,
+        "n": 1976,
+        "span_area": 435201.4463079572,
+        "width": 10.4644873046875,
+        "height": 4.158841552734375,
+        "pos_raw": 2104.204055023193,
+        "pos_m": 21.04204055023193
+      },
+      {
+        "bin": 20,
+        "n": 1607,
+        "span_area": 449719.1366006909,
+        "width": 10.473049621582032,
+        "height": 4.294060974121094,
+        "pos_raw": 2014.1361946105958,
+        "pos_m": 20.14136194610596
+      },
+      {
+        "bin": 19,
+        "n": 2678,
+        "span_area": 684278.4846116937,
+        "width": 10.937711486816406,
+        "height": 6.256139462413849,
+        "pos_raw": 1924.068334197998,
+        "pos_m": 19.24068334197998
+      },
+      {
+        "bin": 18,
+        "n": 3682,
+        "span_area": 689911.5515037772,
+        "width": 11.027753448486328,
+        "height": 6.256138702470489,
+        "pos_raw": 1834.0004737854003,
+        "pos_m": 18.340004737854002
+      },
+      {
+        "bin": 22,
+        "n": 1370,
+        "span_area": 535479.1778913345,
+        "width": 12.875528564453125,
+        "height": 4.158890838623047,
+        "pos_raw": 2194.271915435791,
+        "pos_m": 21.94271915435791
+      }
+    ]
+  },
+  "profile_along_length_sample": [
+    {
+      "bin": 0,
+      "n": 2875,
+      "span_area": 50751.72128457762,
+      "width": 2.4399346923828125,
+      "height": 2.0800442504882812,
+      "pos_raw": 212.77898635864258,
+      "pos_m": 2.127789863586426
+    },
+    {
+      "bin": 4,
+      "n": 1237,
+      "span_area": 303012.61808622716,
+      "width": 4.864833068847656,
+      "height": 6.228633414506913,
+      "pos_raw": 573.0504280090332,
+      "pos_m": 5.730504280090332
+    },
+    {
+      "bin": 8,
+      "n": 1297,
+      "span_area": 617121.0044180865,
+      "width": 11.292528381347656,
+      "height": 5.464861221313477,
+      "pos_raw": 933.3218696594238,
+      "pos_m": 9.333218696594239
+    },
+    {
+      "bin": 12,
+      "n": 3206,
+      "span_area": 1195124.6538764024,
+      "width": 23.343975219726563,
+      "height": 5.1196278381347655,
+      "pos_raw": 1293.5933113098145,
+      "pos_m": 12.935933113098145
+    },
+    {
+      "bin": 16,
+      "n": 2767,
+      "span_area": 814746.1100425478,
+      "width": 14.767510986328125,
+      "height": 5.517152557373047,
+      "pos_raw": 1653.8647529602051,
+      "pos_m": 16.538647529602052
+    },
+    {
+      "bin": 20,
+      "n": 1607,
+      "span_area": 449719.1366006909,
+      "width": 10.473049621582032,
+      "height": 4.294060974121094,
+      "pos_raw": 2014.1361946105958,
+      "pos_m": 20.14136194610596
+    },
+    {
+      "bin": 24,
+      "n": 1153,
+      "span_area": 549435.4380126018,
+      "width": 13.236773681640626,
+      "height": 4.1508259582519536,
+      "pos_raw": 2374.4076362609862,
+      "pos_m": 23.744076362609864
+    },
+    {
+      "bin": 28,
+      "n": 1826,
+      "span_area": 707269.3491604105,
+      "width": 18.7735302734375,
+      "height": 3.7673753356933593,
+      "pos_raw": 2734.679077911377,
+      "pos_m": 27.34679077911377
+    },
+    {
+      "bin": 32,
+      "n": 1092,
+      "span_area": 946335.4572132416,
+      "width": 28.581048583984376,
+      "height": 3.311059265136719,
+      "pos_raw": 3094.9505195617676,
+      "pos_m": 30.949505195617675
+    },
+    {
+      "bin": 36,
+      "n": 548,
+      "span_area": 359729.21748164017,
+      "width": 4.759374084472657,
+      "height": 7.558330383300781,
+      "pos_raw": 3455.221961212158,
+      "pos_m": 34.55221961212158
+    }
+  ],
+  "materials": [
+    {
+      "name": "3d66-VRayMtl-19714258-001",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.10000002384185791,
+      "Base Color": [
+        0.0784313753247261,
+        0.0784313753247261,
+        0.0784313753247261,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-003_3d66Model-19714258-files-001",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.46666669845581055,
+        0.46666669845581055,
+        0.46666669845581055,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-004_3d66Model-19714258-files-002",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.46666669845581055,
+        0.46666669845581055,
+        0.46666669845581055,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-005_3d66Model-19714258-files-004",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.09019608050584793,
+        0.09019608050584793,
+        0.09019608050584793,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-006_3d66Model-19714258-files-005",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.09019608050584793,
+        0.09019608050584793,
+        0.09019608050584793,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-007_3d66Model-19714258-files-007",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.09019608050584793,
+        0.09019608050584793,
+        0.09019608050584793,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-008",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.050000011920928955,
+      "Base Color": [
+        0.8627451658248901,
+        0.8627451658248901,
+        0.8627451658248901,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-009_3d66Model-19714258-files-003",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.10000002384185791,
+      "Base Color": [
+        0.09019608050584793,
+        0.09019608050584793,
+        0.09019608050584793,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-010_3d66Model-19714258-files-006",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.30000001192092896,
+      "Base Color": [
+        0.09019608050584793,
+        0.09019608050584793,
+        0.09019608050584793,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-011",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.0,
+      "Base Color": [
+        0.02352941408753395,
+        0.03529411926865578,
+        0.05490196496248245,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-012",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.19999998807907104,
+      "Base Color": [
+        0.364705890417099,
+        0.364705890417099,
+        0.364705890417099,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-013",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.5,
+      "Base Color": [
+        0.019607843831181526,
+        0.019607843831181526,
+        0.019607843831181526,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-014",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.5,
+      "Base Color": [
+        0.1411764770746231,
+        0.13333334028720856,
+        0.12941177189350128,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-015",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.30000001192092896,
+      "Base Color": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-016",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.30000001192092896,
+      "Base Color": [
+        0.3490196168422699,
+        0.3490196168422699,
+        0.3490196168422699,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "3d66-VRayMtl-19714258-017",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.30000001192092896,
+      "Base Color": [
+        0.05490196496248245,
+        0.05490196496248245,
+        0.05490196496248245,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "Dots Stroke",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.5,
+      "Base Color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "Metallic": 0.0
+    },
+    {
+      "name": "Material",
+      "Transmission Weight": 0.0,
+      "Alpha": 1.0,
+      "Roughness": 0.5,
+      "Base Color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "Metallic": 0.0
+    }
+  ],
+  "face_counts_by_material": {
+    "3d66-VRayMtl-19714258-003_3d66Model-19714258-files-001": 13705,
+    "3d66-VRayMtl-19714258-004_3d66Model-19714258-files-002": 13705,
+    "3d66-VRayMtl-19714258-005_3d66Model-19714258-files-004": 3130,
+    "3d66-VRayMtl-19714258-006_3d66Model-19714258-files-005": 3130,
+    "3d66-VRayMtl-19714258-007_3d66Model-19714258-files-007": 396,
+    "3d66-VRayMtl-19714258-008": 1344,
+    "3d66-VRayMtl-19714258-009_3d66Model-19714258-files-003": 992,
+    "3d66-VRayMtl-19714258-010_3d66Model-19714258-files-006": 600,
+    "3d66-VRayMtl-19714258-011": 13424,
+    "3d66-VRayMtl-19714258-012": 1384,
+    "3d66-VRayMtl-19714258-013": 9696,
+    "3d66-VRayMtl-19714258-014": 1298,
+    "3d66-VRayMtl-19714258-015": 35928,
+    "3d66-VRayMtl-19714258-016": 9121,
+    "3d66-VRayMtl-19714258-017": 13515
+  },
+  "glass_like_names": [],
+  "glass_candidates_heuristic": [
+    "3d66-VRayMtl-19714258-001 (dark opaque — possible former VRay glass)",
+    "3d66-VRayMtl-19714258-011 (dark opaque — possible former VRay glass)",
+    "3d66-VRayMtl-19714258-013 (dark opaque — possible former VRay glass)",
+    "3d66-VRayMtl-19714258-017 (dark opaque — possible former VRay glass)"
+  ],
+  "gaps": [
+    "No objects named windshield/glass/WS_*; glass not separated as named parts.",
+    "V-Ray glass lost on FBX import: all Transmission Weight = 0 (opaque Principled).",
+    "Helper mesh Obj3d66-19714258-1-818 must be excluded (inflates global bbox).",
+    "Fuselage width/height are estimates from binning; wing stations inflate width — use mid-body narrow bins.",
+    "No REF_C919 collection yet — user must create after import."
+  ],
+  "png": "C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\REF_C919_nose_wireframe.png"
+}

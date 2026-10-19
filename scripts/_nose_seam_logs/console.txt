@@ -1,0 +1,16 @@
+=== NOSE SEAM TWEAK ===
+group: ['Nose', 'CockpitGlass_REF', 'CockpitCabin']
+[before] nose_aft=14.8350 fuse_fwd=14.8425 overlap=0.75 cm
+[before] ΔW=0.705 cm ΔH=0.051 cm Wn=4.1272 Wf=4.1201 Hn=4.1207 Hf=4.1202
+[before] dcx=0.000 cm dcz=0.000 cm
+[scale] mode=axis sx=0.998292 sy=1.000000 sz=0.999876 (raw sx=0.998292 sz=0.999876)
+[after] nose_aft=14.8275 fuse_fwd=14.8425 overlap=1.50 cm
+[after] ΔW=0.000 cm ΔH=0.000 cm Wn=4.1201 Wf=4.1201 Hn=4.1202 Hf=4.1202
+[after] dcx=0.000 cm dcz=0.000 cm
+backup C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb.bak-nose-seam
+GLB 1515564 (1.52 MB)
+[QA] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-seam\seam_front.png
+[QA] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-seam\seam_side.png
+[QA] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-seam\seam_oblique45.png
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\NOSE_SEAM_TWEAK_NOTES.zh-Hans.md
+=== DONE ===

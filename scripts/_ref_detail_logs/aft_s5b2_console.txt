@@ -1,0 +1,32 @@
+=== AFT S5b2 rebuild ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-aft-s5b2.blend from C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-aft-s5b.blend
+[const] tip=20.5578 belly0=-2.0960
+[merge] TailCone → Fuselage
+[loft] deleting aft verts n=2166 y_seam=-5.442 y_tip=-18.282
+[loft] stations n=27 first=26.0 last=38.84
+[loft] rebuilt densified aft rings=27 N=48
+[vt] VerticalTail dz=0.9557
+[vt] Rudder dz=0.9557
+[stab-R] dx=0.5623
+[stab-L] dx=-0.5623
+[apu] {'mean_diam': 0.3347826255311112, 'n': 23, 'y_span': (-18.282176971435547, -18.28217124938965)}
+[fork] {'forked': False, 'tip_zspan': 0.34850287437438965, 'n_tip': 23}
+[vt] {'status': 'OK', 'gap_avg': 0.023035645484924316}
+[meas] td=26 n=162 0.014/4.175/2.072 pass=True
+[meas] td=27 n=48 0.110/4.160/1.980 pass=True
+[meas] td=28 n=48 0.200/4.160/1.970 pass=True
+[meas] td=29 n=48 0.360/4.150/1.930 pass=True
+[meas] td=30 n=48 0.550/4.140/1.860 pass=True
+[meas] td=31 n=48 0.740/4.140/1.770 pass=True
+[meas] td=32 n=48 0.960/4.140/1.640 pass=True
+[meas] td=33 n=48 1.210/4.050/1.440 pass=True
+[meas] td=34 n=48 1.440/3.980/1.190 pass=True
+[meas] td=35 n=48 1.730/3.950/1.000 pass=True
+[meas] td=36 n=48 1.990/3.900/0.930 pass=True
+[meas] td=37 n=48 2.310/3.690/0.770 pass=True
+[meas] td=38.84 n=23 2.875/3.224/0.174 pass=True
+[render] ours
+[render] ref
+GLB 1634504
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+=== S5b2 DONE ===

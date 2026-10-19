@@ -1,0 +1,563 @@
+{
+  "stopped": false,
+  "pass": true,
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-before-s11.blend",
+  "backup_done": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-section11.blend",
+  "fuse_check": {
+    "name": "REF_机身UV源",
+    "missing": false,
+    "pass": true,
+    "station": 16.7842,
+    "abs_x": 0.0012,
+    "agl": 4.2179,
+    "ref_station": 16.784,
+    "ref_abs_x": 0.0,
+    "ref_agl": 4.218,
+    "d_station": 0.0002,
+    "d_abs_x": 0.0012,
+    "d_agl": 0.0001
+  },
+  "replace_checks": [
+    {
+      "name": "REF_机翼_左.001",
+      "vs": "REF_机翼_左",
+      "missing": false,
+      "pass": true,
+      "station": 20.5548,
+      "abs_x": 9.8774,
+      "agl": 3.8598,
+      "old_station": 20.5548,
+      "old_abs_x": 9.8774,
+      "old_agl": 3.8598,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_机翼_左"
+    },
+    {
+      "name": "REF_机翼_右.001",
+      "vs": "REF_机翼_右",
+      "missing": false,
+      "pass": true,
+      "station": 20.5548,
+      "abs_x": 9.8769,
+      "agl": 3.8598,
+      "old_station": 20.5548,
+      "old_abs_x": 9.8769,
+      "old_agl": 3.8598,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_机翼_右"
+    },
+    {
+      "name": "REF_吊挂_左.001",
+      "vs": "REF_吊挂_左",
+      "missing": false,
+      "pass": true,
+      "station": 15.7452,
+      "abs_x": 6.1026,
+      "agl": 3.3248,
+      "old_station": 15.7452,
+      "old_abs_x": 6.1026,
+      "old_agl": 3.3248,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_吊挂_左"
+    },
+    {
+      "name": "REF_吊挂_右.001",
+      "vs": "REF_吊挂_右",
+      "missing": false,
+      "pass": true,
+      "station": 15.7452,
+      "abs_x": 6.1026,
+      "agl": 3.3248,
+      "old_station": 15.7452,
+      "old_abs_x": 6.1026,
+      "old_agl": 3.3248,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_吊挂_右"
+    },
+    {
+      "name": "REF_发动机_左_短舱外罩.001",
+      "vs": "REF_发动机_左_短舱外罩",
+      "missing": false,
+      "pass": true,
+      "station": 14.1799,
+      "abs_x": 6.0759,
+      "agl": 2.1305,
+      "old_station": 14.1799,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1305,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_短舱外罩"
+    },
+    {
+      "name": "REF_发动机_左_进气唇口.001",
+      "vs": "REF_发动机_左_进气唇口",
+      "missing": false,
+      "pass": true,
+      "station": 12.1363,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "old_station": 12.1363,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_进气唇口"
+    },
+    {
+      "name": "REF_发动机_左_风扇叶片.001",
+      "vs": "REF_发动机_左_风扇叶片",
+      "missing": false,
+      "pass": true,
+      "station": 12.8483,
+      "abs_x": 6.0759,
+      "agl": 2.1399,
+      "old_station": 12.8483,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1399,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_风扇叶片"
+    },
+    {
+      "name": "REF_发动机_左_风扇机匣.001",
+      "vs": "REF_发动机_左_风扇机匣",
+      "missing": false,
+      "pass": true,
+      "station": 12.5644,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "old_station": 12.5644,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_风扇机匣"
+    },
+    {
+      "name": "REF_发动机_左_整流锥.001",
+      "vs": "REF_发动机_左_整流锥",
+      "missing": false,
+      "pass": true,
+      "station": 12.7164,
+      "abs_x": 6.0759,
+      "agl": 2.1323,
+      "old_station": 12.7164,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1323,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_整流锥"
+    },
+    {
+      "name": "REF_发动机_左_核心机喷口.001",
+      "vs": "REF_发动机_左_核心机喷口",
+      "missing": false,
+      "pass": true,
+      "station": 15.8581,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "old_station": 15.8581,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_核心机喷口"
+    },
+    {
+      "name": "REF_发动机_左_尾喷锥.001",
+      "vs": "REF_发动机_左_尾喷锥",
+      "missing": false,
+      "pass": true,
+      "station": 17.0613,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "old_station": 17.0613,
+      "old_abs_x": 6.0759,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_尾喷锥"
+    },
+    {
+      "name": "REF_发动机_左_其他.001",
+      "vs": "REF_发动机_左_其他",
+      "missing": false,
+      "pass": true,
+      "station": 12.5856,
+      "abs_x": 6.0759,
+      "agl": 1.2293,
+      "old_station": 12.5856,
+      "old_abs_x": 6.0759,
+      "old_agl": 1.2293,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_左_其他"
+    },
+    {
+      "name": "REF_发动机_右_短舱外罩.001",
+      "vs": "REF_发动机_右_短舱外罩",
+      "missing": false,
+      "pass": true,
+      "station": 14.1799,
+      "abs_x": 6.0734,
+      "agl": 2.1305,
+      "old_station": 14.1799,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1305,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_短舱外罩"
+    },
+    {
+      "name": "REF_发动机_右_进气唇口.001",
+      "vs": "REF_发动机_右_进气唇口",
+      "missing": false,
+      "pass": true,
+      "station": 12.1363,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "old_station": 12.1363,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_进气唇口"
+    },
+    {
+      "name": "REF_发动机_右_风扇叶片.001",
+      "vs": "REF_发动机_右_风扇叶片",
+      "missing": false,
+      "pass": true,
+      "station": 12.8483,
+      "abs_x": 6.0734,
+      "agl": 2.1399,
+      "old_station": 12.8483,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1399,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_风扇叶片"
+    },
+    {
+      "name": "REF_发动机_右_风扇机匣.001",
+      "vs": "REF_发动机_右_风扇机匣",
+      "missing": false,
+      "pass": true,
+      "station": 12.5644,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "old_station": 12.5644,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_风扇机匣"
+    },
+    {
+      "name": "REF_发动机_右_整流锥.001",
+      "vs": "REF_发动机_右_整流锥",
+      "missing": false,
+      "pass": true,
+      "station": 12.7164,
+      "abs_x": 6.0734,
+      "agl": 2.1323,
+      "old_station": 12.7164,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1323,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_整流锥"
+    },
+    {
+      "name": "REF_发动机_右_核心机喷口.001",
+      "vs": "REF_发动机_右_核心机喷口",
+      "missing": false,
+      "pass": true,
+      "station": 15.8581,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "old_station": 15.8581,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_核心机喷口"
+    },
+    {
+      "name": "REF_发动机_右_尾喷锥.001",
+      "vs": "REF_发动机_右_尾喷锥",
+      "missing": false,
+      "pass": true,
+      "station": 17.0613,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "old_station": 17.0613,
+      "old_abs_x": 6.0734,
+      "old_agl": 2.1252,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_尾喷锥"
+    },
+    {
+      "name": "REF_发动机_右_其他.001",
+      "vs": "REF_发动机_右_其他",
+      "missing": false,
+      "pass": true,
+      "station": 12.5856,
+      "abs_x": 6.0734,
+      "agl": 1.2293,
+      "old_station": 12.5856,
+      "old_abs_x": 6.0734,
+      "old_agl": 1.2293,
+      "d_station": 0.0,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0,
+      "canonical": "REF_发动机_右_其他"
+    }
+  ],
+  "pass_table": [
+    {
+      "name": "REF_机身UV源",
+      "pass": true
+    },
+    {
+      "name": "REF_机翼_左",
+      "pass": true
+    },
+    {
+      "name": "REF_机翼_右",
+      "pass": true
+    },
+    {
+      "name": "REF_吊挂_左",
+      "pass": true
+    },
+    {
+      "name": "REF_吊挂_右",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_短舱外罩",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_进气唇口",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_风扇叶片",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_风扇机匣",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_整流锥",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_核心机喷口",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_尾喷锥",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_左_其他",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_短舱外罩",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_进气唇口",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_风扇叶片",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_风扇机匣",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_整流锥",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_核心机喷口",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_尾喷锥",
+      "pass": true
+    },
+    {
+      "name": "REF_发动机_右_其他",
+      "pass": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "skin_fuselage",
+      "present": true,
+      "has_map": true,
+      "image": "//..\\..\\refs\\tex\\c919_livery_fuselage.jpg"
+    },
+    {
+      "name": "skin_wing_lower",
+      "present": true,
+      "has_map": true,
+      "image": "//..\\..\\refs\\tex\\c919_tex_wing_lower.jpg"
+    },
+    {
+      "name": "skin_wing_upper",
+      "present": true,
+      "has_map": true,
+      "image": "//..\\..\\refs\\tex\\c919_tex_wing_upper.jpg"
+    },
+    {
+      "name": "skin_wing",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "pylon",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "engine_nacelle",
+      "present": true,
+      "has_map": true,
+      "image": "//..\\..\\refs\\tex\\c919_tex_leap.jpg"
+    },
+    {
+      "name": "engine_nacelle_plain",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "engineLip",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "fan_metal",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "fancase_metal",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "spinner_metal",
+      "present": true,
+      "has_map": true,
+      "image": "//..\\..\\refs\\tex\\c919_tex_spinner.jpg"
+    },
+    {
+      "name": "core_metal",
+      "present": true,
+      "has_map": false,
+      "image": null
+    },
+    {
+      "name": "plug_metal",
+      "present": true,
+      "has_map": false,
+      "image": null
+    }
+  ],
+  "tip": 20.572813034057617,
+  "z0": -4.239783763885498,
+  "glb": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.glb",
+  "glb_mesh_count": 37,
+  "visible_meshes": [
+    "CockpitGlass_REF",
+    "Fuselage_REF",
+    "REF_APU排气口",
+    "REF_主起落架_支柱轮",
+    "REF_主起落架_舱门",
+    "REF_前起落架_支柱轮",
+    "REF_前起落架_舱门",
+    "REF_发动机_右_其他",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣",
+    "REF_发动机_左_其他",
+    "REF_发动机_左_尾喷锥",
+    "REF_发动机_左_整流锥",
+    "REF_发动机_左_核心机喷口",
+    "REF_发动机_左_短舱外罩",
+    "REF_发动机_左_进气唇口",
+    "REF_发动机_左_风扇叶片",
+    "REF_发动机_左_风扇机匣",
+    "REF_吊挂_右",
+    "REF_吊挂_左",
+    "REF_尾段天线",
+    "REF_探头天线",
+    "REF_方向舵等",
+    "REF_机翼_右",
+    "REF_机翼_左",
+    "REF_水平尾翼_含升降舵",
+    "REF_舱门缝线",
+    "REF_舷窗玻璃",
+    "REF_雨刮器",
+    "REF_风挡窗框",
+    "REF_驾驶舱内饰",
+    "RadomePanelLines"
+  ],
+  "scripts": [
+    "section11_livery_uv.py"
+  ],
+  "files_modified": [
+    "public/models/c919.blend",
+    "public/models/c919.glb",
+    "public/models/c919.bak-before-s11.blend",
+    "public/models/c919.bak-section11.blend",
+    "PROGRESS.md",
+    "scripts/section11_livery_uv.py"
+  ],
+  "stamp": "2026-10-18T19:53:02"
+}

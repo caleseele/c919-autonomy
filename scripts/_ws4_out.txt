@@ -1,0 +1,160 @@
+WS4 start bg= False
+00:02.859  blend            | Read blend: "C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend"
+WS4 nose Nose MESH parent C919 users_collection ['Scene Collection']
+WS4 after ensure active Nose
+WS4 outlines WindowOutline_Front WindowOutline_Side
+WS4 knife prep RIGHT active Nose sel ['Nose', 'WindowOutline_Side']
+WS4 knife begin RIGHT mode EDIT_MESH active Nose
+WS4 knife ok RIGHT
+WS4 knife prep FRONT active Nose sel ['Nose', 'WindowOutline_Front']
+WS4 knife begin FRONT mode EDIT_MESH active Nose
+WS4 knife ok FRONT
+WS4 deleted_interior_faces 18
+WS4 hole_loops 2 [14, 14]
+WS4 glass_from_loop SW_L 14
+WS4 glass_from_loop SW_R 14
+WS4 WARN only ['SW_L', 'SW_R'] — procedural fill for missing panes
+WS4 boundary_edges_ws 28
+WS4 OK Nose 3626
+WS4 OK WS_L 100
+WS4 OK WS_R 100
+WS4 OK SW_L 100
+WS4 OK SW_R 100
+WS4 OK CockpitFrames 28
+WS4 OK CockpitCabin 6
+WS4 OK Doors 1968
+WS4 OK Wing_R 242
+WS4 OK Engine_R 624
+WS4 OK VerticalTail 241
+WS4 OK CockpitMask absent
+WS4 MISSING_COUNT 0
+INFO Draco is available, use library at C:\Blender\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Blender\blender-5.2.2-windows-x64\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+16:04:00 | INFO: Starting glTF 2.0 export
+16:04:00 | INFO: Extracting primitive: mesh.048
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: CockpitCabin_mesh
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: CockpitFrames_mesh
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.021
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.020
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.022
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.027
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.023
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.028
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.024
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.029
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.025
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.053
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.052
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.001
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.051
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.049
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.050
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.047
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.042
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.044
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.043
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.040
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.030
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.026
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.034
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.032
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.031
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.003
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.002
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: SW_L_mesh.001
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: SW_R_mesh.001
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.035
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.036
+16:04:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.038
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.037
+16:04:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.039
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.033
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.005
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.004
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.041
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.013
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.012
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.046
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.045
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.017
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.016
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.019
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.018
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.015
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: mesh.014
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: WS_L_mesh
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Extracting primitive: WS_R_mesh
+16:04:00 | INFO: Primitives created: 1
+16:04:00 | INFO: Finished glTF 2.0 export in 0.1763169765472412 s
+
+WS4 exported C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb 1534476 use_visible
+00:13.578  render           | Saved: 'C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-windshield-34.png'
+Info: Saved as "c919.blend"
+WS4 WROTE C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-windshield-34.png
+00:31.000  render           | Saved: 'C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-windshield-side.png'
+WS4 WROTE C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-windshield-side.png
+00:46.875  render           | Saved: 'C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-nose-top.png'
+WS4 WROTE C:\Users\希儿\Projects\c919-autonomy\public\models\c919-detail-nose-top.png
+01:01.687  render           | Saved: 'C:\Users\希儿\Projects\c919-autonomy\public\models\c919-preview-ws4.png'
+WS4 WROTE C:\Users\希儿\Projects\c919-autonomy\public\models\c919-preview-ws4.png
+WS4 DONE missing 0 glb 1534476
+WS4 quit
+01:01.890  blend            | Saved session recovery to "C:\Users\希儿\AppData\Local\Temp\quit.blend"
+
+Blender quit

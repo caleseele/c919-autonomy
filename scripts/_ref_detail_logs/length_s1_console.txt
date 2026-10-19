@@ -1,0 +1,30 @@
+=== LENGTH STEP 1 ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-length-s1.blend
+[door] Nose side patch y=[14.828,16.179] n=338
+[measure0] tip=20.5578 wing_le=3.7800 tip→wing=16.7778
+[measure0] forward_door aft=14.8275 fwd=16.1792
+[cut-zone] available y=(4.130,14.478) span=10.348
+[cut] y_lo=4.1300 y_hi=7.7300 (remove open interval)
+[fuse] cut slab (4.1300,7.7300) removed; aft verts += 3.6
+[weld] boundary_total=384 near_seam=256 seam_y=7.7300
+[weld] loops=2 sizes=[128, 128]
+[weld] method=merge_n=128
+[straddle] AntennasAPU slab cleared + aft +=CUT
+[straddle] Fuselage_ORIG slab cleared + aft +=CUT
+[straddle] GearBayDoors slab cleared + aft +=CUT
+[straddle] Stripe_L slab cleared + aft +=CUT
+[straddle] Stripe_R slab cleared + aft +=CUT
+[straddle] Title slab cleared + aft +=CUT
+[straddle] Title_L slab cleared + aft +=CUT
+[straddle] WindowFrames slab cleared + aft +=CUT
+[straddle] Windows slab cleared + aft +=CUT
+[move] whole=['DoorFrames', 'Doors', 'DoorWindows', 'Engine_L', 'Engine_R', 'EngineLip_L', 'EngineLip_R', 'Fan_L', 'Fan_R', 'Flag_L', 'Flag_R', 'Gear_L', 'Gear_R', 'Pylon_L', 'Pylon_R', 'Rudder', 'Stab_L', 'Stab_R', 'TailCone', 'TailMark', 'TailMark_L', 'VerticalTail', 'Wing_L', 'Wing_R', 'WingBodyFairing_L', 'WingBodyFairing_R', 'WingFairing_L', 'WingFairing_R', 'WingLE_L', 'WingLE_R', 'Winglet_L', 'Winglet_R']
+[move] straddle=['AntennasAPU', 'Fuselage_ORIG', 'GearBayDoors', 'Stripe_L', 'Stripe_R', 'Title', 'Title_L', 'WindowFrames', 'Windows']
+[verify] tip=20.5578 wing_le=7.3800 tip→wing=13.1778 target=13.18
+GLB 1478904
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s1\side_ours.png
+[ref] import C:\Users\希儿\Projects\c919-autonomy\refs\REF_C919_meters.fbx
+[render-ref] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s1\side_ref.png extent=44.7 len=38.84
+[compare] PIL missing — try copy top only
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\LENGTH_S1_NOTES.zh-Hans.md
+=== STEP1 DONE ===

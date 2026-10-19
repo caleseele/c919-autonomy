@@ -1,0 +1,42 @@
+=== §7 REF batch replace ===
+[bak] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-section6b.blend → C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-before-s7.blend
+[keeper] tip0=20.5578 info={'aft_ymax': -5.427177429199219, 'aft_cut_err': 6.103515621802558e-07, 'nose_ymax': 20.557823181152344, 'nose_ymin': 14.827500343322754, 'tip': 20.557823181152344}
+[del] AntennasAPU
+[del] EngineLip_L
+[del] EngineLip_R
+[del] Engine_L
+[del] Engine_R
+[del] Fan_L
+[del] Fan_R
+[del] Flag_L
+[del] Flag_R
+[del] Fuselage
+[del] Gear_L
+[del] Gear_Nose
+[del] Gear_R
+[del] PanelLines
+[del] Pylon_L
+[del] Pylon_R
+[del] REF_舱门缝线
+[del] REF_舷窗玻璃
+[del] Stripe_L
+[del] Stripe_R
+[del] WingBodyFairing_L
+[del] WingBodyFairing_R
+[del] WingFairing_L
+[del] WingFairing_R
+[del] WingLE_L
+[del] WingLE_R
+[del] Wing_L
+[del] Wing_R
+[del] Winglet_L
+[del] Winglet_R
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_中机身.obj → ['REF_中机身蒙皮']
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机翼吊挂.obj → ['REF_吊挂_右', 'REF_吊挂_左', 'REF_机翼_右', 'REF_机翼_左']
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_发动机.obj → ['REF_发动机_右', 'REF_发动机_左']
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_起落架.obj → ['REF_主起落架', 'REF_前起落架']
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_舱门舷窗.obj → ['REF_舱门缝线', 'REF_舷窗玻璃']
+[cut] front_y=14.963823 aft_y=-5.427177 (target_aft=-5.427176818847657)
+[dev-front] {'max_m': 0.1023108959197998, 'max_mm': 102.3108959197998, 'n_a': 58, 'n_b': 116, 'y_world': 14.963823318481445, 'mean_ab_mm': 67.84469659986166, 'mean_ba_mm': 73.91145581315303}
+[dev-aft] {'max_m': 0.14924609661102295, 'max_mm': 149.24609661102295, 'n_a': 142, 'n_b': 126, 'y_world': -5.427177429199219, 'mean_ab_mm': 11.470158794291422, 'mean_ba_mm': 1.643353866206275}
+[STOP] cut deviation ≥ 5 mm — no join, no glb

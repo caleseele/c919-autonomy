@@ -1,0 +1,24 @@
+=== SECTION 6b FIX: reimport cabin + radial project + dorsal ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-section6b.blend
+[tip] 20.557823
+[before] glass sunk=86/86 yspan=0.0171 st=[25.984, 26.001]
+[before] seam sunk=8/8 yspan=0.0199 st=[25.984, 26.004]
+[mat] REF_舱门缝线 -> REF_舱门缝线
+[mat] REF_舷窗玻璃 -> Glass
+[cabin-import] REF_舱门缝线 {'verts': 852, 'station': [4.469, 31.073], 'y': [-10.5152, 16.0885], 'z': [-0.604, 1.215]}
+[cabin-import] REF_舷窗玻璃 {'verts': 5528, 'station': [5.116, 30.948], 'y': [-10.3906, 15.4418], 'z': [0.318, 0.672]}
+[reimport-cabin] deleted=['REF_舱门缝线', 'REF_舷窗玻璃'] path=C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_舱门舷窗.obj
+[after] seam sunk=8/8 lt26=6/6 ge26=2/2 st=[4.469, 31.073]
+[after] glass sunk=82/86 lt26=68/70 ge26=14/16 st=[5.116, 30.949]
+[dorsal] n=6
+  Flag_L v=8 st=[24.408, 25.908] zmax=1.15
+  Flag_R v=8 st=[24.408, 25.908] zmax=1.15
+  Fuselage v=1408 st=[5.715, 26.0] zmax=2.102
+  REF_尾段蒙皮_含垂尾 v=3698 st=[25.985, 38.212] zmax=8.008
+  REF_舱门缝线 v=852 st=[4.469, 31.073] zmax=1.216
+  REF_舷窗玻璃 v=5528 st=[5.116, 30.949] zmax=0.673
+[dorsal] deleted=[] ambiguous=[]
+[antenna] {'status': 'kept', 'name': 'REF_尾段天线', 'verts': 72, 'station_span': [26.048, 34.628], 'bbox': {'xmin': -1.367, 'xmax': 1.367, 'ymin': -14.07, 'ymax': -5.49, 'zmin': 0.471, 'zmax': 2.556}, '动作': '保留'}
+[cam] tip_sx=0.053776 tail_sx=0.946224 ok=True
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+=== §6b FIX DONE ===

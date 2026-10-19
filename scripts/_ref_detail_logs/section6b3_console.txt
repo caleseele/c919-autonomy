@@ -1,0 +1,20 @@
+=== section6b3 side-aware aft project ===
+tip=20.5578 fuse_st0=5.715
+before glass mid=16 side=70
+before seam mid=2 side=6
+reimported ['REF_舱门缝线', 'REF_舷窗玻璃']
+pre-project REF_舱门缝线 side=8 mid=0 st=[4.469, 31.073]
+pre-project REF_舷窗玻璃 side=86 mid=0 st=[5.116, 30.948]
+project REF_舱门缝线 ok=852 fail=0
+project REF_舷窗玻璃 ok=5528 fail=0
+after seam side=8 mid=0 st=[4.469, 31.077] sunk=0/8
+  seam isl st=30.63 x=-1.702 z=0.299
+  seam isl st=15.48 x=-1.959 z=0.487
+  seam isl st=4.89 x=-1.582 z=0.185
+  seam isl st=30.63 x=1.704 z=0.298
+  seam isl st=4.89 x=1.583 z=0.185
+  seam isl st=16.69 x=1.959 z=0.486
+  seam isl st=15.48 x=1.959 z=0.486
+  seam isl st=16.69 x=-1.959 z=0.487
+after glass side=84 mid=2 st=[5.116, 30.953] sunk=0/86
+=== section6b3 DONE ===

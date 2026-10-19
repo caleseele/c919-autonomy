@@ -1,0 +1,23 @@
+=== REF TAIL REPLACE §5b ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-aft-ref-tail.blend
+[scales] {'sx': 1.0475227637527205, 'sz': 1.0104343689231436, 'our_hw': 2.072000026702881, 'our_h': 4.164000034332275, 'our_cz': 0.0, 'our_zmin': -2.0820000171661377, 'our_zmax': 2.0820000171661377, 'y26': -5.442176818847656, 'skin_name': 'Nose'}
+[del] Fuselage_ORIG
+[del] VerticalTail
+[del] Rudder
+[del] Stab_L
+[del] Stab_R
+[antennas] removed aft verts=84 remaining=12
+[del-ant] {'deleted_object': False, 'verts_removed': 84, 'remaining': 12}
+[bisect] Fuselage at y=-5.4422 tip26; AABB y=[-18.463,14.843]
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_尾段.obj n=5 names=['REF_APU排气口', 'REF_尾段天线', 'REF_尾段蒙皮_含垂尾', 'REF_方向舵等', 'REF_水平尾翼_含升降舵']
+[xform] sx=1.0475 sz=1.0104 dy=15.4638 dz=-4.2398 target_cut_y=-5.4272
+[mat] REF_APU排气口 -> REF_APU_Metal
+[mat] REF_尾段天线 -> REF_探头天线
+[mat] REF_尾段蒙皮_含垂尾 -> Skin
+[mat] REF_方向舵等 -> Skin
+[mat] REF_水平尾翼_含升降舵 -> Skin
+[cam-try] -X_look_+X tip_sx=0.0538 tail_sx=0.9462
+[§6 list] n=6 (NO delete, NO import)
+GLB 1577948
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+=== REF TAIL DONE (§6 list only) ===

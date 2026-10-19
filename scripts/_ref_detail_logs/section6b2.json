@@ -1,0 +1,89 @@
+{
+  "before": {
+    "glass": {
+      "total": 86,
+      "lt26": 70,
+      "ge26": 16,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "fail_verts": 0,
+      "mean_min": 0.001,
+      "mean_max": 0.86995,
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    },
+    "seam": {
+      "total": 8,
+      "lt26": 6,
+      "ge26": 2,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "fail_verts": 0,
+      "mean_min": 0.001,
+      "mean_max": 0.77977,
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    }
+  },
+  "after": {
+    "glass": {
+      "total": 86,
+      "lt26": 70,
+      "ge26": 16,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "fail_verts": 0,
+      "mean_min": 0.00075,
+      "mean_max": 0.40375,
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    },
+    "seam": {
+      "total": 8,
+      "lt26": 6,
+      "ge26": 2,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "fail_verts": 0,
+      "mean_min": 0.00056,
+      "mean_max": 0.001,
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    }
+  },
+  "antenna": {
+    "name": "REF_尾段天线",
+    "verts": 72,
+    "station_span": [
+      26.048,
+      34.628
+    ],
+    "zmax": 2.556
+  },
+  "render": {
+    "tip_sx": 0.053775716572999954,
+    "tail_sx": 0.9462241530418396,
+    "ok": true,
+    "ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_ours_20261018_132553.png",
+    "ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_ref_20261018_132553.png",
+    "compare": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_compare_20261018_132553.png",
+    "stamp": "20261018_132553"
+  },
+  "scripts": [
+    "section6b_window_project.py",
+    "section6b2_reproject.py"
+  ],
+  "backup": "c919.bak-section6b.blend"
+}

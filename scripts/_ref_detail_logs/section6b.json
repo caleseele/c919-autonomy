@@ -1,0 +1,407 @@
+{
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-section6b.blend",
+  "tip": 20.557823181152344,
+  "before": {
+    "glass": {
+      "name": "REF_舷窗玻璃",
+      "total": 86,
+      "lt26": 86,
+      "ge26": 0,
+      "sunk_lt26": 86,
+      "sunk_ge26": 0,
+      "sunk_total": 86,
+      "yspan": 0.0171,
+      "station_span": [
+        25.984,
+        26.001
+      ],
+      "collapsed": true
+    },
+    "seam": {
+      "name": "REF_舱门缝线",
+      "total": 8,
+      "lt26": 6,
+      "ge26": 2,
+      "sunk_lt26": 6,
+      "sunk_ge26": 2,
+      "sunk_total": 8,
+      "yspan": 0.0199,
+      "station_span": [
+        25.984,
+        26.004
+      ],
+      "collapsed": true
+    }
+  },
+  "after": {
+    "seam": {
+      "name": "REF_舱门缝线",
+      "total": 8,
+      "lt26": 6,
+      "ge26": 2,
+      "sunk_lt26": 6,
+      "sunk_ge26": 2,
+      "sunk_total": 8,
+      "yspan": 26.6039,
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    },
+    "glass": {
+      "name": "REF_舷窗玻璃",
+      "total": 86,
+      "lt26": 70,
+      "ge26": 16,
+      "sunk_lt26": 68,
+      "sunk_ge26": 14,
+      "sunk_total": 82,
+      "yspan": 25.8325,
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    }
+  },
+  "projected_islands": {
+    "seam": 8,
+    "glass": 86
+  },
+  "sink_table": [
+    {
+      "项目": "REF_舷窗玻璃",
+      "修正前陷入块数": 86,
+      "修正后陷入块数": 82,
+      "是否通过": "否",
+      "修正前站位": [
+        25.984,
+        26.001
+      ],
+      "修正后站位": [
+        5.116,
+        30.949
+      ],
+      "lt26_after": "68/70",
+      "ge26_after": "14/16"
+    },
+    {
+      "项目": "REF_舱门缝线",
+      "修正前陷入块数": 8,
+      "修正后陷入块数": 8,
+      "是否通过": "否",
+      "修正前站位": [
+        25.984,
+        26.004
+      ],
+      "修正后站位": [
+        4.469,
+        31.073
+      ],
+      "lt26_after": "6/6",
+      "ge26_after": "2/2"
+    }
+  ],
+  "cabin_reimport": {
+    "deleted": [
+      "REF_舱门缝线",
+      "REF_舷窗玻璃"
+    ],
+    "path": "C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\C919_REF_舱门舷窗.obj",
+    "spans": {
+      "REF_舱门缝线": {
+        "verts": 852,
+        "station": [
+          4.469,
+          31.073
+        ],
+        "y": [
+          -10.5152,
+          16.0885
+        ],
+        "z": [
+          -0.604,
+          1.215
+        ]
+      },
+      "REF_舷窗玻璃": {
+        "verts": 5528,
+        "station": [
+          5.116,
+          30.948
+        ],
+        "y": [
+          -10.3906,
+          15.4418
+        ],
+        "z": [
+          0.318,
+          0.672
+        ]
+      }
+    }
+  },
+  "dorsal_list": [
+    {
+      "name": "Flag_L",
+      "verts": 8,
+      "bbox": {
+        "xmin": -2.122,
+        "xmax": -2.088,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "station_span": [
+        24.408,
+        25.908
+      ]
+    },
+    {
+      "name": "Flag_R",
+      "verts": 8,
+      "bbox": {
+        "xmin": 2.088,
+        "xmax": 2.122,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "station_span": [
+        24.408,
+        25.908
+      ]
+    },
+    {
+      "name": "Fuselage",
+      "verts": 1408,
+      "bbox": {
+        "xmin": -2.088,
+        "xmax": 2.088,
+        "ymin": -5.442,
+        "ymax": 14.843,
+        "zmin": -2.102,
+        "zmax": 2.102
+      },
+      "station_span": [
+        5.715,
+        26.0
+      ]
+    },
+    {
+      "name": "REF_尾段蒙皮_含垂尾",
+      "verts": 3698,
+      "bbox": {
+        "xmin": -2.069,
+        "xmax": 2.072,
+        "ymin": -17.654,
+        "ymax": -5.427,
+        "zmin": -2.083,
+        "zmax": 8.008
+      },
+      "station_span": [
+        25.985,
+        38.212
+      ]
+    },
+    {
+      "name": "REF_舱门缝线",
+      "verts": 852,
+      "bbox": {
+        "xmin": -2.087,
+        "xmax": 2.087,
+        "ymin": -10.515,
+        "ymax": 16.089,
+        "zmin": -1.011,
+        "zmax": 1.216
+      },
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    },
+    {
+      "name": "REF_舷窗玻璃",
+      "verts": 5528,
+      "bbox": {
+        "xmin": -2.064,
+        "xmax": 2.064,
+        "ymin": -10.391,
+        "ymax": 15.442,
+        "zmin": -0.664,
+        "zmax": 0.673
+      },
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    }
+  ],
+  "dorsal_table": [
+    {
+      "物体": "Flag_L",
+      "bbox": {
+        "xmin": -2.122,
+        "xmax": -2.088,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "verts": 8,
+      "station_span": [
+        24.408,
+        25.908
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "Flag_R",
+      "bbox": {
+        "xmin": 2.088,
+        "xmax": 2.122,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "verts": 8,
+      "station_span": [
+        24.408,
+        25.908
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "Fuselage",
+      "bbox": {
+        "xmin": -2.088,
+        "xmax": 2.088,
+        "ymin": -5.442,
+        "ymax": 14.843,
+        "zmin": -2.102,
+        "zmax": 2.102
+      },
+      "verts": 1408,
+      "station_span": [
+        5.715,
+        26.0
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "REF_尾段蒙皮_含垂尾",
+      "bbox": {
+        "xmin": -2.069,
+        "xmax": 2.072,
+        "ymin": -17.654,
+        "ymax": -5.427,
+        "zmin": -2.083,
+        "zmax": 8.008
+      },
+      "verts": 3698,
+      "station_span": [
+        25.985,
+        38.212
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "REF_舱门缝线",
+      "bbox": {
+        "xmin": -2.087,
+        "xmax": 2.087,
+        "ymin": -10.515,
+        "ymax": 16.089,
+        "zmin": -1.011,
+        "zmax": 1.216
+      },
+      "verts": 852,
+      "station_span": [
+        4.469,
+        31.073
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "REF_舷窗玻璃",
+      "bbox": {
+        "xmin": -2.064,
+        "xmax": 2.064,
+        "ymin": -10.391,
+        "ymax": 15.442,
+        "zmin": -0.664,
+        "zmax": 0.673
+      },
+      "verts": 5528,
+      "station_span": [
+        5.116,
+        30.949
+      ],
+      "动作": "保留",
+      "note": "主体/REF"
+    },
+    {
+      "物体": "REF_尾段天线",
+      "bbox": {
+        "xmin": -1.367,
+        "xmax": 1.367,
+        "ymin": -14.07,
+        "ymax": -5.49,
+        "zmin": 0.471,
+        "zmax": 2.556
+      },
+      "verts": 72,
+      "station_span": [
+        26.048,
+        34.628
+      ],
+      "动作": "保留",
+      "note": "kept"
+    }
+  ],
+  "deleted_dorsal": [],
+  "ambiguous_dorsal": [],
+  "antenna": {
+    "status": "kept",
+    "name": "REF_尾段天线",
+    "verts": 72,
+    "station_span": [
+      26.048,
+      34.628
+    ],
+    "bbox": {
+      "xmin": -1.367,
+      "xmax": 1.367,
+      "ymin": -14.07,
+      "ymax": -5.49,
+      "zmin": 0.471,
+      "zmax": 2.556
+    },
+    "动作": "保留"
+  },
+  "camera": {
+    "tip_screen_x": 0.053775716572999954,
+    "tail_screen_x": 0.9462241530418396,
+    "orient_ok": true
+  },
+  "render": {
+    "tip_screen_x": 0.053775716572999954,
+    "tail_screen_x": 0.9462241530418396,
+    "orient_ok": true,
+    "ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_ours_20261018_132336.png",
+    "ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_ref_20261018_132336.png",
+    "compare_path": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\section6\\side_compare_20261018_132336.png",
+    "stamp": "20261018_132336"
+  },
+  "scripts": [
+    "section6b_window_project.py"
+  ],
+  "note": "86 glass islands = SPEC correct; reimport used tail xform sy=1"
+}

@@ -1,0 +1,14 @@
+{
+  "WS_R": "SOLID",
+  "WS_L": "SOLID",
+  "SW_R": "SOLID",
+  "SW_L": "SOLID",
+  "tip": "SOLID",
+  "cheek": "SOLID",
+  "y": [
+    14.850000381469727,
+    20.152400970458984
+  ],
+  "faces": 706,
+  "boundary": 205
+}

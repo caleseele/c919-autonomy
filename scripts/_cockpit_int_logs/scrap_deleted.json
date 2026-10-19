@@ -1,0 +1,12 @@
+[
+  {
+    "name": "CockpitCabin",
+    "faces": 6,
+    "verts": 8
+  },
+  {
+    "name": "PilotSeats",
+    "faces": 144,
+    "verts": 192
+  }
+]

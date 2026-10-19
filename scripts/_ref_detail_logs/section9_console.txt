@@ -1,0 +1,21 @@
+=== section9 gear + fairing ===
+[bak] -> C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-before-s9.blend
+[old nose] {'xmin': -0.6267500519752502, 'xmax': 0.6267499327659607, 'ymin': 14.851743698120117, 'ymax': 17.523942947387695, 'zmin': -4.252442836761475, 'zmax': -1.8586729764938354}
+[old main] {'xmin': -3.958850860595703, 'xmax': 3.9588489532470703, 'ymin': 2.382452964782715, 'ymax': 4.278303146362305, 'zmin': -4.239783763885498, 'zmax': -0.8888137936592102}
+[tip]=20.5728 ground_z=-4.2398
+[import] 4 from C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_起落架分件.obj: ['REF_主起落架_支柱轮', 'REF_主起落架_舱门', 'REF_前起落架_支柱轮', 'REF_前起落架_舱门']
+[xform] T_REF then unscale applied
+[align nose] [1.0, 1.0, 0.9999999004003806]
+[align main] [1.0, 1.0, 1.0]
+[delta nose] {'xmin': 0.0, 'xmax': 0.0, 'ymin': 0.0, 'ymax': 0.0, 'zmin': 0.0, 'zmax': 0.00011920928955078125, 'max_mm': 0.00011920928955078125}
+[delta main] {'xmin': 0.0, 'xmax': 0.0, 'ymin': 0.0, 'ymax': 0.0, 'zmin': 0.0, 'zmax': 5.9604644775390625e-05, 'max_mm': 5.9604644775390625e-05}
+[del old] ['REF_前起落架', 'REF_主起落架']
+[mats] doors #F2F3F5 / struts #3A3D42
+[9.2.1] listed=5 deleted=[] kept=['Fuselage_REF', 'REF_主起落架_支柱轮', 'REF_主起落架_舱门', 'REF_机翼_右', 'REF_机翼_左']
+[coplanar] REF_机翼_左: 0 faces dist-lt-2mm
+[coplanar] REF_机翼_右: 0 faces dist-lt-2mm
+[smooth] removed attr sharp_edge
+[smooth] shade_smooth_by_angle 60
+[glb] 37 -> C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\section9\wing_root_gear_20261018_180212.png
+=== section9 DONE ===

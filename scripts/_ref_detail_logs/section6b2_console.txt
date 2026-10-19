@@ -1,0 +1,10 @@
+=== section6b2 reproject Nose/Fuse/Aft ===
+tip=20.5578 fuse_st0=5.715 nose=Nose aft=REF_尾段蒙皮_含垂尾
+before glass={'total': 86, 'lt26': 70, 'ge26': 16, 'sunk_lt26': 0, 'sunk_ge26': 0, 'sunk_total': 0, 'fail_verts': 0, 'mean_min': 0.001, 'mean_max': 0.86995, 'station_span': [5.116, 30.949]}
+before seam={'total': 8, 'lt26': 6, 'ge26': 2, 'sunk_lt26': 0, 'sunk_ge26': 0, 'sunk_total': 0, 'fail_verts': 0, 'mean_min': 0.001, 'mean_max': 0.77977, 'station_span': [4.469, 31.073]}
+project glass ok_verts=5528 fail=0
+project seam ok_verts=852 fail=0
+after glass={'total': 86, 'lt26': 70, 'ge26': 16, 'sunk_lt26': 0, 'sunk_ge26': 0, 'sunk_total': 0, 'fail_verts': 0, 'mean_min': 0.00075, 'mean_max': 0.40375, 'station_span': [5.116, 30.949]}
+after seam={'total': 8, 'lt26': 6, 'ge26': 2, 'sunk_lt26': 0, 'sunk_ge26': 0, 'sunk_total': 0, 'fail_verts': 0, 'mean_min': 0.00056, 'mean_max': 0.001, 'station_span': [4.469, 31.073]}
+cam tip_sx=0.0538 tail_sx=0.9462
+=== section6b2 DONE ===

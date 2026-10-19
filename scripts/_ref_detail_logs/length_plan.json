@@ -1,0 +1,56 @@
+{
+  "tip_y": 20.557823181152344,
+  "tailcone_tip_y": -19.549999237060547,
+  "overall_length_m": 40.10782241821289,
+  "ref_overall_m": 38.84,
+  "delta_overall_m": 1.2678224182128872,
+  "segments": [
+    {
+      "name": "tip → wing root LE",
+      "ours_m": 16.777823209762573,
+      "ref_m": 13.18,
+      "delta_m": 3.5978232097625735,
+      "feature_y": 3.7799999713897705
+    },
+    {
+      "name": "tip → engine nacelle LE",
+      "ours_m": 17.47782325744629,
+      "ref_m": 12.27,
+      "delta_m": 5.2078232574462895,
+      "feature_y": 3.0799999237060547
+    },
+    {
+      "name": "wing root LE → VT root LE",
+      "ours_m": 18.330000162124634,
+      "ref_m": 18.28,
+      "delta_m": 0.05000016212463265
+    },
+    {
+      "name": "VT root LE → tailcone tip",
+      "ours_m": 4.999999046325684,
+      "ref_m": 7.38,
+      "delta_m": -2.3800009536743163
+    }
+  ],
+  "shorten_proposal": {
+    "execute": false,
+    "excess_m": 1.2678224182128872,
+    "suggested_cut_length_X_m": 1.2678224182128872,
+    "suggested_cut_plane_y": 5.0,
+    "rationale": "Cut X from constant-section fuselage around y≈5 (between forward door/wing and mid-cabin), NOT nose, NOT tapering tail, NOT through door islands. All objects with significant geometry aft of cut_plane translate by +X in Y (aft fuse remnant, wings, engines, gear, tail, flags, stripes clipped/shifted).",
+    "longest_over_segment": {
+      "name": "tip → engine nacelle LE",
+      "ours_m": 17.47782325744629,
+      "ref_m": 12.27,
+      "delta_m": 5.2078232574462895,
+      "feature_y": 3.0799999237060547
+    },
+    "do_not_cut": [
+      "Nose",
+      "CockpitGlass_REF",
+      "doors_islands",
+      "wing_root",
+      "tail_taper"
+    ]
+  }
+}

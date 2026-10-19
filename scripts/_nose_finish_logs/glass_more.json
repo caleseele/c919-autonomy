@@ -1,0 +1,10 @@
+{
+  "alpha": 0.30000001192092896,
+  "ior": 1.5,
+  "rough": 0.019999999552965164,
+  "trans": 1.0,
+  "blend": "BLEND",
+  "surface_render": "BLENDED",
+  "base": "#DDEEEB",
+  "cabin": "CockpitCabin"
+}

@@ -1,0 +1,262 @@
+{
+  "T_REF": {
+    "sx": 1.0475227637527205,
+    "sy": 1.0,
+    "sz": 1.0104343689231436,
+    "tx": 0.0,
+    "ty": 15.463823181152343,
+    "tz": -4.239782612001511,
+    "matrix_order": "T @ S(sx,1,sz) @ R(Z180)",
+    "target_cut_y": -5.427176818847657,
+    "overlap_m": 0.015,
+    "REF_CUT_Y_IMPORTED": 20.891,
+    "front_cut_world_y": 14.963823318481445,
+    "aft_cut_world_y": -5.427177429199219
+  },
+  "deleted": [
+    "AntennasAPU",
+    "EngineLip_L",
+    "EngineLip_R",
+    "Engine_L",
+    "Engine_R",
+    "Fan_L",
+    "Fan_R",
+    "Flag_L",
+    "Flag_R",
+    "Fuselage",
+    "Gear_L",
+    "Gear_Nose",
+    "Gear_R",
+    "PanelLines",
+    "Pylon_L",
+    "Pylon_R",
+    "REF_舱门缝线",
+    "REF_舷窗玻璃",
+    "Stripe_L",
+    "Stripe_R",
+    "WingBodyFairing_L",
+    "WingBodyFairing_R",
+    "WingFairing_L",
+    "WingFairing_R",
+    "WingLE_L",
+    "WingLE_R",
+    "Wing_L",
+    "Wing_R",
+    "Winglet_L",
+    "Winglet_R"
+  ],
+  "imported": [
+    "REF_中机身蒙皮",
+    "REF_吊挂_右",
+    "REF_吊挂_左",
+    "REF_机翼_右",
+    "REF_机翼_左",
+    "REF_发动机_右",
+    "REF_发动机_左",
+    "REF_主起落架",
+    "REF_前起落架",
+    "REF_舱门缝线",
+    "REF_舷窗玻璃"
+  ],
+  "dev_front": {
+    "max_m": 0.1023108959197998,
+    "max_mm": 102.3108959197998,
+    "n_a": 58,
+    "n_b": 116,
+    "y_world": 14.963823318481445,
+    "mean_ab_mm": 67.84469659986166,
+    "mean_ba_mm": 73.91145581315303
+  },
+  "dev_aft": {
+    "max_m": 0.14924609661102295,
+    "max_mm": 149.24609661102295,
+    "n_a": 142,
+    "n_b": 126,
+    "y_world": -5.427177429199219,
+    "mean_ab_mm": 11.470158794291422,
+    "mean_ba_mm": 1.643353866206275
+  },
+  "weld_ok": false,
+  "keeper_info": {
+    "aft_ymax": -5.427177429199219,
+    "aft_cut_err": 6.103515621802558e-07,
+    "nose_ymax": 20.557823181152344,
+    "nose_ymin": 14.827500343322754,
+    "tip": 20.557823181152344
+  },
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-before-s7.blend",
+  "scripts": [
+    "section7_ref_batch.py"
+  ],
+  "stopped": true,
+  "diag": {
+    "front": {
+      "y": 14.963823318481445,
+      "n": [
+        58,
+        116
+      ],
+      "n_shell": [
+        58,
+        116
+      ],
+      "max_mm": 102.3108959197998,
+      "max_shell_mm": 102.3108959197998,
+      "pair_all": {
+        "d_mm": 77.3332342505455,
+        "a": [
+          0.8442221879959106,
+          14.90356159210205,
+          -1.8768006563186646
+        ],
+        "b": [
+          0.8498551249504089,
+          14.963823318481445,
+          -1.9249382019042969
+        ]
+      },
+      "oa_y": [
+        14.827500343322754,
+        20.557823181152344
+      ],
+      "ob_y": [
+        -5.427177429199219,
+        14.963823318481445
+      ],
+      "pair_shell": {
+        "d_mm": 77.3332342505455,
+        "a": [
+          0.8442221879959106,
+          14.90356159210205,
+          -1.8768006563186646
+        ],
+        "b": [
+          0.8498551249504089,
+          14.963823318481445,
+          -1.9249382019042969
+        ]
+      }
+    },
+    "aft": {
+      "y": -5.427177429199219,
+      "n": [
+        142,
+        126
+      ],
+      "n_shell": [
+        142,
+        126
+      ],
+      "max_mm": 149.24609661102295,
+      "max_shell_mm": 149.24609661102295,
+      "pair_all": {
+        "d_mm": 149.24609661102295,
+        "a": [
+          2.0344760417938232,
+          -5.366157531738281,
+          0.4620094299316406
+        ],
+        "b": [
+          2.054504632949829,
+          -5.427177429199219,
+          0.3272881507873535
+        ]
+      },
+      "oa_y": [
+        -5.427177429199219,
+        14.963823318481445
+      ],
+      "ob_y": [
+        -17.654077529907227,
+        -5.427177429199219
+      ],
+      "pair_shell": {
+        "d_mm": 149.24609661102295,
+        "a": [
+          2.0344760417938232,
+          -5.366157531738281,
+          0.4620094299316406
+        ],
+        "b": [
+          2.054504632949829,
+          -5.427177429199219,
+          0.3272881507873535
+        ]
+      }
+    },
+    "axial_gap_nose_mid_mm": 136.3229751586914,
+    "axial_gap_mid_aft_mm": 0.0,
+    "mid_aft_ymax_diff_mm": 0.0,
+    "visible": [
+      "CockpitDarkPlane",
+      "CockpitGlass_REF",
+      "GearBayDoors",
+      "REF_APU排气口",
+      "REF_CockpitInterior",
+      "REF_ProbesAntennas",
+      "REF_WindshieldFrame",
+      "REF_Wipers",
+      "REF_中机身蒙皮",
+      "REF_主起落架",
+      "REF_前起落架",
+      "REF_发动机_右",
+      "REF_发动机_左",
+      "REF_吊挂_右",
+      "REF_吊挂_左",
+      "REF_尾段天线",
+      "REF_尾段蒙皮_含垂尾",
+      "REF_方向舵等",
+      "REF_机头蒙皮",
+      "REF_机翼_右",
+      "REF_机翼_左",
+      "REF_水平尾翼_含升降舵",
+      "REF_舱门缝线",
+      "REF_舷窗玻璃",
+      "RadomePanelLines"
+    ],
+    "aabbs": {
+      "REF_机头蒙皮": {
+        "xmin": -2.060051679611206,
+        "xmax": 2.060051679611206,
+        "ymin": 14.827500343322754,
+        "ymax": 20.557823181152344,
+        "zmin": -2.0600931644439697,
+        "zmax": 2.0600929260253906
+      },
+      "REF_中机身蒙皮": {
+        "xmin": -2.078632116317749,
+        "xmax": 2.081164598464966,
+        "ymin": -5.427177429199219,
+        "ymax": 14.963823318481445,
+        "zmin": -2.436612844467163,
+        "zmax": 2.081636428833008
+      },
+      "REF_尾段蒙皮_含垂尾": {
+        "xmin": -2.069309949874878,
+        "xmax": 2.07184100151062,
+        "ymin": -17.654077529907227,
+        "ymax": -5.427177429199219,
+        "zmin": -2.0826079845428467,
+        "zmax": 8.007659912109375
+      }
+    }
+  },
+  "dev_front_corrected": {
+    "method": "end_ring depth=20mm (nose ymin cluster vs mid ymax cluster)",
+    "max_mm": 144.819,
+    "axial_gap_mm": 136.323,
+    "note": "existing REF_机头蒙皮/Nose used historical Y-scaled xform; aft end at y=14.8275 vs T_REF front cut y=14.9638",
+    "pass_5mm": false
+  },
+  "dev_aft_corrected": {
+    "method": "band tol<=10mm at world y=-5.427177 (true cut rings)",
+    "max_mm": 0.0,
+    "n": [
+      118,
+      118
+    ],
+    "pass_5mm": true,
+    "note": "wide-band 80mm falsely reported 149mm; true cut rings match exactly under T_REF"
+  },
+  "stop_reason": "front cut max_mm=144.8 >= 5; aft cut OK (0.0mm)"
+}

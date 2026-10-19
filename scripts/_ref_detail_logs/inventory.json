@@ -1,0 +1,2071 @@
+{
+  "source_blend": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.blend",
+  "mesh_count": 62,
+  "meshes": [
+    {
+      "name": "AntennasAPU",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 96,
+      "edges": 174,
+      "faces": 82,
+      "bbox": {
+        "xmin": -0.07999999821186066,
+        "xmax": 0.07999999821186066,
+        "ymin": -18.888999938964844,
+        "ymax": 15.215999603271484,
+        "zmin": -0.5582143068313599,
+        "zmax": 2.377000093460083,
+        "dx": 0.1599999964237213,
+        "dy": 34.10499954223633,
+        "dz": 2.935214400291443
+      },
+      "materials": [
+        "Antenna"
+      ],
+      "note": "天线/APU（可能与REF探头重叠）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "may_overlap_REF_probes"
+      ]
+    },
+    {
+      "name": "CockpitGlareShield",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.6998798251152039,
+        "xmax": 0.6998798251152039,
+        "ymin": 19.100255966186523,
+        "ymax": 19.22025489807129,
+        "zmin": 0.2238095998764038,
+        "zmax": 0.30380958318710327,
+        "dx": 1.3997596502304077,
+        "dy": 0.11999893188476562,
+        "dz": 0.07999998331069946
+      },
+      "materials": [
+        "CockpitBlack"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitGlass_REF",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 1364,
+      "edges": 4068,
+      "faces": 2712,
+      "bbox": {
+        "xmin": -1.665332317352295,
+        "xmax": 1.6653327941894531,
+        "ymin": 17.577007293701172,
+        "ymax": 19.58025550842285,
+        "zmin": 0.23388302326202393,
+        "zmax": 1.0210018157958984,
+        "dx": 3.330665111541748,
+        "dy": 2.0032482147216797,
+        "dz": 0.7871187925338745
+      },
+      "materials": [
+        "REF_CockpitGlass"
+      ],
+      "note": "REF风挡玻璃（保留）",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "CockpitInstrumentPanel",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.6175410747528076,
+        "xmax": 0.6175410747528076,
+        "ymin": 18.910255432128906,
+        "ymax": 19.090255737304688,
+        "zmin": -0.006190402898937464,
+        "zmax": 0.21380959451198578,
+        "dx": 1.2350821495056152,
+        "dy": 0.18000030517578125,
+        "dz": 0.21999999741092324
+      },
+      "materials": [
+        "CockpitDark2"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitInterior",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 326,
+      "edges": 788,
+      "faces": 462,
+      "bbox": {
+        "xmin": -1.8021084070205688,
+        "xmax": 1.8021085262298584,
+        "ymin": 17.23179817199707,
+        "ymax": 19.811174392700195,
+        "zmin": -0.09601183235645294,
+        "zmax": 1.3163365125656128,
+        "dx": 3.6042169332504272,
+        "dy": 2.579376220703125,
+        "dz": 1.4123483449220657
+      },
+      "materials": [
+        "CockpitDark"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitPillar_Center",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.050999753177165985,
+        "xmax": -0.028999753296375275,
+        "ymin": 19.010976791381836,
+        "ymax": 19.07097816467285,
+        "zmin": 0.30976513028144836,
+        "zmax": 0.9693626165390015,
+        "dx": 0.02199999988079071,
+        "dy": 0.060001373291015625,
+        "dz": 0.6595974862575531
+      },
+      "materials": [
+        "CockpitPillarMetal"
+      ],
+      "note": "自制立柱 → 建议删（换REF窗框）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitPillar_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.9062542915344238,
+        "xmax": -0.8842543363571167,
+        "ymin": 18.509735107421875,
+        "ymax": 18.56973648071289,
+        "zmin": 0.30976513028144836,
+        "zmax": 0.9693626165390015,
+        "dx": 0.02199995517730713,
+        "dy": 0.060001373291015625,
+        "dz": 0.6595974862575531
+      },
+      "materials": [
+        "CockpitPillarMetal"
+      ],
+      "note": "自制立柱 → 建议删（换REF窗框）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitPillar_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.8842548727989197,
+        "xmax": 0.9062548279762268,
+        "ymin": 18.509735107421875,
+        "ymax": 18.56973648071289,
+        "zmin": 0.30976513028144836,
+        "zmax": 0.9693626165390015,
+        "dx": 0.02199995517730713,
+        "dy": 0.060001373291015625,
+        "dz": 0.6595974862575531
+      },
+      "materials": [
+        "CockpitPillarMetal"
+      ],
+      "note": "自制立柱 → 建议删（换REF窗框）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitSeals",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 1248,
+      "edges": 1248,
+      "faces": 312,
+      "bbox": {
+        "xmin": -1.6620076894760132,
+        "xmax": 1.6620081663131714,
+        "ymin": 17.565221786499023,
+        "ymax": 19.57884407043457,
+        "zmin": 0.22943969070911407,
+        "zmax": 1.0275410413742065,
+        "dx": 3.3240158557891846,
+        "dy": 2.013622283935547,
+        "dz": 0.7981013506650925
+      },
+      "materials": [
+        "CockpitSeal"
+      ],
+      "note": "自制密封条 → 建议删（换REF窗框）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitSeat_L_Back",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.5520000457763672,
+        "xmax": -0.22079998254776,
+        "ymin": 17.167007446289062,
+        "ymax": 17.287006378173828,
+        "zmin": 0.23888298869132996,
+        "zmax": 0.7888829708099365,
+        "dx": 0.3312000632286072,
+        "dy": 0.11999893188476562,
+        "dz": 0.5499999821186066
+      },
+      "materials": [
+        "CockpitBlack"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitSeat_L_Base",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.5612000226974487,
+        "xmax": -0.21159999072551727,
+        "ymin": 17.14700698852539,
+        "ymax": 17.547008514404297,
+        "zmin": 0.12388302385807037,
+        "zmax": 0.24388302862644196,
+        "dx": 0.34960003197193146,
+        "dy": 0.40000152587890625,
+        "dz": 0.12000000476837158
+      },
+      "materials": [
+        "CockpitDark2"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitSeat_R_Back",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.22079998254776,
+        "xmax": 0.5520000457763672,
+        "ymin": 17.167007446289062,
+        "ymax": 17.287006378173828,
+        "zmin": 0.23888298869132996,
+        "zmax": 0.7888829708099365,
+        "dx": 0.3312000632286072,
+        "dy": 0.11999893188476562,
+        "dz": 0.5499999821186066
+      },
+      "materials": [
+        "CockpitBlack"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "CockpitSeat_R_Base",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.21159999072551727,
+        "xmax": 0.5612000226974487,
+        "ymin": 17.14700698852539,
+        "ymax": 17.547008514404297,
+        "zmin": 0.12388302385807037,
+        "zmax": 0.24388302862644196,
+        "dx": 0.34960003197193146,
+        "dy": 0.40000152587890625,
+        "dz": 0.12000000476837158
+      },
+      "materials": [
+        "CockpitDark2"
+      ],
+      "note": "上轮自制内饰 → 建议删（换REF驾驶舱内饰）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "DoorFrames",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 1152,
+      "edges": 2016,
+      "faces": 864,
+      "bbox": {
+        "xmin": -2.062661647796631,
+        "xmax": 2.062661647796631,
+        "ymin": -11.885000228881836,
+        "ymax": 2.0950000286102295,
+        "zmin": -0.858738124370575,
+        "zmax": 1.4109934568405151,
+        "dx": 4.125323295593262,
+        "dy": 13.980000257492065,
+        "dz": 2.26973158121109
+      },
+      "materials": [
+        "DoorFrame"
+      ],
+      "note": "舱门相关（B步对照REF舱门缝线）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "cabin_openings_for_B_confirm"
+      ]
+    },
+    {
+      "name": "DoorWindows",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 74,
+      "edges": 136,
+      "faces": 64,
+      "bbox": {
+        "xmin": -2.031907320022583,
+        "xmax": 2.031907320022583,
+        "ymin": -11.56760025024414,
+        "ymax": -11.33240032196045,
+        "zmin": 0.3328835666179657,
+        "zmax": 0.5537363886833191,
+        "dx": 4.063814640045166,
+        "dy": 0.2351999282836914,
+        "dz": 0.2208528220653534
+      },
+      "materials": [
+        "Glass"
+      ],
+      "note": "舱门相关（B步对照REF舱门缝线）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "cabin_openings_for_B_confirm"
+      ]
+    },
+    {
+      "name": "Doors",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 1084,
+      "edges": 2064,
+      "faces": 984,
+      "bbox": {
+        "xmin": -2.058457851409912,
+        "xmax": 2.058457851409912,
+        "ymin": -11.854000091552734,
+        "ymax": 2.063999891281128,
+        "zmin": -0.8260009288787842,
+        "zmax": 1.3772557973861694,
+        "dx": 4.116915702819824,
+        "dy": 13.917999982833862,
+        "dz": 2.2032567262649536
+      },
+      "materials": [
+        "DoorSkin"
+      ],
+      "note": "舱门相关（B步对照REF舱门缝线）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "cabin_openings_for_B_confirm"
+      ]
+    },
+    {
+      "name": "EngineLip_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 360,
+      "edges": 680,
+      "faces": 320,
+      "bbox": {
+        "xmin": -7.420000076293945,
+        "xmax": -4.980000019073486,
+        "ymin": 2.9200000762939453,
+        "ymax": 3.0399999618530273,
+        "zmin": -3.1700000762939453,
+        "zmax": -0.7300000190734863,
+        "dx": 2.440000057220459,
+        "dy": 0.11999988555908203,
+        "dz": 2.440000057220459
+      },
+      "materials": [
+        "EngineLip"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "EngineLip_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 360,
+      "edges": 680,
+      "faces": 320,
+      "bbox": {
+        "xmin": 4.980000019073486,
+        "xmax": 7.420000076293945,
+        "ymin": 2.9200000762939453,
+        "ymax": 3.0399999618530273,
+        "zmin": -3.1700000762939453,
+        "zmax": -0.7300000190734863,
+        "dx": 2.440000057220459,
+        "dy": 0.11999988555908203,
+        "dz": 2.440000057220459
+      },
+      "materials": [
+        "EngineLip"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Engine_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 667,
+      "edges": 1288,
+      "faces": 624,
+      "bbox": {
+        "xmin": -7.380000114440918,
+        "xmax": -5.019999980926514,
+        "ymin": -2.049999952316284,
+        "ymax": 3.0799999237060547,
+        "zmin": -3.130000114440918,
+        "zmax": -0.7699999809265137,
+        "dx": 2.3600001335144043,
+        "dy": 5.129999876022339,
+        "dz": 2.3600001335144043
+      },
+      "materials": [
+        "Engine"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Engine_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 667,
+      "edges": 1288,
+      "faces": 624,
+      "bbox": {
+        "xmin": 5.019999980926514,
+        "xmax": 7.380000114440918,
+        "ymin": -2.049999952316284,
+        "ymax": 3.0799999237060547,
+        "zmin": -3.130000114440918,
+        "zmax": -0.7699999809265137,
+        "dx": 2.3600001335144043,
+        "dy": 5.129999876022339,
+        "dz": 2.3600001335144043
+      },
+      "materials": [
+        "Engine"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Fan_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 488,
+      "edges": 876,
+      "faces": 426,
+      "bbox": {
+        "xmin": -7.159999847412109,
+        "xmax": -5.239999771118164,
+        "ymin": 2.5728533267974854,
+        "ymax": 2.827146530151367,
+        "zmin": -2.9026849269866943,
+        "zmax": -0.9973150491714478,
+        "dx": 1.9200000762939453,
+        "dy": 0.25429320335388184,
+        "dz": 1.9053698778152466
+      },
+      "materials": [
+        "FanBlade"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Fan_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 488,
+      "edges": 876,
+      "faces": 426,
+      "bbox": {
+        "xmin": 5.239999771118164,
+        "xmax": 7.159999847412109,
+        "ymin": 2.5728533267974854,
+        "ymax": 2.827146530151367,
+        "zmin": -2.9026849269866943,
+        "zmax": -0.9973150491714478,
+        "dx": 1.9200000762939453,
+        "dy": 0.25429320335388184,
+        "dz": 1.9053698778152466
+      },
+      "materials": [
+        "FanBlade"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Flag_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -2.122499942779541,
+        "xmax": -2.0875000953674316,
+        "ymin": -8.949999809265137,
+        "ymax": -7.449999809265137,
+        "zmin": 0.1499999761581421,
+        "zmax": 1.149999976158142,
+        "dx": 0.034999847412109375,
+        "dy": 1.5,
+        "dz": 1.0
+      },
+      "materials": [
+        "Flag"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Flag_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 2.0875000953674316,
+        "xmax": 2.122499942779541,
+        "ymin": -8.949999809265137,
+        "ymax": -7.449999809265137,
+        "zmin": 0.1499999761581421,
+        "zmax": 1.149999976158142,
+        "dx": 0.034999847412109375,
+        "dy": 1.5,
+        "dz": 1.0
+      },
+      "materials": [
+        "Flag"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Fuselage",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 3201,
+      "edges": 6400,
+      "faces": 3200,
+      "bbox": {
+        "xmin": -2.0880000591278076,
+        "xmax": 2.0880000591278076,
+        "ymin": -19.639999389648438,
+        "ymax": 14.842500686645508,
+        "zmin": -2.1019999980926514,
+        "zmax": 2.1019999980926514,
+        "dx": 4.176000118255615,
+        "dy": 34.482500076293945,
+        "dz": 4.203999996185303
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "程序化机身（保留）",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Fuselage_ORIG",
+      "type": "MESH",
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": true,
+      "verts": 3201,
+      "edges": 6400,
+      "faces": 3200,
+      "bbox": {
+        "xmin": -2.0880000591278076,
+        "xmax": 2.0880000591278076,
+        "ymin": -19.639999389648438,
+        "ymax": 14.850000381469727,
+        "zmin": -2.1019999980926514,
+        "zmax": 2.1019999980926514,
+        "dx": 4.176000118255615,
+        "dy": 34.489999771118164,
+        "dz": 4.203999996185303
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "切开前机身备份（通常隐藏）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "hidden_backup_optional"
+      ]
+    },
+    {
+      "name": "GearBayDoors",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 48,
+      "edges": 72,
+      "faces": 36,
+      "bbox": {
+        "xmin": -2.375,
+        "xmax": 2.375,
+        "ymin": -0.7749999761581421,
+        "ymax": 14.074999809265137,
+        "zmin": -2.0350000858306885,
+        "zmax": -1.8350000381469727,
+        "dx": 4.75,
+        "dy": 14.849999785423279,
+        "dz": 0.20000004768371582
+      },
+      "materials": [
+        "GearDoor"
+      ],
+      "note": "起落架",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Gear_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 84,
+      "edges": 126,
+      "faces": 48,
+      "bbox": {
+        "xmin": -2.799999952316284,
+        "xmax": -2.200000047683716,
+        "ymin": -0.5799999833106995,
+        "ymax": 0.17999999225139618,
+        "zmin": -4.429999828338623,
+        "zmax": -1.600000023841858,
+        "dx": 0.5999999046325684,
+        "dy": 0.7599999755620956,
+        "dz": 2.829999804496765
+      },
+      "materials": [
+        "Rubber"
+      ],
+      "note": "起落架",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Gear_Nose",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 52,
+      "edges": 78,
+      "faces": 30,
+      "bbox": {
+        "xmin": -0.1141267791390419,
+        "xmax": 0.1141267791390419,
+        "ymin": 13.119999885559082,
+        "ymax": 13.880000114440918,
+        "zmin": -4.179999828338623,
+        "zmax": -1.75,
+        "dx": 0.2282535582780838,
+        "dy": 0.7600002288818359,
+        "dz": 2.429999828338623
+      },
+      "materials": [
+        "Rubber"
+      ],
+      "note": "起落架",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Gear_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 84,
+      "edges": 126,
+      "faces": 48,
+      "bbox": {
+        "xmin": 2.200000047683716,
+        "xmax": 2.799999952316284,
+        "ymin": -0.5799999833106995,
+        "ymax": 0.17999999225139618,
+        "zmin": -4.429999828338623,
+        "zmax": -1.600000023841858,
+        "dx": 0.5999999046325684,
+        "dy": 0.7599999755620956,
+        "dz": 2.829999804496765
+      },
+      "materials": [
+        "Rubber"
+      ],
+      "note": "起落架",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Nose",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 3531,
+      "edges": 9820,
+      "faces": 6286,
+      "bbox": {
+        "xmin": -2.060051679611206,
+        "xmax": 2.060051679611206,
+        "ymin": 14.827500343322754,
+        "ymax": 20.557823181152344,
+        "zmin": -2.0600931644439697,
+        "zmax": 2.0600929260253906,
+        "dx": 4.120103359222412,
+        "dy": 5.73032283782959,
+        "dz": 4.12018609046936
+      },
+      "materials": [
+        "Skin",
+        "RadomePanel"
+      ],
+      "note": "REF机头蒙皮（保留）",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "PanelLines",
+      "type": "MESH",
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": true,
+      "verts": 144,
+      "edges": 216,
+      "faces": 72,
+      "bbox": {
+        "xmin": -1.2929999828338623,
+        "xmax": 1.2929999828338623,
+        "ymin": 18.472000122070312,
+        "ymax": 18.488000869750977,
+        "zmin": -1.2425999641418457,
+        "zmax": 1.2425999641418457,
+        "dx": 2.5859999656677246,
+        "dy": 0.016000747680664062,
+        "dz": 2.4851999282836914
+      },
+      "materials": [
+        "PanelLine"
+      ],
+      "note": "板线（常隐藏）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "usually_hidden"
+      ]
+    },
+    {
+      "name": "Pylon_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 192,
+      "edges": 396,
+      "faces": 210,
+      "bbox": {
+        "xmin": -6.450000286102295,
+        "xmax": -3.9000000953674316,
+        "ymin": 0.25,
+        "ymax": 2.25,
+        "zmin": -2.0199999809265137,
+        "zmax": -0.06999999284744263,
+        "dx": 2.5500001907348633,
+        "dy": 2.0,
+        "dz": 1.949999988079071
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Pylon_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 192,
+      "edges": 396,
+      "faces": 210,
+      "bbox": {
+        "xmin": 3.9000000953674316,
+        "xmax": 6.450000286102295,
+        "ymin": 0.25,
+        "ymax": 2.25,
+        "zmin": -2.0199999809265137,
+        "zmax": -0.06999999284744263,
+        "dx": 2.5500001907348633,
+        "dy": 2.0,
+        "dz": 1.949999988079071
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "RadomePanelLines",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 192,
+      "edges": 288,
+      "faces": 144,
+      "bbox": {
+        "xmin": -0.5835261344909668,
+        "xmax": 0.5835269689559937,
+        "ymin": 20.24392318725586,
+        "ymax": 20.421911239624023,
+        "zmin": -1.3035157918930054,
+        "zmax": -0.7068467140197754,
+        "dx": 1.1670531034469604,
+        "dy": 0.17798805236816406,
+        "dz": 0.59666907787323
+      },
+      "materials": [
+        "RadomePanel"
+      ],
+      "note": "雷达罩板线（先前保留）",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Rudder",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.0949999988079071,
+        "xmax": 0.14000000059604645,
+        "ymin": -18.200000762939453,
+        "ymax": -17.8799991607666,
+        "zmin": 1.600000023841858,
+        "zmax": 7.599999904632568,
+        "dx": 0.04500000178813934,
+        "dy": 0.32000160217285156,
+        "dz": 5.9999998807907104
+      },
+      "materials": [
+        "Stripe"
+      ],
+      "note": "尾翼",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Stab_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 140,
+      "edges": 260,
+      "faces": 122,
+      "bbox": {
+        "xmin": -6.07177734375,
+        "xmax": -0.857746958732605,
+        "ymin": -17.649999618530273,
+        "ymax": -14.950000762939453,
+        "zmin": 0.22323507070541382,
+        "zmax": 1.0172326564788818,
+        "dx": 5.214030385017395,
+        "dy": 2.6999988555908203,
+        "dz": 0.793997585773468
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "尾翼",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Stab_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 140,
+      "edges": 260,
+      "faces": 122,
+      "bbox": {
+        "xmin": 0.857746958732605,
+        "xmax": 6.07177734375,
+        "ymin": -17.649999618530273,
+        "ymax": -14.950000762939453,
+        "zmin": 0.22323507070541382,
+        "zmax": 1.0172326564788818,
+        "dx": 5.214030385017395,
+        "dy": 2.6999988555908203,
+        "dz": 0.793997585773468
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "尾翼",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Stripe_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 225,
+      "edges": 369,
+      "faces": 146,
+      "bbox": {
+        "xmin": -2.035597085952759,
+        "xmax": -1.9705982208251953,
+        "ymin": -10.897500038146973,
+        "ymax": 12.395000457763672,
+        "zmin": -0.6083033680915833,
+        "zmax": -0.49438464641571045,
+        "dx": 0.06499886512756348,
+        "dy": 23.292500495910645,
+        "dz": 0.1139187216758728
+      },
+      "materials": [
+        "Stripe"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Stripe_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 225,
+      "edges": 369,
+      "faces": 146,
+      "bbox": {
+        "xmin": 1.9705982208251953,
+        "xmax": 2.035597085952759,
+        "ymin": -10.897500038146973,
+        "ymax": 12.395000457763672,
+        "zmin": -0.6083033680915833,
+        "zmax": -0.49438464641571045,
+        "dx": 0.06499886512756348,
+        "dy": 23.292500495910645,
+        "dz": 0.1139187216758728
+      },
+      "materials": [
+        "Stripe"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "TailCone",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 337,
+      "edges": 672,
+      "faces": 336,
+      "bbox": {
+        "xmin": -0.6797999739646912,
+        "xmax": 0.6797999739646912,
+        "ymin": -19.549999237060547,
+        "ymax": -18.549999237060547,
+        "zmin": -0.7003999948501587,
+        "zmax": 0.7003999948501587,
+        "dx": 1.3595999479293823,
+        "dy": 1.0,
+        "dz": 1.4007999897003174
+      },
+      "materials": [
+        "TailConeMetal"
+      ],
+      "note": "尾翼",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "TailMark",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 4,
+      "edges": 4,
+      "faces": 1,
+      "bbox": {
+        "xmin": -0.4350000321865082,
+        "xmax": 0.7150000333786011,
+        "ymin": -16.850000381469727,
+        "ymax": -16.850000381469727,
+        "zmin": 4.849999904632568,
+        "zmax": 6.349999904632568,
+        "dx": 1.1500000655651093,
+        "dy": 0.0,
+        "dz": 1.5
+      },
+      "materials": [
+        "TailMark"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "TailMark_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 4,
+      "edges": 4,
+      "faces": 1,
+      "bbox": {
+        "xmin": -0.7150000333786011,
+        "xmax": 0.4350000321865082,
+        "ymin": -16.850000381469727,
+        "ymax": -16.850000381469727,
+        "zmin": 4.849999904632568,
+        "zmax": 6.349999904632568,
+        "dx": 1.1500000655651093,
+        "dy": 0.0,
+        "dz": 1.5
+      },
+      "materials": [
+        "TailMark"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Title",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 4,
+      "edges": 4,
+      "faces": 1,
+      "bbox": {
+        "xmin": 1.7450000047683716,
+        "xmax": 2.445000171661377,
+        "ymin": 5.0,
+        "ymax": 5.0,
+        "zmin": -0.6500000357627869,
+        "zmax": 2.549999952316284,
+        "dx": 0.7000001668930054,
+        "dy": 0.0,
+        "dz": 3.199999988079071
+      },
+      "materials": [
+        "Title"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Title_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 4,
+      "edges": 4,
+      "faces": 1,
+      "bbox": {
+        "xmin": -2.445000171661377,
+        "xmax": -1.7450000047683716,
+        "ymin": 5.0,
+        "ymax": 5.0,
+        "zmin": -0.6500000357627869,
+        "zmax": 2.549999952316284,
+        "dx": 0.7000001668930054,
+        "dy": 0.0,
+        "dz": 3.199999988079071
+      },
+      "materials": [
+        "Title"
+      ],
+      "note": "涂装/标识",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "VerticalTail",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 241,
+      "edges": 480,
+      "faces": 241,
+      "bbox": {
+        "xmin": -0.21430686116218567,
+        "xmax": 0.26759544014930725,
+        "ymin": -18.399999618530273,
+        "ymax": -14.550000190734863,
+        "zmin": 0.8179500102996826,
+        "zmax": 8.819999694824219,
+        "dx": 0.4819023013114929,
+        "dy": 3.84999942779541,
+        "dz": 8.002049684524536
+      },
+      "materials": [
+        "Navy"
+      ],
+      "note": "尾翼",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WindowFrames",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 6144,
+      "edges": 12288,
+      "faces": 6144,
+      "bbox": {
+        "xmin": -2.0939998626708984,
+        "xmax": 2.0939998626708984,
+        "ymin": -10.344999313354492,
+        "ymax": 12.404999732971191,
+        "zmin": 0.375,
+        "zmax": 0.7450000047683716,
+        "dx": 4.187999725341797,
+        "dy": 22.749999046325684,
+        "dz": 0.3700000047683716
+      },
+      "materials": [
+        "WindowFrame"
+      ],
+      "note": "客舱舷窗/窗框（B步可能替换）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "cabin_openings_for_B_confirm"
+      ]
+    },
+    {
+      "name": "Windows",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 3072,
+      "edges": 4608,
+      "faces": 1664,
+      "bbox": {
+        "xmin": -2.072999954223633,
+        "xmax": 2.072999954223633,
+        "ymin": -10.324999809265137,
+        "ymax": 12.385000228881836,
+        "zmin": 0.39499998092651367,
+        "zmax": 0.7250000238418579,
+        "dx": 4.145999908447266,
+        "dy": 22.710000038146973,
+        "dz": 0.33000004291534424
+      },
+      "materials": [
+        "Glass"
+      ],
+      "note": "客舱舷窗/窗框（B步可能替换）",
+      "propose_delete": false,
+      "keep": false,
+      "reasons": [
+        "cabin_openings_for_B_confirm"
+      ]
+    },
+    {
+      "name": "WingBodyFairing_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 160,
+      "edges": 300,
+      "faces": 142,
+      "bbox": {
+        "xmin": -3.069999933242798,
+        "xmax": -0.7300000190734863,
+        "ymin": -2.5999999046325684,
+        "ymax": 2.5,
+        "zmin": -2.0999999046325684,
+        "zmax": -0.6000000238418579,
+        "dx": 2.3399999141693115,
+        "dy": 5.099999904632568,
+        "dz": 1.4999998807907104
+      },
+      "materials": [
+        "WingBodyFairing"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WingBodyFairing_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 160,
+      "edges": 300,
+      "faces": 142,
+      "bbox": {
+        "xmin": 0.7300000190734863,
+        "xmax": 3.069999933242798,
+        "ymin": -2.5999999046325684,
+        "ymax": 2.5,
+        "zmin": -2.0999999046325684,
+        "zmax": -0.6000000238418579,
+        "dx": 2.3399999141693115,
+        "dy": 5.099999904632568,
+        "dz": 1.4999998807907104
+      },
+      "materials": [
+        "WingBodyFairing"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WingFairing_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 448,
+      "edges": 920,
+      "faces": 480,
+      "bbox": {
+        "xmin": -12.996358871459961,
+        "xmax": -3.9708340167999268,
+        "ymin": -4.055000305175781,
+        "ymax": -1.3269999027252197,
+        "zmin": -1.7150893211364746,
+        "zmax": -0.8185594081878662,
+        "dx": 9.025524854660034,
+        "dy": 2.7280004024505615,
+        "dz": 0.8965299129486084
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WingFairing_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 448,
+      "edges": 920,
+      "faces": 480,
+      "bbox": {
+        "xmin": 3.9708340167999268,
+        "xmax": 12.996358871459961,
+        "ymin": -4.055000305175781,
+        "ymax": -1.3269999027252197,
+        "zmin": -1.7150893211364746,
+        "zmax": -0.8185594081878662,
+        "dx": 9.025524854660034,
+        "dy": 2.7280004024505615,
+        "dz": 0.8965299129486084
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WingLE_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 312,
+      "edges": 660,
+      "faces": 360,
+      "bbox": {
+        "xmin": -14.801361083984375,
+        "xmax": -1.9591141939163208,
+        "ymin": -0.5825000405311584,
+        "ymax": 4.089999675750732,
+        "zmin": -1.536300539970398,
+        "zmax": -0.34898117184638977,
+        "dx": 12.842246890068054,
+        "dy": 4.672499716281891,
+        "dz": 1.1873193681240082
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "WingLE_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 312,
+      "edges": 660,
+      "faces": 360,
+      "bbox": {
+        "xmin": 1.9591141939163208,
+        "xmax": 14.801361083984375,
+        "ymin": -0.5825000405311584,
+        "ymax": 4.089999675750732,
+        "zmin": -1.536300539970398,
+        "zmax": -0.34898117184638977,
+        "dx": 12.842246890068054,
+        "dy": 4.672499716281891,
+        "dz": 1.1873193681240082
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Wing_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 264,
+      "edges": 504,
+      "faces": 242,
+      "bbox": {
+        "xmin": -15.994732856750488,
+        "xmax": -1.274897813796997,
+        "ymin": -3.25,
+        "ymax": 3.7799999713897705,
+        "zmin": -1.7778586149215698,
+        "zmax": 0.025347262620925903,
+        "dx": 14.719835042953491,
+        "dy": 7.0299999713897705,
+        "dz": 1.8032058775424957
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Wing_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 264,
+      "edges": 504,
+      "faces": 242,
+      "bbox": {
+        "xmin": 1.274897813796997,
+        "xmax": 15.994732856750488,
+        "ymin": -3.25,
+        "ymax": 3.7799999713897705,
+        "zmin": -1.7778586149215698,
+        "zmax": 0.025347262620925903,
+        "dx": 14.719835042953491,
+        "dy": 7.0299999713897705,
+        "dz": 1.8032058775424957
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Winglet_L",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 128,
+      "edges": 240,
+      "faces": 114,
+      "bbox": {
+        "xmin": -16.70193099975586,
+        "xmax": -15.936662673950195,
+        "ymin": -1.459999918937683,
+        "ymax": -0.5200000405311584,
+        "zmin": -1.772523283958435,
+        "zmax": 0.09029105305671692,
+        "dx": 0.7652683258056641,
+        "dy": 0.9399998784065247,
+        "dz": 1.862814337015152
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Winglet_R",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 128,
+      "edges": 240,
+      "faces": 114,
+      "bbox": {
+        "xmin": 15.936662673950195,
+        "xmax": 16.70193099975586,
+        "ymin": -1.459999918937683,
+        "ymax": -0.5200000405311584,
+        "zmin": -1.772523283958435,
+        "zmax": 0.09029105305671692,
+        "dx": 0.7652683258056641,
+        "dy": 0.9399998784065247,
+        "dz": 1.862814337015152
+      },
+      "materials": [
+        "Skin"
+      ],
+      "note": "机翼/发动机",
+      "propose_delete": false,
+      "keep": true,
+      "reasons": [
+        "explicit_keep"
+      ]
+    },
+    {
+      "name": "Wiper_L_Arm",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -0.8097044229507446,
+        "xmax": -0.6320914030075073,
+        "ymin": 18.533710479736328,
+        "ymax": 18.589027404785156,
+        "zmin": 0.3314652144908905,
+        "zmax": 0.3533693850040436,
+        "dx": 0.1776130199432373,
+        "dy": 0.055316925048828125,
+        "dz": 0.021904170513153076
+      },
+      "materials": [
+        "WiperDark"
+      ],
+      "note": "自制雨刷 → 建议删（换REF雨刮）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "Wiper_L_Blade",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": -1.3903334140777588,
+        "xmax": -0.8059046864509583,
+        "ymin": 18.5757999420166,
+        "ymax": 18.73554801940918,
+        "zmin": 0.34639039635658264,
+        "zmax": 0.3987996280193329,
+        "dx": 0.5844287276268005,
+        "dy": 0.15974807739257812,
+        "dz": 0.052409231662750244
+      },
+      "materials": [
+        "WiperDark"
+      ],
+      "note": "自制雨刷 → 建议删（换REF雨刮）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "Wiper_R_Arm",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.6320918798446655,
+        "xmax": 0.8097048997879028,
+        "ymin": 18.533710479736328,
+        "ymax": 18.589027404785156,
+        "zmin": 0.3314652144908905,
+        "zmax": 0.3533693850040436,
+        "dx": 0.1776130199432373,
+        "dy": 0.055316925048828125,
+        "dz": 0.021904170513153076
+      },
+      "materials": [
+        "WiperDark"
+      ],
+      "note": "自制雨刷 → 建议删（换REF雨刮）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    },
+    {
+      "name": "Wiper_R_Blade",
+      "type": "MESH",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "verts": 8,
+      "edges": 12,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.8059051632881165,
+        "xmax": 1.390333890914917,
+        "ymin": 18.5757999420166,
+        "ymax": 18.73554801940918,
+        "zmin": 0.34639039635658264,
+        "zmax": 0.3987996280193329,
+        "dx": 0.5844287276268005,
+        "dy": 0.15974807739257812,
+        "dz": 0.052409231662750244
+      },
+      "materials": [
+        "WiperDark"
+      ],
+      "note": "自制雨刷 → 建议删（换REF雨刮）",
+      "propose_delete": true,
+      "keep": false,
+      "reasons": [
+        "homemade_cockpit_or_frame_wiper"
+      ]
+    }
+  ],
+  "propose_delete": [
+    "CockpitGlareShield",
+    "CockpitInstrumentPanel",
+    "CockpitInterior",
+    "CockpitPillar_Center",
+    "CockpitPillar_L",
+    "CockpitPillar_R",
+    "CockpitSeals",
+    "CockpitSeat_L_Back",
+    "CockpitSeat_L_Base",
+    "CockpitSeat_R_Back",
+    "CockpitSeat_R_Base",
+    "Wiper_L_Arm",
+    "Wiper_L_Blade",
+    "Wiper_R_Arm",
+    "Wiper_R_Blade"
+  ],
+  "keep": [
+    "CockpitGlass_REF",
+    "EngineLip_L",
+    "EngineLip_R",
+    "Engine_L",
+    "Engine_R",
+    "Fan_L",
+    "Fan_R",
+    "Flag_L",
+    "Flag_R",
+    "Fuselage",
+    "GearBayDoors",
+    "Gear_L",
+    "Gear_Nose",
+    "Gear_R",
+    "Nose",
+    "Pylon_L",
+    "Pylon_R",
+    "RadomePanelLines",
+    "Rudder",
+    "Stab_L",
+    "Stab_R",
+    "Stripe_L",
+    "Stripe_R",
+    "TailCone",
+    "TailMark",
+    "TailMark_L",
+    "Title",
+    "Title_L",
+    "VerticalTail",
+    "WingBodyFairing_L",
+    "WingBodyFairing_R",
+    "WingFairing_L",
+    "WingFairing_R",
+    "WingLE_L",
+    "WingLE_R",
+    "Wing_L",
+    "Wing_R",
+    "Winglet_L",
+    "Winglet_R"
+  ],
+  "optional_confirm": [
+    {
+      "name": "AntennasAPU",
+      "note": "天线/APU（可能与REF探头重叠）",
+      "hide_render": false,
+      "suggest": "confirm_with_user"
+    },
+    {
+      "name": "Fuselage_ORIG",
+      "note": "切开前机身备份（通常隐藏）",
+      "hide_render": true,
+      "suggest": "confirm_with_user"
+    },
+    {
+      "name": "PanelLines",
+      "note": "板线（常隐藏）",
+      "hide_render": true,
+      "suggest": "confirm_with_user"
+    }
+  ],
+  "spike_suspects_heuristic": [],
+  "cabin_openings": [
+    {
+      "name": "DoorFrames",
+      "verts": 1152,
+      "faces": 864,
+      "bbox": {
+        "xmin": -2.062661647796631,
+        "xmax": 2.062661647796631,
+        "ymin": -11.885000228881836,
+        "ymax": 2.0950000286102295,
+        "zmin": -0.858738124370575,
+        "zmax": 1.4109934568405151,
+        "dx": 4.125323295593262,
+        "dy": 13.980000257492065,
+        "dz": 2.26973158121109
+      },
+      "hide_render": false,
+      "note": "舱门相关（B步对照REF舱门缝线）"
+    },
+    {
+      "name": "DoorWindows",
+      "verts": 74,
+      "faces": 64,
+      "bbox": {
+        "xmin": -2.031907320022583,
+        "xmax": 2.031907320022583,
+        "ymin": -11.56760025024414,
+        "ymax": -11.33240032196045,
+        "zmin": 0.3328835666179657,
+        "zmax": 0.5537363886833191,
+        "dx": 4.063814640045166,
+        "dy": 0.2351999282836914,
+        "dz": 0.2208528220653534
+      },
+      "hide_render": false,
+      "note": "舱门相关（B步对照REF舱门缝线）"
+    },
+    {
+      "name": "Doors",
+      "verts": 1084,
+      "faces": 984,
+      "bbox": {
+        "xmin": -2.058457851409912,
+        "xmax": 2.058457851409912,
+        "ymin": -11.854000091552734,
+        "ymax": 2.063999891281128,
+        "zmin": -0.8260009288787842,
+        "zmax": 1.3772557973861694,
+        "dx": 4.116915702819824,
+        "dy": 13.917999982833862,
+        "dz": 2.2032567262649536
+      },
+      "hide_render": false,
+      "note": "舱门相关（B步对照REF舱门缝线）"
+    },
+    {
+      "name": "GearBayDoors",
+      "verts": 48,
+      "faces": 36,
+      "bbox": {
+        "xmin": -2.375,
+        "xmax": 2.375,
+        "ymin": -0.7749999761581421,
+        "ymax": 14.074999809265137,
+        "zmin": -2.0350000858306885,
+        "zmax": -1.8350000381469727,
+        "dx": 4.75,
+        "dy": 14.849999785423279,
+        "dz": 0.20000004768371582
+      },
+      "hide_render": false,
+      "note": "起落架"
+    },
+    {
+      "name": "WindowFrames",
+      "verts": 6144,
+      "faces": 6144,
+      "bbox": {
+        "xmin": -2.0939998626708984,
+        "xmax": 2.0939998626708984,
+        "ymin": -10.344999313354492,
+        "ymax": 12.404999732971191,
+        "zmin": 0.375,
+        "zmax": 0.7450000047683716,
+        "dx": 4.187999725341797,
+        "dy": 22.749999046325684,
+        "dz": 0.3700000047683716
+      },
+      "hide_render": false,
+      "note": "客舱舷窗/窗框（B步可能替换）"
+    },
+    {
+      "name": "Windows",
+      "verts": 3072,
+      "faces": 1664,
+      "bbox": {
+        "xmin": -2.072999954223633,
+        "xmax": 2.072999954223633,
+        "ymin": -10.324999809265137,
+        "ymax": 12.385000228881836,
+        "zmin": 0.39499998092651367,
+        "zmax": 0.7250000238418579,
+        "dx": 4.145999908447266,
+        "dy": 22.710000038146973,
+        "dz": 0.33000004291534424
+      },
+      "hide_render": false,
+      "note": "客舱舷窗/窗框（B步可能替换）"
+    }
+  ],
+  "length": {
+    "forward_axis": "+Y",
+    "tip_y": 20.557823181152344,
+    "tail_y": -19.639999389648438,
+    "length_m": 40.19782257080078,
+    "ref_length_m": 38.84,
+    "delta_m": 1.3578225708007778,
+    "stretch_stop_flag": true,
+    "note": "STOP for B stretch if |delta|>0.5 m"
+  },
+  "ref_assets_on_disk": [
+    "refs/C919_REF_机头细节.obj  → REF_风挡窗框, REF_雨刮器, REF_探头天线, REF_驾驶舱内饰",
+    "refs/C919_REF_舱门舷窗.obj → REF_舷窗玻璃, REF_舱门缝线"
+  ],
+  "action": "INVENTORY_ONLY_NO_DELETES"
+}

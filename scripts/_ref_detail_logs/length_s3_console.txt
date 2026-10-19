@@ -1,0 +1,19 @@
+=== LENGTH S3 Step3 tail stretch ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-length-s3.blend
+[before] tip=20.5578 VT_LE_tip=31.5078 TC_tip=36.5078 VT→TC=5.0000 factor=1.4760
+[empennage] separate=['VerticalTail', 'Rudder', 'Stab_L', 'Stab_R', 'TailCone']
+[stretch] Fuselage verts=1665
+[stretch] Fuselage_ORIG verts=1665
+[stretch] TailCone verts=337
+[stretch] TailMark verts=4
+[stretch] TailMark_L verts=4
+[stretch] AntennasAPU verts=84
+[stab] before VT_tip=31.508 HT_tip=31.908 delta=0.400 want=1.4
+[stab] move Stab_L dy=-1.0000
+[stab] move Stab_R dy=-1.0000
+[render] ours
+[ref] C:\Users\希儿\Projects\c919-autonomy\refs\REF_C919_meters.fbx (no C919_REF_整机.obj)
+[render] ref
+GLB 1584272
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+=== S3 DONE len=38.888 VT→TC=7.380 ===

@@ -1,0 +1,771 @@
+{
+  "objects": [
+    {
+      "name": "AntennasAPU",
+      "hide": false,
+      "hide_render": false,
+      "verts": 96,
+      "faces": 82
+    },
+    {
+      "name": "CockpitCabin",
+      "hide": false,
+      "hide_render": false,
+      "verts": 176,
+      "faces": 146
+    },
+    {
+      "name": "CockpitFrames",
+      "hide": true,
+      "hide_render": true,
+      "verts": 527,
+      "faces": 256
+    },
+    {
+      "name": "DoorFrames",
+      "hide": false,
+      "hide_render": false,
+      "verts": 2304,
+      "faces": 1728
+    },
+    {
+      "name": "Doors",
+      "hide": false,
+      "hide_render": false,
+      "verts": 2168,
+      "faces": 1968
+    },
+    {
+      "name": "DoorWindows",
+      "hide": false,
+      "hide_render": false,
+      "verts": 148,
+      "faces": 128
+    },
+    {
+      "name": "Engine_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 667,
+      "faces": 624
+    },
+    {
+      "name": "Engine_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 667,
+      "faces": 624
+    },
+    {
+      "name": "EngineLip_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 360,
+      "faces": 320
+    },
+    {
+      "name": "EngineLip_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 360,
+      "faces": 320
+    },
+    {
+      "name": "Fan_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 488,
+      "faces": 426
+    },
+    {
+      "name": "Fan_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 488,
+      "faces": 426
+    },
+    {
+      "name": "Flag_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 8,
+      "faces": 6
+    },
+    {
+      "name": "Flag_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 8,
+      "faces": 6
+    },
+    {
+      "name": "Fuselage",
+      "hide": false,
+      "hide_render": false,
+      "verts": 3201,
+      "faces": 3200
+    },
+    {
+      "name": "Gear_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 84,
+      "faces": 48
+    },
+    {
+      "name": "Gear_Nose",
+      "hide": false,
+      "hide_render": false,
+      "verts": 52,
+      "faces": 30
+    },
+    {
+      "name": "Gear_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 84,
+      "faces": 48
+    },
+    {
+      "name": "GearBayDoors",
+      "hide": false,
+      "hide_render": false,
+      "verts": 48,
+      "faces": 36
+    },
+    {
+      "name": "GlareShield",
+      "hide": false,
+      "hide_render": false,
+      "verts": 80,
+      "faces": 60
+    },
+    {
+      "name": "Nose",
+      "hide": true,
+      "hide_render": true,
+      "verts": 3121,
+      "faces": 3120
+    },
+    {
+      "name": "Nose_开窗",
+      "hide": false,
+      "hide_render": false,
+      "verts": 7930,
+      "faces": 7668
+    },
+    {
+      "name": "Obj3d66-19714258-2-287",
+      "hide": true,
+      "hide_render": true,
+      "verts": 67618,
+      "faces": 121368
+    },
+    {
+      "name": "PanelLines",
+      "hide": false,
+      "hide_render": false,
+      "verts": 144,
+      "faces": 72
+    },
+    {
+      "name": "PilotSeats",
+      "hide": false,
+      "hide_render": false,
+      "verts": 192,
+      "faces": 144
+    },
+    {
+      "name": "PitotProbes",
+      "hide": false,
+      "hide_render": false,
+      "verts": 506,
+      "faces": 404
+    },
+    {
+      "name": "Pylon_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 192,
+      "faces": 210
+    },
+    {
+      "name": "Pylon_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 192,
+      "faces": 210
+    },
+    {
+      "name": "REF_玻璃",
+      "hide": true,
+      "hide_render": true,
+      "verts": 3400,
+      "faces": 3392
+    },
+    {
+      "name": "Rudder",
+      "hide": false,
+      "hide_render": false,
+      "verts": 8,
+      "faces": 6
+    },
+    {
+      "name": "Stab_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 140,
+      "faces": 122
+    },
+    {
+      "name": "Stab_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 140,
+      "faces": 122
+    },
+    {
+      "name": "Stripe_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 225,
+      "faces": 146
+    },
+    {
+      "name": "Stripe_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 225,
+      "faces": 146
+    },
+    {
+      "name": "SW_L",
+      "hide": true,
+      "hide_render": true,
+      "verts": 850,
+      "faces": 848
+    },
+    {
+      "name": "SW_R",
+      "hide": true,
+      "hide_render": true,
+      "verts": 850,
+      "faces": 848
+    },
+    {
+      "name": "TailCone",
+      "hide": false,
+      "hide_render": false,
+      "verts": 337,
+      "faces": 336
+    },
+    {
+      "name": "TailMark",
+      "hide": false,
+      "hide_render": false,
+      "verts": 4,
+      "faces": 1
+    },
+    {
+      "name": "TailMark_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 4,
+      "faces": 1
+    },
+    {
+      "name": "Title",
+      "hide": false,
+      "hide_render": false,
+      "verts": 4,
+      "faces": 1
+    },
+    {
+      "name": "Title_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 4,
+      "faces": 1
+    },
+    {
+      "name": "VerticalTail",
+      "hide": false,
+      "hide_render": false,
+      "verts": 241,
+      "faces": 241
+    },
+    {
+      "name": "WindowFrames",
+      "hide": false,
+      "hide_render": false,
+      "verts": 6144,
+      "faces": 6144
+    },
+    {
+      "name": "Windows",
+      "hide": false,
+      "hide_render": false,
+      "verts": 3072,
+      "faces": 1664
+    },
+    {
+      "name": "WindshieldWipers",
+      "hide": false,
+      "hide_render": false,
+      "verts": 136,
+      "faces": 112
+    },
+    {
+      "name": "Wing_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 264,
+      "faces": 242
+    },
+    {
+      "name": "Wing_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 264,
+      "faces": 242
+    },
+    {
+      "name": "WingBodyFairing_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 160,
+      "faces": 142
+    },
+    {
+      "name": "WingBodyFairing_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 160,
+      "faces": 142
+    },
+    {
+      "name": "WingFairing_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 448,
+      "faces": 480
+    },
+    {
+      "name": "WingFairing_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 448,
+      "faces": 480
+    },
+    {
+      "name": "WingLE_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 312,
+      "faces": 360
+    },
+    {
+      "name": "WingLE_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 312,
+      "faces": 360
+    },
+    {
+      "name": "Winglet_L",
+      "hide": false,
+      "hide_render": false,
+      "verts": 128,
+      "faces": 114
+    },
+    {
+      "name": "Winglet_R",
+      "hide": false,
+      "hide_render": false,
+      "verts": 128,
+      "faces": 114
+    },
+    {
+      "name": "WS_L",
+      "hide": true,
+      "hide_render": true,
+      "verts": 850,
+      "faces": 848
+    },
+    {
+      "name": "WS_R",
+      "hide": true,
+      "hide_render": true,
+      "verts": 850,
+      "faces": 848
+    },
+    {
+      "name": "切割体_SW_L",
+      "hide": false,
+      "hide_render": true,
+      "verts": 1928,
+      "faces": 1922
+    },
+    {
+      "name": "切割体_SW_R",
+      "hide": false,
+      "hide_render": true,
+      "verts": 1928,
+      "faces": 1922
+    },
+    {
+      "name": "切割体_WS_L",
+      "hide": false,
+      "hide_render": true,
+      "verts": 1560,
+      "faces": 1558
+    },
+    {
+      "name": "切割体_WS_R",
+      "hide": false,
+      "hide_render": true,
+      "verts": 1560,
+      "faces": 1558
+    }
+  ],
+  "samples": [
+    {
+      "name": "WS_R",
+      "hit": true,
+      "loc": [
+        0.5830438137054443,
+        17.299999237060547,
+        1.431107759475708
+      ],
+      "dist": 0.9124194979667664
+    },
+    {
+      "name": "WS_L",
+      "hit": true,
+      "loc": [
+        -0.583031177520752,
+        17.299999237060547,
+        1.4310766458511353
+      ],
+      "dist": 0.9124531149864197
+    },
+    {
+      "name": "SW_R",
+      "hit": true,
+      "loc": [
+        1.7220301628112793,
+        16.299999237060547,
+        0.6261928677558899
+      ],
+      "dist": 0.923355221748352
+    },
+    {
+      "name": "SW_L",
+      "hit": true,
+      "loc": [
+        -1.7220282554626465,
+        16.299999237060547,
+        0.6261921525001526
+      ],
+      "dist": 0.9233573079109192
+    },
+    {
+      "name": "skin_cheek",
+      "hit": true,
+      "loc": [
+        1.2170599699020386,
+        18.5,
+        0.16227467358112335
+      ],
+      "dist": 1.2854440212249756
+    }
+  ],
+  "loops": [
+    {
+      "i": 0,
+      "n_edges": 120,
+      "x": [
+        -2.0585885047912598,
+        2.0585885047912598
+      ],
+      "y": [
+        14.850000381469727,
+        14.850000381469727
+      ],
+      "z": [
+        -2.0585885047912598,
+        2.0585885047912598
+      ],
+      "cy": 14.850000381469727,
+      "cx": 0.0,
+      "cz": 0.0
+    },
+    {
+      "i": 1,
+      "n_edges": 1,
+      "x": [
+        1.1888408660888672,
+        1.1888408660888672
+      ],
+      "y": [
+        16.899999618530273,
+        16.899999618530273
+      ],
+      "z": [
+        1.1827656030654907,
+        1.1827656030654907
+      ],
+      "cy": 16.899999618530273,
+      "cx": 1.1888408660888672,
+      "cz": 1.1827656030654907
+    },
+    {
+      "i": 2,
+      "n_edges": 2,
+      "x": [
+        -1.0384025573730469,
+        -1.0271337032318115
+      ],
+      "y": [
+        16.908321380615234,
+        16.909687042236328
+      ],
+      "z": [
+        1.3083544969558716,
+        1.3165721893310547
+      ],
+      "cy": 16.90900421142578,
+      "cx": -1.0327681303024292,
+      "cz": 1.3124633431434631
+    },
+    {
+      "i": 3,
+      "n_edges": 1,
+      "x": [
+        -1.1888408660888672,
+        -1.1888408660888672
+      ],
+      "y": [
+        16.899999618530273,
+        16.899999618530273
+      ],
+      "z": [
+        1.1827657222747803,
+        1.1827657222747803
+      ],
+      "cy": 16.899999618530273,
+      "cx": -1.1888408660888672,
+      "cz": 1.1827657222747803
+    },
+    {
+      "i": 4,
+      "n_edges": 1,
+      "x": [
+        1.0609419345855713,
+        1.0609419345855713
+      ],
+      "y": [
+        16.905590057373047,
+        16.905590057373047
+      ],
+      "z": [
+        1.2919185161590576,
+        1.2919185161590576
+      ],
+      "cy": 16.905590057373047,
+      "cx": 1.0609419345855713,
+      "cz": 1.2919185161590576
+    },
+    {
+      "i": 5,
+      "n_edges": 1,
+      "x": [
+        1.1049964427947998,
+        1.1049964427947998
+      ],
+      "y": [
+        16.901752471923828,
+        16.901752471923828
+      ],
+      "z": [
+        1.2574865818023682,
+        1.2574865818023682
+      ],
+      "cy": 16.901752471923828,
+      "cx": 1.1049964427947998,
+      "cz": 1.2574865818023682
+    },
+    {
+      "i": 6,
+      "n_edges": 1,
+      "x": [
+        1.1476085186004639,
+        1.1476085186004639
+      ],
+      "y": [
+        16.900232315063477,
+        16.900232315063477
+      ],
+      "z": [
+        1.2209880352020264,
+        1.2209880352020264
+      ],
+      "cy": 16.900232315063477,
+      "cx": 1.1476085186004639,
+      "cz": 1.2209880352020264
+    },
+    {
+      "i": 7,
+      "n_edges": 3,
+      "x": [
+        0.9381771683692932,
+        0.9397942423820496
+      ],
+      "y": [
+        16.86663055419922,
+        16.88151741027832
+      ],
+      "z": [
+        1.389055609703064,
+        1.3933813571929932
+      ],
+      "cy": 16.87655512491862,
+      "cx": 0.9387162327766418,
+      "cz": 1.3904975255330403
+    },
+    {
+      "i": 8,
+      "n_edges": 1,
+      "x": [
+        -1.1476085186004639,
+        -1.1476085186004639
+      ],
+      "y": [
+        16.900232315063477,
+        16.900232315063477
+      ],
+      "z": [
+        1.2209880352020264,
+        1.2209880352020264
+      ],
+      "cy": 16.900232315063477,
+      "cx": -1.1476085186004639,
+      "cz": 1.2209880352020264
+    },
+    {
+      "i": 9,
+      "n_edges": 1,
+      "x": [
+        -1.0609419345855713,
+        -1.0609419345855713
+      ],
+      "y": [
+        16.905590057373047,
+        16.905590057373047
+      ],
+      "z": [
+        1.2919185161590576,
+        1.2919185161590576
+      ],
+      "cy": 16.905590057373047,
+      "cx": -1.0609419345855713,
+      "cz": 1.2919185161590576
+    },
+    {
+      "i": 10,
+      "n_edges": 3,
+      "x": [
+        -0.9397941827774048,
+        -0.9381771087646484
+      ],
+      "y": [
+        16.86663055419922,
+        16.88151741027832
+      ],
+      "z": [
+        1.3890557289123535,
+        1.3933813571929932
+      ],
+      "cy": 16.87655512491862,
+      "cx": -0.9387161731719971,
+      "cz": 1.3904976050059001
+    },
+    {
+      "i": 11,
+      "n_edges": 3,
+      "x": [
+        0.6904376745223999,
+        0.6916066408157349
+      ],
+      "y": [
+        16.872222900390625,
+        16.8868408203125
+      ],
+      "z": [
+        1.521240234375,
+        1.5257874727249146
+      ],
+      "cy": 16.881968180338543,
+      "cx": 0.6908273498217264,
+      "cz": 1.5227559804916382
+    },
+    {
+      "i": 12,
+      "n_edges": 3,
+      "x": [
+        -0.6916066408157349,
+        -0.6904376745223999
+      ],
+      "y": [
+        16.872222900390625,
+        16.8868408203125
+      ],
+      "z": [
+        1.521240234375,
+        1.5257874727249146
+      ],
+      "cy": 16.881968180338543,
+      "cx": -0.6908273498217264,
+      "cz": 1.5227559804916382
+    },
+    {
+      "i": 13,
+      "n_edges": 2,
+      "x": [
+        1.0271337032318115,
+        1.0384025573730469
+      ],
+      "y": [
+        16.908321380615234,
+        16.909687042236328
+      ],
+      "z": [
+        1.308354377746582,
+        1.3165721893310547
+      ],
+      "cy": 16.90900421142578,
+      "cx": 1.0327681303024292,
+      "cz": 1.3124632835388184
+    },
+    {
+      "i": 14,
+      "n_edges": 1,
+      "x": [
+        -1.1049964427947998,
+        -1.1049964427947998
+      ],
+      "y": [
+        16.901752471923828,
+        16.901752471923828
+      ],
+      "z": [
+        1.2574867010116577,
+        1.2574867010116577
+      ],
+      "cy": 16.901752471923828,
+      "cx": -1.1049964427947998,
+      "cz": 1.2574867010116577
+    }
+  ],
+  "body": "Nose_开窗"
+}

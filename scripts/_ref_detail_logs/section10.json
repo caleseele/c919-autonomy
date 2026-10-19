@@ -1,0 +1,868 @@
+{
+  "stopped": false,
+  "pass": true,
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-before-s10.blend",
+  "backup_done": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-section10.blend",
+  "before": [
+    {
+      "name": "REF_发动机_左_短舱外罩",
+      "missing": false,
+      "pass": false,
+      "station": 15.252,
+      "abs_x": 6.0759,
+      "agl": 2.1305,
+      "ref_station": 14.18,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.13,
+      "d_station": 1.072,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0005,
+      "mean": [
+        6.0759,
+        5.3208,
+        -2.1093
+      ]
+    },
+    {
+      "name": "REF_发动机_左_进气唇口",
+      "missing": false,
+      "pass": false,
+      "station": 17.2956,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 12.136,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 5.1596,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        3.2772,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_风扇叶片",
+      "missing": false,
+      "pass": false,
+      "station": 16.5837,
+      "abs_x": 6.0759,
+      "agl": 2.1399,
+      "ref_station": 12.848,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.14,
+      "d_station": 3.7357,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0001,
+      "mean": [
+        6.0759,
+        3.9891,
+        -2.0999
+      ]
+    },
+    {
+      "name": "REF_发动机_左_风扇机匣",
+      "missing": false,
+      "pass": false,
+      "station": 16.8675,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 12.564,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 4.3035,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        3.7053,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_整流锥",
+      "missing": false,
+      "pass": false,
+      "station": 16.7155,
+      "abs_x": 6.0759,
+      "agl": 2.1323,
+      "ref_station": 12.716,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.132,
+      "d_station": 3.9995,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0003,
+      "mean": [
+        6.0759,
+        3.8573,
+        -2.1075
+      ]
+    },
+    {
+      "name": "REF_发动机_左_核心机喷口",
+      "missing": false,
+      "pass": false,
+      "station": 13.5738,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 15.858,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 2.2842,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        6.999,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_尾喷锥",
+      "missing": false,
+      "pass": false,
+      "station": 12.3707,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 17.061,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 4.6903,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        8.2021,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_其他",
+      "missing": false,
+      "pass": false,
+      "station": 16.8464,
+      "abs_x": 6.0759,
+      "agl": 1.2293,
+      "ref_station": 12.586,
+      "ref_abs_x": 6.076,
+      "ref_agl": 1.229,
+      "d_station": 4.2604,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0003,
+      "mean": [
+        6.0759,
+        3.7264,
+        -3.0105
+      ]
+    },
+    {
+      "name": "REF_发动机_右_短舱外罩",
+      "missing": false,
+      "pass": false,
+      "station": 15.252,
+      "abs_x": 6.0734,
+      "agl": 2.1305,
+      "ref_station": 14.18,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.13,
+      "d_station": 1.072,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0005,
+      "mean": [
+        -6.0734,
+        5.3208,
+        -2.1093
+      ]
+    },
+    {
+      "name": "REF_发动机_右_进气唇口",
+      "missing": false,
+      "pass": false,
+      "station": 17.2956,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 12.136,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 5.1596,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        3.2772,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_风扇叶片",
+      "missing": false,
+      "pass": false,
+      "station": 16.5837,
+      "abs_x": 6.0734,
+      "agl": 2.1399,
+      "ref_station": 12.848,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.14,
+      "d_station": 3.7357,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0001,
+      "mean": [
+        -6.0734,
+        3.9891,
+        -2.0999
+      ]
+    },
+    {
+      "name": "REF_发动机_右_风扇机匣",
+      "missing": false,
+      "pass": false,
+      "station": 16.8675,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 12.564,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 4.3035,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        3.7053,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_整流锥",
+      "missing": false,
+      "pass": false,
+      "station": 16.7155,
+      "abs_x": 6.0734,
+      "agl": 2.1323,
+      "ref_station": 12.716,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.132,
+      "d_station": 3.9995,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0003,
+      "mean": [
+        -6.0734,
+        3.8573,
+        -2.1075
+      ]
+    },
+    {
+      "name": "REF_发动机_右_核心机喷口",
+      "missing": false,
+      "pass": false,
+      "station": 13.5738,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 15.858,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 2.2842,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        6.999,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_尾喷锥",
+      "missing": false,
+      "pass": false,
+      "station": 12.3707,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 17.061,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 4.6903,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        8.2021,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_其他",
+      "missing": false,
+      "pass": false,
+      "station": 16.8464,
+      "abs_x": 6.0734,
+      "agl": 1.2293,
+      "ref_station": 12.586,
+      "ref_abs_x": 6.076,
+      "ref_agl": 1.229,
+      "d_station": 4.2604,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0003,
+      "mean": [
+        -6.0734,
+        3.7264,
+        -3.0105
+      ]
+    },
+    {
+      "name": "REF_前起落架_舱门",
+      "missing": false,
+      "pass": true,
+      "station": 4.2215,
+      "abs_x": 0.0,
+      "agl": 2.1109,
+      "ref_station": 4.222,
+      "ref_abs_x": 0.0,
+      "ref_agl": 2.111,
+      "d_station": 0.0005,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0001,
+      "mean": [
+        0.0,
+        16.3513,
+        -2.1289
+      ]
+    },
+    {
+      "name": "REF_前起落架_支柱轮",
+      "missing": false,
+      "pass": true,
+      "station": 5.2422,
+      "abs_x": 0.003,
+      "agl": 0.7934,
+      "ref_station": 5.242,
+      "ref_abs_x": 0.003,
+      "ref_agl": 0.793,
+      "d_station": 0.0002,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0004,
+      "mean": [
+        0.003,
+        15.3306,
+        -3.4464
+      ]
+    },
+    {
+      "name": "REF_主起落架_舱门",
+      "missing": false,
+      "pass": true,
+      "station": 17.1894,
+      "abs_x": 0.0,
+      "agl": 1.6764,
+      "ref_station": 17.189,
+      "ref_abs_x": 0.0,
+      "ref_agl": 1.676,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0004,
+      "mean": [
+        -0.0,
+        3.3834,
+        -2.5634
+      ]
+    },
+    {
+      "name": "REF_主起落架_支柱轮",
+      "missing": false,
+      "pass": true,
+      "station": 17.5454,
+      "abs_x": 0.0011,
+      "agl": 1.0051,
+      "ref_station": 17.545,
+      "ref_abs_x": 0.001,
+      "ref_agl": 1.005,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0001,
+      "mean": [
+        0.0011,
+        3.0274,
+        -3.2347
+      ]
+    }
+  ],
+  "after": [
+    {
+      "name": "REF_发动机_左_短舱外罩",
+      "missing": false,
+      "pass": true,
+      "station": 14.1799,
+      "abs_x": 6.0759,
+      "agl": 2.1305,
+      "ref_station": 14.18,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.13,
+      "d_station": 0.0001,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0005,
+      "mean": [
+        6.0759,
+        6.3929,
+        -2.1093
+      ]
+    },
+    {
+      "name": "REF_发动机_左_进气唇口",
+      "missing": false,
+      "pass": true,
+      "station": 12.1363,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 12.136,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        8.4365,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_风扇叶片",
+      "missing": false,
+      "pass": true,
+      "station": 12.8483,
+      "abs_x": 6.0759,
+      "agl": 2.1399,
+      "ref_station": 12.848,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.14,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0001,
+      "mean": [
+        6.0759,
+        7.7246,
+        -2.0999
+      ]
+    },
+    {
+      "name": "REF_发动机_左_风扇机匣",
+      "missing": false,
+      "pass": true,
+      "station": 12.5644,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 12.564,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        8.0084,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_整流锥",
+      "missing": false,
+      "pass": true,
+      "station": 12.7164,
+      "abs_x": 6.0759,
+      "agl": 2.1323,
+      "ref_station": 12.716,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.132,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0003,
+      "mean": [
+        6.0759,
+        7.8564,
+        -2.1075
+      ]
+    },
+    {
+      "name": "REF_发动机_左_核心机喷口",
+      "missing": false,
+      "pass": true,
+      "station": 15.8581,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 15.858,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0001,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        4.7147,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_尾喷锥",
+      "missing": false,
+      "pass": true,
+      "station": 17.0613,
+      "abs_x": 6.0759,
+      "agl": 2.1252,
+      "ref_station": 17.061,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0002,
+      "mean": [
+        6.0759,
+        3.5115,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_左_其他",
+      "missing": false,
+      "pass": true,
+      "station": 12.5856,
+      "abs_x": 6.0759,
+      "agl": 1.2293,
+      "ref_station": 12.586,
+      "ref_abs_x": 6.076,
+      "ref_agl": 1.229,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0003,
+      "mean": [
+        6.0759,
+        7.9873,
+        -3.0105
+      ]
+    },
+    {
+      "name": "REF_发动机_右_短舱外罩",
+      "missing": false,
+      "pass": true,
+      "station": 14.1799,
+      "abs_x": 6.0734,
+      "agl": 2.1305,
+      "ref_station": 14.18,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.13,
+      "d_station": 0.0001,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0005,
+      "mean": [
+        -6.0734,
+        6.3929,
+        -2.1093
+      ]
+    },
+    {
+      "name": "REF_发动机_右_进气唇口",
+      "missing": false,
+      "pass": true,
+      "station": 12.1363,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 12.136,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        8.4365,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_风扇叶片",
+      "missing": false,
+      "pass": true,
+      "station": 12.8483,
+      "abs_x": 6.0734,
+      "agl": 2.1399,
+      "ref_station": 12.848,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.14,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0001,
+      "mean": [
+        -6.0734,
+        7.7246,
+        -2.0999
+      ]
+    },
+    {
+      "name": "REF_发动机_右_风扇机匣",
+      "missing": false,
+      "pass": true,
+      "station": 12.5644,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 12.564,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        8.0084,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_整流锥",
+      "missing": false,
+      "pass": true,
+      "station": 12.7164,
+      "abs_x": 6.0734,
+      "agl": 2.1323,
+      "ref_station": 12.716,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.132,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0003,
+      "mean": [
+        -6.0734,
+        7.8564,
+        -2.1075
+      ]
+    },
+    {
+      "name": "REF_发动机_右_核心机喷口",
+      "missing": false,
+      "pass": true,
+      "station": 15.8581,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 15.858,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0001,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        4.7147,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_尾喷锥",
+      "missing": false,
+      "pass": true,
+      "station": 17.0613,
+      "abs_x": 6.0734,
+      "agl": 2.1252,
+      "ref_station": 17.061,
+      "ref_abs_x": 6.076,
+      "ref_agl": 2.125,
+      "d_station": 0.0003,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0002,
+      "mean": [
+        -6.0734,
+        3.5115,
+        -2.1146
+      ]
+    },
+    {
+      "name": "REF_发动机_右_其他",
+      "missing": false,
+      "pass": true,
+      "station": 12.5856,
+      "abs_x": 6.0734,
+      "agl": 1.2293,
+      "ref_station": 12.586,
+      "ref_abs_x": 6.076,
+      "ref_agl": 1.229,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0026,
+      "d_agl": 0.0003,
+      "mean": [
+        -6.0734,
+        7.9873,
+        -3.0105
+      ]
+    },
+    {
+      "name": "REF_前起落架_舱门",
+      "missing": false,
+      "pass": true,
+      "station": 4.2215,
+      "abs_x": 0.0,
+      "agl": 2.1109,
+      "ref_station": 4.222,
+      "ref_abs_x": 0.0,
+      "ref_agl": 2.111,
+      "d_station": 0.0005,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0001,
+      "mean": [
+        0.0,
+        16.3513,
+        -2.1289
+      ]
+    },
+    {
+      "name": "REF_前起落架_支柱轮",
+      "missing": false,
+      "pass": true,
+      "station": 5.2422,
+      "abs_x": 0.003,
+      "agl": 0.7934,
+      "ref_station": 5.242,
+      "ref_abs_x": 0.003,
+      "ref_agl": 0.793,
+      "d_station": 0.0002,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0004,
+      "mean": [
+        0.003,
+        15.3306,
+        -3.4464
+      ]
+    },
+    {
+      "name": "REF_主起落架_舱门",
+      "missing": false,
+      "pass": true,
+      "station": 17.1894,
+      "abs_x": 0.0,
+      "agl": 1.6764,
+      "ref_station": 17.189,
+      "ref_abs_x": 0.0,
+      "ref_agl": 1.676,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0,
+      "d_agl": 0.0004,
+      "mean": [
+        -0.0,
+        3.3834,
+        -2.5634
+      ]
+    },
+    {
+      "name": "REF_主起落架_支柱轮",
+      "missing": false,
+      "pass": true,
+      "station": 17.5454,
+      "abs_x": 0.0011,
+      "agl": 1.0051,
+      "ref_station": 17.545,
+      "ref_abs_x": 0.001,
+      "ref_agl": 1.005,
+      "d_station": 0.0004,
+      "d_abs_x": 0.0001,
+      "d_agl": 0.0001,
+      "mean": [
+        0.0011,
+        3.0274,
+        -3.2347
+      ]
+    }
+  ],
+  "reimported": [
+    "REF_发动机_右_其他",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣",
+    "REF_发动机_左_其他",
+    "REF_发动机_左_尾喷锥",
+    "REF_发动机_左_整流锥",
+    "REF_发动机_左_核心机喷口",
+    "REF_发动机_左_短舱外罩",
+    "REF_发动机_左_进气唇口",
+    "REF_发动机_左_风扇叶片",
+    "REF_发动机_左_风扇机匣"
+  ],
+  "failers_before": [
+    "REF_发动机_左_短舱外罩",
+    "REF_发动机_左_进气唇口",
+    "REF_发动机_左_风扇叶片",
+    "REF_发动机_左_风扇机匣",
+    "REF_发动机_左_整流锥",
+    "REF_发动机_左_核心机喷口",
+    "REF_发动机_左_尾喷锥",
+    "REF_发动机_左_其他",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_其他"
+  ],
+  "z0": -4.239783763885498,
+  "z0_check": -4.239783763885498,
+  "tip": 20.572813034057617,
+  "T_REF": {
+    "sx": 1.0475227637527205,
+    "sy": 1.0,
+    "sz": 1.0104343689231436,
+    "tx": 0.0,
+    "ty": 15.463823181152343,
+    "tz": -4.239782612001511,
+    "matrix_order": "T @ S(sx,1,sz) @ R(Z180)"
+  },
+  "unscale": {
+    "inv_sx": 0.9546331923303781,
+    "inv_sz": 0.9896733828103413,
+    "z0": -4.239783763885498
+  },
+  "glb": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.glb",
+  "glb_mesh_count": 37,
+  "visible_meshes": [
+    "CockpitGlass_REF",
+    "Fuselage_REF",
+    "REF_APU排气口",
+    "REF_主起落架_支柱轮",
+    "REF_主起落架_舱门",
+    "REF_前起落架_支柱轮",
+    "REF_前起落架_舱门",
+    "REF_发动机_右_其他",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣",
+    "REF_发动机_左_其他",
+    "REF_发动机_左_尾喷锥",
+    "REF_发动机_左_整流锥",
+    "REF_发动机_左_核心机喷口",
+    "REF_发动机_左_短舱外罩",
+    "REF_发动机_左_进气唇口",
+    "REF_发动机_左_风扇叶片",
+    "REF_发动机_左_风扇机匣",
+    "REF_吊挂_右",
+    "REF_吊挂_左",
+    "REF_尾段天线",
+    "REF_探头天线",
+    "REF_方向舵等",
+    "REF_机翼_右",
+    "REF_机翼_左",
+    "REF_水平尾翼_含升降舵",
+    "REF_舱门缝线",
+    "REF_舷窗玻璃",
+    "REF_雨刮器",
+    "REF_风挡窗框",
+    "REF_驾驶舱内饰",
+    "RadomePanelLines"
+  ],
+  "scripts": [
+    "section10_engine_orient.py"
+  ],
+  "stamp": "2026-10-18T18:26:34"
+}

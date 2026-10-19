@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\希儿\Projects\c919-autonomy\scripts\_test_knife.py", line 7, in <module>
+    target = bpy.context.active_object
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Context' object has no attribute 'active_object'

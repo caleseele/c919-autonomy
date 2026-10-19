@@ -1,0 +1,166 @@
+{
+  "before": {
+    "glass": {
+      "sunk_total": 86,
+      "station_span": [
+        25.984,
+        26.001
+      ]
+    },
+    "seam": {
+      "sunk_total": 8,
+      "station_span": [
+        25.984,
+        26.004
+      ]
+    }
+  },
+  "after": {
+    "glass": {
+      "name": "REF_舷窗玻璃",
+      "total": 86,
+      "lt26": 70,
+      "ge26": 16,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "mean_signed_min": 0.001,
+      "mean_signed_max": 0.86995,
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    },
+    "seam": {
+      "name": "REF_舱门缝线",
+      "total": 8,
+      "lt26": 6,
+      "ge26": 2,
+      "sunk_lt26": 0,
+      "sunk_ge26": 0,
+      "sunk_total": 0,
+      "mean_signed_min": 0.001,
+      "mean_signed_max": 0.95739,
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    }
+  },
+  "dorsal": [
+    {
+      "物体": "Flag_L",
+      "verts": 8,
+      "bbox": {
+        "xmin": -2.122,
+        "xmax": -2.088,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "station_span": [
+        24.408,
+        25.908
+      ]
+    },
+    {
+      "物体": "Flag_R",
+      "verts": 8,
+      "bbox": {
+        "xmin": 2.088,
+        "xmax": 2.122,
+        "ymin": -5.35,
+        "ymax": -3.85,
+        "zmin": 0.15,
+        "zmax": 1.15
+      },
+      "station_span": [
+        24.408,
+        25.908
+      ]
+    },
+    {
+      "物体": "Fuselage",
+      "verts": 1408,
+      "bbox": {
+        "xmin": -2.088,
+        "xmax": 2.088,
+        "ymin": -5.442,
+        "ymax": 14.843,
+        "zmin": -2.102,
+        "zmax": 2.102
+      },
+      "station_span": [
+        5.715,
+        26.0
+      ]
+    },
+    {
+      "物体": "REF_尾段蒙皮_含垂尾",
+      "verts": 3698,
+      "bbox": {
+        "xmin": -2.069,
+        "xmax": 2.072,
+        "ymin": -17.654,
+        "ymax": -5.427,
+        "zmin": -2.083,
+        "zmax": 8.008
+      },
+      "station_span": [
+        25.985,
+        38.212
+      ]
+    },
+    {
+      "物体": "REF_舱门缝线",
+      "verts": 852,
+      "bbox": {
+        "xmin": -2.087,
+        "xmax": 2.087,
+        "ymin": -10.515,
+        "ymax": 16.089,
+        "zmin": -1.011,
+        "zmax": 1.216
+      },
+      "station_span": [
+        4.469,
+        31.073
+      ]
+    },
+    {
+      "物体": "REF_舷窗玻璃",
+      "verts": 5528,
+      "bbox": {
+        "xmin": -2.064,
+        "xmax": 2.064,
+        "ymin": -10.391,
+        "ymax": 15.442,
+        "zmin": -0.664,
+        "zmax": 0.673
+      },
+      "station_span": [
+        5.116,
+        30.949
+      ]
+    }
+  ],
+  "antenna": {
+    "物体": "REF_尾段天线",
+    "verts": 72,
+    "bbox": {
+      "xmin": -1.367,
+      "xmax": 1.367,
+      "ymin": -14.07,
+      "ymax": -5.49,
+      "zmin": 0.471,
+      "zmax": 2.556
+    },
+    "station_span": [
+      26.048,
+      34.628
+    ],
+    "动作": "保留(先前已重导)"
+  },
+  "GearBayDoors": true
+}

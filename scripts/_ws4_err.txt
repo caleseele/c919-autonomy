@@ -1,0 +1,8 @@
+C:\Users\希儿\Projects\c919-autonomy\scripts\ws4_knife_project_windshield.py:292: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\希儿\Projects\c919-autonomy\scripts\ws4_knife_project_windshield.py:324: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\希儿\Projects\c919-autonomy\scripts\ws4_knife_project_windshield.py:397: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\希儿\Projects\c919-autonomy\scripts\ws4_knife_project_windshield.py:657: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True

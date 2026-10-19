@@ -1,0 +1,97 @@
+{
+  "tip_y": 20.557823181152344,
+  "tail_y": -18.462839126586914,
+  "tip_screen_x": 0.05149483308196068,
+  "tail_screen_x": 0.9485050439834595,
+  "orient_ok": true,
+  "cam_tag": "-X_look_+X",
+  "object_count_gt37": 3,
+  "objects_gt37": [
+    {
+      "name": "Fuselage_ORIG",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": true,
+      "aabb": {
+        "xmin": -2.0880000591278076,
+        "xmax": 2.0880000591278076,
+        "ymin": -18.462839126586914,
+        "ymax": 14.850000381469727,
+        "zmin": -2.1019999980926514,
+        "zmax": 2.1019999980926514
+      },
+      "tip_distance_aftmost": 39.02066230773926,
+      "verts": 3073
+    },
+    {
+      "name": "Fuselage",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "aabb": {
+        "xmin": -2.0880000591278076,
+        "xmax": 2.0880000591278076,
+        "ymin": -18.282176971435547,
+        "ymax": 14.842500686645508,
+        "zmin": -2.1019999980926514,
+        "zmax": 2.1019999980926514
+      },
+      "tip_distance_aftmost": 38.84000015258789,
+      "verts": 2511
+    },
+    {
+      "name": "AntennasAPU",
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "aabb": {
+        "xmin": -0.07999999821186066,
+        "xmax": 0.07999999821186066,
+        "ymin": -17.35436248779297,
+        "ymax": 15.215999603271484,
+        "zmin": -0.5582143068313599,
+        "zmax": 2.377000093460083
+      },
+      "tip_distance_aftmost": 37.91218566894531,
+      "verts": 96
+    }
+  ],
+  "image": {
+    "compare_path": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\aft-s5b3\\side_compare_20261018_122851.png",
+    "compare_name": "side_compare_20261018_122851.png",
+    "mtime_epoch": 1792297732.1761842,
+    "mtime_local": "2026-10-18 12:28:52",
+    "size_bytes": 608444,
+    "note": "System.Drawing stack ours+ref; cam verified tip_sx<tail_sx",
+    "cam": {
+      "tag": "-X_look_+X",
+      "tip_screen_x": 0.05149483308196068,
+      "tail_screen_x": 0.9485050439834595,
+      "tip_ndc": [
+        0.05149483308196068,
+        0.4999997913837433,
+        80.0
+      ],
+      "tail_ndc": [
+        0.9485050439834595,
+        0.4999997913837433,
+        80.0
+      ],
+      "loc": [
+        -80.0,
+        1.0474920272827148,
+        0.0
+      ],
+      "rot": [
+        1.5707963267948966,
+        0.0,
+        -1.5707963267948966
+      ],
+      "orient_ok": true
+    }
+  },
+  "list_json": "C:\\Users\\希儿\\Projects\\c919-autonomy\\scripts\\_ref_detail_logs\\aft_tail_objects_gt37.json",
+  "list_zh": "C:\\Users\\希儿\\Projects\\c919-autonomy\\scripts\\_ref_detail_logs\\aft_tail_objects_gt37.zh-Hans.md",
+  "deleted": false,
+  "forked_verified": null
+}

@@ -1,0 +1,36 @@
+=== §7a nose T_REF reimport + resume weld ===
+[bak] → C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-before-s7a-nose.blend
+[roles] {'skin': 'REF_机头蒙皮', 'glass': 'CockpitGlass_REF', 'frame': 'REF_WindshieldFrame', 'wipers': 'REF_Wipers', 'probes': 'REF_ProbesAntennas', 'interior': 'REF_CockpitInterior'}
+[del] REF_机头蒙皮
+[del] CockpitGlass_REF
+[del] REF_WindshieldFrame
+[del] REF_Wipers
+[del] REF_ProbesAntennas
+[del] REF_CockpitInterior
+[import nose] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机头.obj → ['REF_机头蒙皮', 'REF_风挡玻璃']
+[import detail] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机头细节.obj → ['REF_探头天线', 'REF_雨刮器', 'REF_风挡窗框', 'REF_驾驶舱内饰']
+[fit] old_n=3531 new_n=3531
+[fit] info={'method': 'affine_ls', 'n': 3531, 'rms_m': 8.011449311607378e-07, 'rank': 4}
+[fit] C_formula (T_REF@inv(M_old)) translation=[0.0, 15.463823318481445, -4.239782810211182]
+[fit] C_fit translation=[0.001267516054213047, 0.4502789080142975, -0.022047830745577812]
+[corr] RadomePanelLines ymin 20.2439→20.2439
+[corr] CockpitDarkPlane ymin 17.4770→17.4770
+[cut] front_y=14.963823 aft_y=-5.427177
+[dev-front] {'y_world': 14.963823318481445, 'tol': 0.01, 'n_a': 116, 'n_b': 116, 'max_m': 0.0, 'max_mm': 0.0}
+[dev-front-end] {'max_mm': 0.0, 'n_a': 116, 'n_b': 116, 'axial_gap_mm': 0.00095367431640625}
+[dev-aft] {'y_world': -5.427177429199219, 'tol': 0.01, 'n_a': 118, 'n_b': 118, 'max_m': 0.0, 'max_mm': 0.0}
+[gate] front_mm=0.0 via band_tol_10mm; aft_mm=0.0
+[weld] Fuselage_REF verts=15965
+[GearBayDoors] {'name': 'GearBayDoors', 'action': 'deleted', 'reason': "overlap=['REF_主起落架']; mean_d=0.1352 max_d=0.4282 on_surface=False", 'overlap': ['REF_主起落架'], 'mean_d': 0.1352303741228292, 'max_d': 0.42817349301884194}
+[meas] {'项目': '全长', '实测': 38.837, '参考': 38.84, '差值': -0.003, '是否通过': '是'}
+[meas] {'项目': '翼根前缘', '实测': 12.884, '参考': 13.18, '差值': -0.296, '是否通过': '否'}
+[meas] {'项目': '短舱前缘', '实测': 12.081, '参考': 12.27, '差值': -0.189, '是否通过': '是'}
+[meas] {'项目': '主轮中心', '实测': 17.576, '参考': 17.58, '差值': -0.004, '是否通过': '是'}
+[meas] {'项目': '主轮轮距', '实测': 7.157, '参考': 6.83, '差值': 0.327, '是否通过': '否'}
+[meas] {'项目': '前轮中心', '实测': 5.181, '参考': 5.18, '差值': 0.001, '是否通过': '是'}
+[meas] {'项目': '垂尾根部前缘', '实测': 2.746, '参考': 31.46, '差值': -28.714, '是否通过': '否'}
+[cam-side] tip_sx=0.0652 tail_sx=0.9348
+[cam-45] sign=-1.0 tip_sx=-0.0450 tail_sx=0.9286
+[collage] PIL failed: No module named 'PIL'
+[glb] 22 meshes → C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb
+=== §7a DONE ===

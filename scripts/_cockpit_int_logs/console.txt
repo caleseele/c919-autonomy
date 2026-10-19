@@ -1,0 +1,26 @@
+=== COCKPIT INT PASS ===
+[scrap] inventory n=6
+[delete] CockpitCabin
+[delete] PilotSeats
+[interior] tip_y=20.558 y=[17.227,19.730] z=[-0.066,1.321]
+[interior] shell faces=462 verts=326
+[interior] internals=['CockpitGlareShield', 'CockpitGlareWing_L', 'CockpitGlareWing_R', 'CockpitInstrumentPanel', 'CockpitSeat_L_Base', 'CockpitSeat_L_Back', 'CockpitSeat_R_Base', 'CockpitSeat_R_Back']
+[frames] glass islands=4
+  pane0 cx=1.28 cy=18.20 cz=0.63 x=[0.89,1.67] y=[17.58,18.83] z=[0.23,1.02]
+  pane1 cx=-1.28 cy=18.20 cz=0.63 x=[-1.67,-0.89] y=[17.58,18.83] z=[0.23,1.02]
+  pane2 cx=-0.51 cy=18.98 cz=0.66 x=[-0.97,-0.04] y=[18.38,19.58] z=[0.31,1.00]
+  pane3 cx=0.51 cy=18.98 cz=0.66 x=[0.04,0.97] y=[18.38,19.58] z=[0.31,1.00]
+[frames] seals faces=0
+[frames] CockpitPillar_Center at (0.00,18.97,0.66)
+[frames] CockpitPillar_R at (0.89,18.59,0.64)
+[frames] CockpitPillar_L at (-0.89,18.59,0.64)
+[wiper] L base=<Vector (-0.5132, 18.4209, 0.3442)> arm_end=<Vector (-0.7305, 18.4535, 0.3551)>
+[wiper] R base=<Vector (0.5132, 18.4209, 0.3442)> arm_end=<Vector (0.7305, 18.4535, 0.3551)>
+[glass] {'base': '#2E3A3E', 'alpha': 0.45, 'trans': 1.0, 'ior': 1.5, 'rough': 0.03, 'blend': 'BLEND', 'surface': 'BLENDED'}
+backup .bak-cockpit-int
+GLB 1472528 (1.47 MB)
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\cockpit-int\front.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\cockpit-int\oblique45.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\cockpit-int\side.png
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\COCKPIT_INT_NOTES.zh-Hans.md
+=== DONE ===

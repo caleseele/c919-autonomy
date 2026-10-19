@@ -1,0 +1,15 @@
+=== FINISH FIX2 ===
+[floaters] deleted ['WindshieldGapStrip']
+[tip] cleared sharp edges=0
+[tip] removed spike verts=0 r_med=0.8515
+[radome] reset all faces to Skin
+[radome] selective panel faces=320
+[radome] tube lines segs=1346 verts=10768
+[glass] expanded upper rim verts=414 by 4.0mm
+[cabin] rebuilt size=(1.40,1.70,0.43) center=(0.00,18.48,0.63)
+GLB 1796644 (1.80 MB)
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\oblique45.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\front.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\full_side.png
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\NOSE_FINISH_NOTES.zh-Hans.md
+=== DONE FIX2 ===

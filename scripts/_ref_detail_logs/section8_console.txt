@@ -1,0 +1,20 @@
+=== §8 finish (AABB-align) ===
+[restore] from C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-before-s8.blend
+[old L] {'xmin': 4.689639091491699, 'xmax': 7.462089538574219, 'ymin': 3.221512794494629, 'ymax': 8.49215316772461, 'zmin': -3.50079345703125, 'zmax': -0.7283534407615662}
+[old R] {'xmin': -7.4596710205078125, 'xmax': -4.687221050262451, 'ymin': 3.2215147018432617, 'ymax': 8.49215316772461, 'zmin': -3.50079345703125, 'zmax': -0.7283534407615662}
+[import] 16 from C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_发动机分件.obj
+[centers] namedL=-6.076 namedR=6.073 oldL=6.076 oldR=-6.073
+[map] OBJ左→场景右, OBJ右→场景左 (sign flip)
+[pre-align L size] (2.7724499702453613, 5.270639419555664, 2.772439956665039)
+[pre-align R size] (2.7724499702453613, 5.270639419555664, 2.772439956665039)
+[target L size] (2.7724504470825195, 5.2706403732299805, 2.772439956665039)
+[target R size] (2.7724499702453613, 5.270638465881348, 2.772439956665039)
+[align L] scale=[1.0000001719912581, 1.0000001809409145, 1.0]
+[align R] scale=[1.0, 0.9999998190590855, 1.0]
+[delta L] {'xmin': 0.000476837158203125, 'xmax': 0.000476837158203125, 'ymin': 0.0, 'ymax': 0.0, 'zmin': 0.0, 'zmax': 5.9604644775390625e-05, 'max_mm': 0.000476837158203125}
+[delta R] {'xmin': 0.000476837158203125, 'xmax': 0.000476837158203125, 'ymin': 0.0, 'ymax': 0.0, 'zmin': 0.0, 'zmax': 5.9604644775390625e-05, 'max_mm': 0.000476837158203125}
+[del] ['REF_发动机_左', 'REF_发动机_右']
+[mats] done
+[8.3 del explicit] CockpitDarkPlane
+[glb] 35 → C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb
+=== §8 DONE ===

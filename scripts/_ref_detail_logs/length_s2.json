@@ -1,0 +1,247 @@
+{
+  "backup_blend": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-length-s2.blend",
+  "backup_glb": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.glb.bak-length-s2",
+  "door_fill": {
+    "filled_loops": 6,
+    "method": "bmesh.ops.holes_fill on Nose boundary loops in tip_dist≈4–6 side doors",
+    "detail": [
+      {
+        "loop": 1,
+        "n": 59,
+        "tip_dist": [
+          4.581303596496582,
+          5.500772476196289
+        ],
+        "y": [
+          15.057050704956055,
+          15.976519584655762
+        ],
+        "side_x": 2.0575358867645264
+      },
+      {
+        "loop": 4,
+        "n": 32,
+        "tip_dist": [
+          5.242023468017578,
+          5.373394966125488
+        ],
+        "y": [
+          15.184428215026855,
+          15.315799713134766
+        ],
+        "side_x": 2.033578395843506
+      },
+      {
+        "loop": 5,
+        "n": 59,
+        "tip_dist": [
+          4.601736068725586,
+          5.480340003967285
+        ],
+        "y": [
+          15.077483177185059,
+          15.956087112426758
+        ],
+        "side_x": 2.0572540760040283
+      },
+      {
+        "loop": 14,
+        "n": 59,
+        "tip_dist": [
+          4.581302642822266,
+          5.500772476196289
+        ],
+        "y": [
+          15.057050704956055,
+          15.976520538330078
+        ],
+        "side_x": 2.0575358867645264
+      },
+      {
+        "loop": 15,
+        "n": 32,
+        "tip_dist": [
+          5.242023468017578,
+          5.373394966125488
+        ],
+        "y": [
+          15.184428215026855,
+          15.315799713134766
+        ],
+        "side_x": 2.033578395843506
+      },
+      {
+        "loop": 16,
+        "n": 59,
+        "tip_dist": [
+          4.601736068725586,
+          5.480339050292969
+        ],
+        "y": [
+          15.077484130859375,
+          15.956087112426758
+        ],
+        "side_x": 2.0572540760040283
+      }
+    ],
+    "doors_objects_kept": true
+  },
+  "compare_align_notes": {
+    "nose_direction": "LEFT (+Y → image left; cam on +X look −X)",
+    "tip_aligned": true,
+    "same_ortho_scale": 43.500800000000005,
+    "ref_source": "C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\REF_C919_meters.fbx",
+    "stack": "ours top / REF bottom (external)"
+  },
+  "engine_forward_m": 1.61,
+  "moved_objects": [
+    "Engine_L",
+    "Engine_R",
+    "EngineLip_L",
+    "EngineLip_R",
+    "Fan_L",
+    "Fan_R",
+    "Pylon_L",
+    "Pylon_R"
+  ],
+  "tip_to_nacelle_le": 12.267823219299316,
+  "target_nacelle": 12.27,
+  "pylon_status": "STOP",
+  "pylon_detail": {
+    "R": {
+      "status": "STOP",
+      "reason": "pyl_zmax=-0.070 wing_z=[-0.899,-0.309] gap(wing_bot-pyl_top)=-0.829 PIERCING_UPPER",
+      "pyl_zmax": -0.06999999284744263,
+      "wing_zmin": -0.8985695838928223,
+      "wing_zmax": -0.3089745044708252,
+      "gap": -0.8285695910453796
+    },
+    "L": {
+      "status": "STOP",
+      "reason": "pyl_zmax=-0.070 wing_z=[-0.899,-0.309] gap(wing_bot-pyl_top)=-0.829 PIERCING_UPPER",
+      "pyl_zmax": -0.06999999284744263,
+      "wing_zmin": -0.8985695838928223,
+      "wing_zmax": -0.3089745044708252,
+      "gap": -0.8285695910453796
+    },
+    "refined": {
+      "R": {
+        "pylon_top_y": [
+          6.35,
+          6.77
+        ],
+        "dxy_to_wing_m": [
+          0.69,
+          0.9
+        ],
+        "dz_above_nearest_wing_m": [
+          0.3,
+          0.69
+        ],
+        "note": "top ahead/outboard of local wing skin after +1.61 Y"
+      },
+      "L": "symmetric"
+    }
+  },
+  "measurements": {
+    "tip_y": 20.557823181152344,
+    "items": [
+      {
+        "name": "前起落架轮中心",
+        "ours_m": 7.057823181152344,
+        "ref_m": 5.18,
+        "y": 13.5
+      },
+      {
+        "name": "翼根前缘",
+        "ours_m": 13.177823066711426,
+        "ref_m": 13.18,
+        "y": 7.380000114440918
+      },
+      {
+        "name": "翼根后缘",
+        "ours_m": 19.807823061943054,
+        "ref_m": 19.98,
+        "y": 0.7500001192092896
+      },
+      {
+        "name": "短舱前缘",
+        "ours_m": 12.267823219299316,
+        "ref_m": 12.27,
+        "y": 8.289999961853027
+      },
+      {
+        "name": "主起落架轮中心",
+        "ours_m": 17.1578232049942,
+        "ref_m": 17.58,
+        "y": 3.399999976158142
+      },
+      {
+        "name": "左右主轮距",
+        "ours_m": 5.0,
+        "ref_m": 6.83
+      },
+      {
+        "name": "垂尾根部前缘",
+        "ours_m": 31.50782299041748,
+        "ref_m": 31.46,
+        "y": -10.949999809265137
+      },
+      {
+        "name": "水平尾翼根部前缘",
+        "ours_m": 31.90782356262207,
+        "ref_m": 32.86,
+        "y": -11.350000381469727
+      },
+      {
+        "name": "尾锥末端",
+        "ours_m": 36.507822036743164,
+        "ref_m": 38.84,
+        "y": -15.94999885559082
+      },
+      {
+        "name": "全长 tip→尾锥",
+        "ours_m": 36.507822036743164,
+        "ref_m": 38.84
+      }
+    ],
+    "doors": [
+      {
+        "name": "登机门(Doors最高岛)",
+        "ours_from_tip": [
+          14.893823146820068,
+          15.421823024749756
+        ],
+        "ref": [
+          4.48,
+          5.38
+        ]
+      },
+      {
+        "name": "后登机门(Doors最低岛)",
+        "ours_from_tip": [
+          28.003822803497314,
+          28.81182289123535
+        ],
+        "ref": [
+          30.19,
+          31.09
+        ]
+      }
+    ],
+    "tip_to_nacelle_le": 12.267823219299316,
+    "tip_to_wing_le": 13.177823066711426
+  },
+  "previews_s1": {
+    "side_ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s1\\side_ours.png",
+    "side_ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s1\\side_ref.png"
+  },
+  "previews_s2": {
+    "side_ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s2\\side_ours.png",
+    "side_ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s2\\side_ref.png"
+  },
+  "step3_done": false,
+  "window_door_ref_imported": false,
+  "spec_note": "No LENGTH_SPEC.md with §0/§5 in project; followed task §5.2 and §0 fields.",
+  "spec_found": false
+}

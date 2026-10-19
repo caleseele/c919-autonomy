@@ -1,0 +1,31 @@
+newmtl skin_fuselage
+Kd 1 1 1
+map_Kd tex/c919_livery_fuselage.jpg
+newmtl skin_wing_lower
+Kd 1 1 1
+map_Kd tex/c919_tex_wing_lower.jpg
+newmtl skin_wing_upper
+Kd 1 1 1
+map_Kd tex/c919_tex_wing_upper.jpg
+newmtl skin_wing
+Kd 0.89 0.90 0.91
+newmtl pylon
+Kd 0.89 0.90 0.91
+newmtl engine_nacelle
+Kd 1 1 1
+map_Kd tex/c919_tex_leap.jpg
+newmtl engine_nacelle_plain
+Kd 0.95 0.95 0.96
+newmtl engineLip
+Kd 0.85 0.86 0.88
+newmtl fan_metal
+Kd 0.78 0.80 0.82
+newmtl fancase_metal
+Kd 0.23 0.24 0.26
+newmtl spinner_metal
+Kd 1 1 1
+map_Kd tex/c919_tex_spinner.jpg
+newmtl core_metal
+Kd 0.62 0.64 0.66
+newmtl plug_metal
+Kd 0.29 0.30 0.32

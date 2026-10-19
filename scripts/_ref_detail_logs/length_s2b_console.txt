@@ -1,0 +1,19 @@
+=== LENGTH S2b §5 第2步补充 ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-length-s2b.blend
+[ground] z=-4.4300 tip=20.5578
+[nacelle-R] d=(-0.1300,1.6078,-0.5600) → cx=6.070 LE_tip=12.270 zmin=-3.690 clear=0.740
+[nacelle-L] d=(0.1300,1.6078,-0.5600) → cx=-6.070 LE_tip=12.270 zmin=-3.690 clear=0.740
+[gear-R] d=(0.9200,-0.4222,0) → cx=3.420 tipC=17.580 z=[-4.430,-1.600]
+[gear-L] d=(-0.9200,-0.4222,0) → cx=-3.420 tipC=17.580 z=[-4.430,-1.600]
+[gear-nose] dy=1.8778 → tipC=5.180
+[pylon-R] rebuilt stations=8 wing_hits=5 pierced=False
+[pylon-L] rebuilt stations=8 wing_hits=5 pierced=False
+[collide-R] stop=True Y_OVERLAP_NO_WING_SAMPLE y_gap=-2.092 {'span_cx': 6.069999933242798, 'nac_y': [3.1578235626220703, 8.287822723388672], 'nac_z': [-3.68999981880188, -1.3299996852874756], 'wing_le_y': 5.25, 'wing_le_tip': 15.307823181152344, 'nac_le_tip': 12.270000457763672, 'nac_te_tip': 17.399999618530273, 'y_gap_te_to_wing_le': -2.0921764373779297, 'wing_z': None, 'stop': True, 'reason': 'Y_OVERLAP_NO_WING_SAMPLE y_gap=-2.092'}
+[collide-L] stop=True Y_OVERLAP_NO_WING_SAMPLE y_gap=-2.092 {'span_cx': -6.069999933242798, 'nac_y': [3.1578235626220703, 8.287822723388672], 'nac_z': [-3.68999981880188, -1.3299996852874756], 'wing_le_y': 5.25, 'wing_le_tip': 15.307823181152344, 'nac_le_tip': 12.270000457763672, 'nac_te_tip': 17.399999618530273, 'y_gap_te_to_wing_le': -2.0921764373779297, 'wing_z': None, 'stop': True, 'reason': 'Y_OVERLAP_NO_WING_SAMPLE y_gap=-2.092'}
+[render] side_ours
+[ref] OBJ C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机头.obj
+[render] side_ref
+GLB 1584224
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+[progress] C:\Users\希儿\Projects\c919-autonomy\PROGRESS.md lines=19
+=== S2b DONE STOP=True ===

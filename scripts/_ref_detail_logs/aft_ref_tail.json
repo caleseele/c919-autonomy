@@ -1,0 +1,183 @@
+{
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-aft-ref-tail.blend",
+  "restored_from": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-aft-s5b2.blend",
+  "deleted": [
+    "Fuselage_ORIG",
+    "VerticalTail",
+    "Rudder",
+    "Stab_L",
+    "Stab_R"
+  ],
+  "antennas": {
+    "deleted_object": false,
+    "verts_removed": 84,
+    "remaining": 12
+  },
+  "scales": {
+    "sx": 1.0475227637527205,
+    "sz": 1.0104343689231436,
+    "our_hw": 2.072000026702881,
+    "our_h": 4.164000034332275,
+    "our_cz": 0.0,
+    "our_zmin": -2.0820000171661377,
+    "our_zmax": 2.0820000171661377,
+    "y26": -5.442176818847656,
+    "skin_name": "Nose"
+  },
+  "xform": {
+    "sx": 1.0475227637527205,
+    "sz": 1.0104343689231436,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 15.463823181152343,
+    "dz": -4.239782612001511,
+    "target_cut_y": -5.427176818847657,
+    "overlap_m": 0.015,
+    "matrix_order": "T @ S(sx,1,sz) @ R(Z180)"
+  },
+  "ref_path": "C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\C919_REF_尾段.obj",
+  "ref_objects": [
+    "REF_APU排气口",
+    "REF_尾段天线",
+    "REF_尾段蒙皮_含垂尾",
+    "REF_方向舵等",
+    "REF_水平尾翼_含升降舵"
+  ],
+  "measurements": [
+    {
+      "项目": "全长 tip→尾端",
+      "实测": 38.822,
+      "参考": 38.84,
+      "差值": -0.018,
+      "是否通过": "是"
+    },
+    {
+      "项目": "垂尾根部前缘",
+      "实测": 31.441,
+      "参考": 31.46,
+      "差值": -0.019,
+      "是否通过": "是"
+    },
+    {
+      "项目": "水平尾翼根部前缘",
+      "实测": 32.848,
+      "参考": 32.86,
+      "差值": -0.012,
+      "是否通过": "是"
+    },
+    {
+      "项目": "接缝半宽差",
+      "实测": 0.0,
+      "参考": 0.0,
+      "差值": 0.0,
+      "是否通过": "是"
+    },
+    {
+      "项目": "接缝机腹差",
+      "实测": 0.001,
+      "参考": 0.0,
+      "差值": 0.001,
+      "是否通过": "是"
+    },
+    {
+      "项目": "接缝机背差",
+      "实测": 0.0,
+      "参考": 0.0,
+      "差值": 0.0,
+      "是否通过": "是"
+    },
+    {
+      "项目": "26m后非REF非舱门窗网格",
+      "实测": 0,
+      "参考": 0,
+      "差值": 0,
+      "是否通过": "是"
+    },
+    {
+      "项目": "26m后舱门窗(待§6删除)",
+      "实测": "5:['DoorFrames', 'DoorWindows', 'Doors', 'WindowFrames', 'Windows']",
+      "参考": "§6确认后删",
+      "差值": null,
+      "是否通过": "—"
+    }
+  ],
+  "raw": {
+    "aft_y": -18.2643985748291,
+    "vt_le": 25.985000610351562,
+    "ht_le": 32.84758949279785,
+    "seam": {
+      "d_half_w": 0.0001590251922607422,
+      "d_belly": 0.0006079673767089844,
+      "d_back": 0.0003650188446044922,
+      "ok": true
+    },
+    "extras": [
+      "DoorFrames",
+      "Doors",
+      "DoorWindows",
+      "Stripe_L",
+      "Stripe_R",
+      "TailCone",
+      "TailMark",
+      "TailMark_L",
+      "WindowFrames",
+      "Windows"
+    ]
+  },
+  "camera": {
+    "tip_screen_x": 0.053775716572999954,
+    "tail_screen_x": 0.9462241530418396,
+    "orient_ok": true
+  },
+  "render": {
+    "ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\aft-ref-tail\\side_ours_20261018_125339.png",
+    "ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\aft-ref-tail\\side_ref_20261018_125339.png",
+    "compare_path": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\aft-ref-tail\\side_compare_20261018_125352.png",
+    "compare_name": "side_compare_20261018_125352.png",
+    "stamp": "20261018_125339",
+    "mtime_local": "2026-10-18 12:53:52",
+    "size_bytes": 611859
+  },
+  "section6_delete_list": [
+    {
+      "name": "DoorFrames",
+      "verts": 1152,
+      "hide_get": false
+    },
+    {
+      "name": "DoorWindows",
+      "verts": 74,
+      "hide_get": false
+    },
+    {
+      "name": "Doors",
+      "verts": 1084,
+      "hide_get": false
+    },
+    {
+      "name": "GearBayDoors",
+      "verts": 48,
+      "hide_get": false
+    },
+    {
+      "name": "WindowFrames",
+      "verts": 5088,
+      "hide_get": false
+    },
+    {
+      "name": "Windows",
+      "verts": 2544,
+      "hide_get": false
+    }
+  ],
+  "section6_imported": false,
+  "scripts": [
+    "aft_ref_tail_replace.py",
+    "aft_ref_tail_cleanup.py"
+  ],
+  "cleanup_deleted": [
+    "TailCone",
+    "TailMark",
+    "TailMark_L"
+  ]
+}

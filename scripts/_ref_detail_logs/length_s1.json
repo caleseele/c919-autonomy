@@ -1,0 +1,250 @@
+{
+  "backup_blend": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-length-s1.blend",
+  "backup_glb": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.glb.bak-length-s1",
+  "cut": {
+    "y_lo": 4.12999997138977,
+    "y_hi": 7.72999997138977,
+    "length": 3.6
+  },
+  "door_aft_y": 14.827500343322754,
+  "door_fwd_y": 16.179222106933594,
+  "wing_le_before": 3.7799999713897705,
+  "wing_le_after": 7.380000114440918,
+  "tip": 20.557823181152344,
+  "tip_to_wing_le": 13.177823066711426,
+  "target": 13.18,
+  "seam_method": "merge_n=128",
+  "seam_y": 7.72999997138977,
+  "moved_objects": [
+    "DoorFrames",
+    "Doors",
+    "DoorWindows",
+    "Engine_L",
+    "Engine_R",
+    "EngineLip_L",
+    "EngineLip_R",
+    "Fan_L",
+    "Fan_R",
+    "Flag_L",
+    "Flag_R",
+    "Gear_L",
+    "Gear_R",
+    "Pylon_L",
+    "Pylon_R",
+    "Rudder",
+    "Stab_L",
+    "Stab_R",
+    "TailCone",
+    "TailMark",
+    "TailMark_L",
+    "VerticalTail",
+    "Wing_L",
+    "Wing_R",
+    "WingBodyFairing_L",
+    "WingBodyFairing_R",
+    "WingFairing_L",
+    "WingFairing_R",
+    "WingLE_L",
+    "WingLE_R",
+    "Winglet_L",
+    "Winglet_R"
+  ],
+  "straddled_objects": [
+    "AntennasAPU",
+    "Fuselage_ORIG",
+    "GearBayDoors",
+    "Stripe_L",
+    "Stripe_R",
+    "Title",
+    "Title_L",
+    "WindowFrames",
+    "Windows"
+  ],
+  "measurements": {
+    "tip_y": 20.557823181152344,
+    "items": [
+      {
+        "name": "前起落架轮中心",
+        "ours_m": 7.057823181152344,
+        "ref_m": 5.18,
+        "y": 13.5
+      },
+      {
+        "name": "翼根前缘",
+        "ours_m": 13.177823066711426,
+        "ref_m": 13.18,
+        "y": 7.380000114440918
+      },
+      {
+        "name": "翼根后缘",
+        "ours_m": 19.807823061943054,
+        "ref_m": 19.98,
+        "y": 0.7500001192092896
+      },
+      {
+        "name": "短舱前缘",
+        "ours_m": 13.87782335281372,
+        "ref_m": 12.27,
+        "y": 6.679999828338623,
+        "note": "Step2未做，预期约15.88"
+      },
+      {
+        "name": "主起落架轮中心",
+        "ours_m": 17.1578232049942,
+        "ref_m": 17.58,
+        "y": 3.399999976158142
+      },
+      {
+        "name": "左右主轮距",
+        "ours_m": 5.0,
+        "ref_m": 6.83
+      },
+      {
+        "name": "垂尾根部前缘",
+        "ours_m": 31.50782299041748,
+        "ref_m": 31.46,
+        "y": -10.949999809265137
+      },
+      {
+        "name": "水平尾翼根部前缘",
+        "ours_m": 31.90782356262207,
+        "ref_m": 32.86,
+        "y": -11.350000381469727
+      },
+      {
+        "name": "尾锥末端",
+        "ours_m": 36.507822036743164,
+        "ref_m": 38.84,
+        "y": -15.94999885559082
+      },
+      {
+        "name": "全长 tip→尾锥",
+        "ours_m": 36.507822036743164,
+        "ref_m": 38.84
+      }
+    ],
+    "doors": [
+      {
+        "name": "前登机门(Nose蒙皮)",
+        "ours_from_tip": [
+          2.0852413177490234,
+          5.73032283782959
+        ],
+        "span_y": [
+          14.827500343322754,
+          18.47258186340332
+        ],
+        "ref": [
+          4.48,
+          5.38
+        ]
+      },
+      {
+        "name": "登机门(Doors最高岛)",
+        "ours_from_tip": [
+          14.893823146820068,
+          15.421823024749756
+        ],
+        "span_y": [
+          5.136000156402588,
+          5.664000034332275
+        ],
+        "ref": [
+          4.48,
+          5.38
+        ]
+      },
+      {
+        "name": "后登机门(Doors最低岛)",
+        "ours_from_tip": [
+          28.003822803497314,
+          28.81182289123535
+        ],
+        "span_y": [
+          -8.253999710083008,
+          -7.445999622344971
+        ],
+        "ref": [
+          30.19,
+          31.09
+        ]
+      }
+    ],
+    "tip_to_wing_le": 13.177823066711426,
+    "target_tip_to_wing_le": 13.18
+  },
+  "empennage_inventory": [
+    {
+      "name": "Rudder",
+      "verts": 8,
+      "faces": 6,
+      "bbox": {
+        "xmin": 0.0949999988079071,
+        "xmax": 0.14000000059604645,
+        "ymin": -14.600000381469727,
+        "ymax": -14.279998779296875,
+        "zmin": 1.600000023841858,
+        "zmax": 7.599999904632568
+      }
+    },
+    {
+      "name": "Stab_L",
+      "verts": 140,
+      "faces": 122,
+      "bbox": {
+        "xmin": -6.07177734375,
+        "xmax": -0.857746958732605,
+        "ymin": -14.049999237060547,
+        "ymax": -11.350000381469727,
+        "zmin": 0.22323507070541382,
+        "zmax": 1.0172326564788818
+      }
+    },
+    {
+      "name": "Stab_R",
+      "verts": 140,
+      "faces": 122,
+      "bbox": {
+        "xmin": 0.857746958732605,
+        "xmax": 6.07177734375,
+        "ymin": -14.049999237060547,
+        "ymax": -11.350000381469727,
+        "zmin": 0.22323507070541382,
+        "zmax": 1.0172326564788818
+      }
+    },
+    {
+      "name": "TailCone",
+      "verts": 337,
+      "faces": 336,
+      "bbox": {
+        "xmin": -0.6797999739646912,
+        "xmax": 0.6797999739646912,
+        "ymin": -15.94999885559082,
+        "ymax": -14.94999885559082,
+        "zmin": -0.7003999948501587,
+        "zmax": 0.7003999948501587
+      }
+    },
+    {
+      "name": "VerticalTail",
+      "verts": 241,
+      "faces": 241,
+      "bbox": {
+        "xmin": -0.21430686116218567,
+        "xmax": 0.26759544014930725,
+        "ymin": -14.799999237060547,
+        "ymax": -10.949999809265137,
+        "zmin": 0.8179500102996826,
+        "zmax": 8.819999694824219
+      }
+    }
+  ],
+  "previews": {
+    "ours": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s1\\side_ours.png",
+    "ref": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s1\\side_ref.png",
+    "compare": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\length-s1\\side_compare.png"
+  },
+  "ref_source_note": "Used REF_C919_meters.fbx (C919_REF_整机.obj not found on disk)",
+  "glb_bytes": 1478904
+}

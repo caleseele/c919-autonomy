@@ -1,0 +1,39 @@
+=== AFT S5b reshape ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-aft-s5b.blend
+[const] tip=20.5578 belly0_z=-2.0960
+[before] td=26.0 belly_h=0.014 back_h=4.178 half_w=2.072
+[before] td=28.0 belly_h=0.038 back_h=4.154 half_w=2.050
+[before] td=29.0 belly_h=0.038 back_h=4.154 half_w=2.050
+[before] td=30.0 belly_h=0.081 back_h=4.111 half_w=2.010
+[before] td=31.0 belly_h=0.081 back_h=4.111 half_w=2.010
+[before] td=32.0 belly_h=0.151 back_h=4.041 half_w=1.940
+[before] td=33.0 belly_h=0.271 back_h=3.921 half_w=1.820
+[before] td=34.0 belly_h=0.271 back_h=3.921 half_w=1.820
+[before] td=35.0 belly_h=0.626 back_h=3.566 half_w=1.460
+[before] td=36.0 belly_h=0.841 back_h=3.351 half_w=1.240
+[before] td=37.0 belly_h=1.301 back_h=2.891 half_w=0.780
+[before] td=38.84 belly_h=1.956 back_h=2.236 half_w=0.130
+[reshape] Fuselage verts=1921
+[reshape] TailCone verts=337
+[vt] {'status': 'GAP', 'gap_avg': -0.9772887378931046, 'gap_min': -1.2260501384735107, 'gap_max': -0.6192938089370728}
+[stab-R] translate dx=0.4740 (gap was -0.4940)
+[stab-L] translate dx=-0.4740 (gap was -0.4940)
+[apu] {'tip_dist': 38.887821197509766, 'bbox_diam': 0.12547799944877625, 'mean_diam': 0.06260466275453644, 'center_z': 0.7844597697257996, 'n': 145}
+[after] td=26 meas=0.014/4.178/2.072 tgt=0.000/4.160/1.980 pass=True
+[after] td=28 meas=0.273/4.155/1.952 tgt=0.200/4.160/1.970 pass=True
+[after] td=29 meas=0.273/4.155/1.952 tgt=0.360/4.150/1.930 pass=True
+[after] td=30 meas=0.618/4.140/1.828 tgt=0.550/4.140/1.860 pass=True
+[after] td=31 meas=0.618/4.140/1.828 tgt=0.740/4.140/1.770 pass=False
+[after] td=32 meas=0.933/4.140/1.656 tgt=0.960/4.140/1.640 pass=True
+[after] td=33 meas=1.291/4.025/1.352 tgt=1.210/4.050/1.440 pass=True
+[after] td=34 meas=1.291/4.025/1.352 tgt=1.440/3.980/1.190 pass=False
+[after] td=35 meas=1.801/3.936/0.981 tgt=1.730/3.950/1.000 pass=True
+[after] td=36 meas=1.973/3.903/0.934 tgt=1.990/3.900/0.930 pass=True
+[after] td=37 meas=2.323/3.679/0.756 tgt=2.310/3.690/0.770 pass=True
+[after] td=38.84 meas=2.874/3.226/0.176 tgt=2.875/3.225/0.175 pass=True
+[render] ours
+[ref] C:\Users\希儿\Projects\c919-autonomy\refs\REF_C919_meters.fbx (no C919_REF_整机.obj)
+[render] ref
+GLB 1584280
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+=== S5b DONE ===

@@ -1,0 +1,23 @@
+=== NOSE REPLACE REF START ===
+ROOT=C:\Users\希儿\Projects\c919-autonomy
+REF_OBJ=C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机头.obj exists=True
+[1] rebuild via C:\Users\希儿\Projects\c919-autonomy\scripts\build_c919.py
+[1] build_c919.main done
+[1] cleaned objects: ['CockpitCabin', 'CockpitFrames', 'GlareShield', 'Nose', 'PitotProbes', 'SW_L', 'SW_R', 'WindshieldWipers', 'WS_L', 'WS_R']
+[2] MEASURE forward=+Y W=4.1200 H=4.1200 cx=0.0000 cz=0.0000 cut_y=14.8500 join_y=14.8500 plateau_front=6.0000
+[3] imported: ['REF_机头蒙皮', 'REF_风挡玻璃']
+[3] xform sx=1.0457 sy=1.0216 sz=0.9976 cutW=4.1272 cutH=4.1207 y=[14.835,20.565] target_cut=14.835
+[4] bisect at y=14.8425 clear_outer(+Y) done; verts=3201
+[5] materials assigned
+[5] cabin box at (0.00,17.27,0.63) size=(2.20,0.55,0.67)
+[QA] join gap dW=0.70cm dH=0.05cm dcx=0.00cm dcz=0.00cm
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\result_front.png
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\result_side.png
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\result_oblique45.png
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\ref_alone_front.png
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\ref_alone_side.png
+[QA] wrote C:\Users\希儿\Projects\c919-autonomy\public\models\nose-replace\ref_alone_oblique45.png
+[6] backup C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb.bak-nose-replace
+[6] exported C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb size=1528008 (1.53 MB)
+[done] notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\NOSE_REPLACE_PASS_NOTES.zh-Hans.md
+=== NOSE REPLACE REF END ===

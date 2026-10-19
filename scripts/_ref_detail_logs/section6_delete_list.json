@@ -1,0 +1,36 @@
+{
+  "confirm_before_delete": true,
+  "objects": [
+    {
+      "name": "DoorFrames",
+      "verts": 1152,
+      "hide_get": false
+    },
+    {
+      "name": "DoorWindows",
+      "verts": 74,
+      "hide_get": false
+    },
+    {
+      "name": "Doors",
+      "verts": 1084,
+      "hide_get": false
+    },
+    {
+      "name": "GearBayDoors",
+      "verts": 48,
+      "hide_get": false
+    },
+    {
+      "name": "WindowFrames",
+      "verts": 5088,
+      "hide_get": false
+    },
+    {
+      "name": "Windows",
+      "verts": 2544,
+      "hide_get": false
+    }
+  ],
+  "next": "import C919_REF_舱门舷窗.obj after confirm"
+}

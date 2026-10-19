@@ -1,0 +1,2 @@
+register_class(...):
+Info: Registering key-config preferences class: 'Prefs', bl_idname 'Blender' has been registered before, unregistering previous

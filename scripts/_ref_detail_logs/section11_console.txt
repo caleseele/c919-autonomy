@@ -1,0 +1,78 @@
+=== section11 livery UV ===
+[bak] -> C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-before-s11.blend
+[tip]=20.572813 z0=-4.239784
+[path] fuse UV = C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机身UV源.obj
+[import] 1 from C919_REF_机身UV源.obj: ['REF_机身UV源']
+[11.2 check] {'name': 'REF_机身UV源', 'missing': False, 'pass': True, 'station': 16.7842, 'abs_x': 0.0012, 'agl': 4.2179, 'ref_station': 16.784, 'ref_abs_x': 0.0, 'ref_agl': 4.218, 'd_station': 0.0002, 'd_abs_x': 0.0012, 'd_agl': 0.0001}
+[uv] Data Transfer applied: REF_机身UV源 -> Fuselage_REF
+[11.2] Fuselage_REF -> skin_fuselage (map=True)
+[11.2] deleted REF_机身UV源
+[path] wing=C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机翼吊挂UV.obj
+[path] eng=C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_发动机分件UV.obj
+[import] 4 from C919_REF_机翼吊挂UV.obj: ['REF_吊挂_右.001', 'REF_吊挂_左.001', 'REF_机翼_右.001', 'REF_机翼_左.001']
+[import] 16 from C919_REF_发动机分件UV.obj: ['REF_发动机_右_其他.001', 'REF_发动机_右_尾喷锥.001', 'REF_发动机_右_整流锥.001', 'REF_发动机_右_核心机喷口.001', 'REF_发动机_右_短舱外罩.001', 'REF_发动机_右_进气唇口.001', 'REF_发动机_右_风扇叶片.001', 'REF_发动机_右_风扇机匣.001', 'REF_发动机_左_其他.001', 'REF_发动机_左_尾喷锥.001', 'REF_发动机_左_整流锥.001', 'REF_发动机_左_核心机喷口.001', 'REF_发动机_左_短舱外罩.001', 'REF_发动机_左_进气唇口.001', 'REF_发动机_左_风扇叶片.001', 'REF_发动机_左_风扇机匣.001']
+[11.3] REF_机翼_左: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_机翼_右: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_吊挂_左: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_吊挂_右: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_短舱外罩: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_进气唇口: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_风扇叶片: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_风扇机匣: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_整流锥: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_核心机喷口: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_尾喷锥: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_左_其他: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_短舱外罩: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_进气唇口: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_风扇叶片: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_风扇机匣: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_整流锥: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_核心机喷口: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_尾喷锥: pass=True d=(0.0,0.0,0.0)
+[11.3] REF_发动机_右_其他: pass=True d=(0.0,0.0,0.0)
+[del old] REF_机翼_左
+[del old] REF_机翼_右
+[del old] REF_吊挂_左
+[del old] REF_吊挂_右
+[del old] REF_发动机_左_短舱外罩
+[del old] REF_发动机_左_进气唇口
+[del old] REF_发动机_左_风扇叶片
+[del old] REF_发动机_左_风扇机匣
+[del old] REF_发动机_左_整流锥
+[del old] REF_发动机_左_核心机喷口
+[del old] REF_发动机_左_尾喷锥
+[del old] REF_发动机_左_其他
+[del old] REF_发动机_右_短舱外罩
+[del old] REF_发动机_右_进气唇口
+[del old] REF_发动机_右_风扇叶片
+[del old] REF_发动机_右_风扇机匣
+[del old] REF_发动机_右_整流锥
+[del old] REF_发动机_右_核心机喷口
+[del old] REF_发动机_右_尾喷锥
+[del old] REF_发动机_右_其他
+[rename] -> REF_机翼_左
+[rename] -> REF_机翼_右
+[rename] -> REF_吊挂_左
+[rename] -> REF_吊挂_右
+[rename] -> REF_发动机_左_短舱外罩
+[rename] -> REF_发动机_左_进气唇口
+[rename] -> REF_发动机_左_风扇叶片
+[rename] -> REF_发动机_左_风扇机匣
+[rename] -> REF_发动机_左_整流锥
+[rename] -> REF_发动机_左_核心机喷口
+[rename] -> REF_发动机_左_尾喷锥
+[rename] -> REF_发动机_左_其他
+[rename] -> REF_发动机_右_短舱外罩
+[rename] -> REF_发动机_右_进气唇口
+[rename] -> REF_发动机_右_风扇叶片
+[rename] -> REF_发动机_右_风扇机匣
+[rename] -> REF_发动机_右_整流锥
+[rename] -> REF_发动机_右_核心机喷口
+[rename] -> REF_发动机_右_尾喷锥
+[rename] -> REF_发动机_右_其他
+[mat] REF_水平尾翼_含升降舵 -> skin_hstab
+[mat] REF_方向舵等 -> rudder
+[mats] [{'name': 'skin_fuselage', 'present': True, 'has_map': True, 'image': '//..\\..\\refs\\tex\\c919_livery_fuselage.jpg'}, {'name': 'skin_wing_lower', 'present': True, 'has_map': True, 'image': '//..\\..\\refs\\tex\\c919_tex_wing_lower.jpg'}, {'name': 'skin_wing_upper', 'present': True, 'has_map': True, 'image': '//..\\..\\refs\\tex\\c919_tex_wing_upper.jpg'}, {'name': 'skin_wing', 'present': True, 'has_map': False, 'image': None}, {'name': 'pylon', 'present': True, 'has_map': False, 'image': None}, {'name': 'engine_nacelle', 'present': True, 'has_map': True, 'image': '//..\\..\\refs\\tex\\c919_tex_leap.jpg'}, {'name': 'engine_nacelle_plain', 'present': True, 'has_map': False, 'image': None}, {'name': 'engineLip', 'present': True, 'has_map': False, 'image': None}, {'name': 'fan_metal', 'present': True, 'has_map': False, 'image': None}, {'name': 'fancase_metal', 'present': True, 'has_map': False, 'image': None}, {'name': 'spinner_metal', 'present': True, 'has_map': True, 'image': '//..\\..\\refs\\tex\\c919_tex_spinner.jpg'}, {'name': 'core_metal', 'present': True, 'has_map': False, 'image': None}, {'name': 'plug_metal', 'present': True, 'has_map': False, 'image': None}]
+[glb] 37 -> C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb
+=== section11 DONE ===

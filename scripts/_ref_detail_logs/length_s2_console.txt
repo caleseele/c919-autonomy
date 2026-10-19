@@ -1,0 +1,37 @@
+=== LENGTH PRE-S2 FIX + STEP 2 ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-length-s2.blend
+[measure0] tip=20.5578 nacelle_le=6.6800 tip→nac=13.8778
+[door-fill] skip loop0 join-rim n=116
+[door-fill] filled loop1 n=59 tip_dist=[4.581,5.501]
+[door-fill] skip loop3 windshield-ish n=94
+[door-fill] filled loop4 n=32 tip_dist=[5.242,5.373]
+[door-fill] filled loop5 n=59 tip_dist=[4.602,5.480]
+[door-fill] filled loop14 n=59 tip_dist=[4.581,5.501]
+[door-fill] filled loop15 n=32 tip_dist=[5.242,5.373]
+[door-fill] filled loop16 n=59 tip_dist=[4.602,5.480]
+[door-fill] skip loop17 windshield-ish n=12
+[door-fill] result loops=6
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s1\side_ours.png
+[ref] import C:\Users\希儿\Projects\c919-autonomy\refs\REF_C919_meters.fbx n=1
+[ref-align] tip 19.4186 → 20.5578 dy=1.1392
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s1\side_ref.png
+[compare-s1] align notes {'nose_direction': 'LEFT (+Y → image left; cam on +X look −X)', 'tip_aligned': True, 'same_ortho_scale': 43.500800000000005, 'ref_source': 'C:\\Users\\希儿\\Projects\\c919-autonomy\\refs\\REF_C919_meters.fbx', 'stack': 'ours top / REF bottom (external)'}
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[engine] mesh += (0.0000,1.6100,0.0000) local → world +Y 1.61
+[verify-s2] tip→nacelle_LE=12.2678 target=12.27
+[pylon-R] STOP pyl_zmax=-0.070 wing_z=[-0.899,-0.309] gap(wing_bot-pyl_top)=-0.829 PIERCING_UPPER
+[pylon-L] STOP pyl_zmax=-0.070 wing_z=[-0.899,-0.309] gap(wing_bot-pyl_top)=-0.829 PIERCING_UPPER
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s2\side_ours.png
+[ref] import C:\Users\希儿\Projects\c919-autonomy\refs\REF_C919_meters.fbx n=1
+[ref-align] tip 19.4186 → 20.5578 dy=1.1392
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\length-s2\side_ref.png
+GLB 1594468
+[save] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.blend
+[json] C:\Users\希儿\Projects\c919-autonomy\scripts\_ref_detail_logs\length_s2.json
+=== STEP2 DONE pylon=STOP tip_nac=12.2678 ===

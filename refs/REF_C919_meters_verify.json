@@ -1,0 +1,29 @@
+{
+  "out": "C:\\Users\\\u5e0c\u513f\\Projects\\c919-autonomy\\refs\\REF_C919_meters.fbx",
+  "desktop": "C:\\Users\\\u5e0c\u513f\\Desktop\\REF_C919_meters.fbx",
+  "bytes": 4931084,
+  "length_m": 38.83721923828125,
+  "span_m": 35.6927490234375,
+  "height_m": 12.13363265991211,
+  "x_range": [
+    -17.84637451171875,
+    17.84637451171875
+  ],
+  "y_range": [
+    -19.41864013671875,
+    19.4185791015625
+  ],
+  "z_range": [
+    0.0,
+    12.13363265991211
+  ],
+  "tip_y": -19.41864013671875,
+  "verts": 67618,
+  "faces": 121368,
+  "target": {
+    "length": 38.8,
+    "span": 35.7,
+    "height": 12.1
+  },
+  "ok_dims": true
+}

@@ -1,0 +1,24 @@
+=== NOSE FINISH PASS ===
+[1] glass {"name": "REF_CockpitGlass", "alpha": 0.30000001192092896, "ior": 1.5, "rough": 0.019999999552965164, "trans": 1.0, "blend": "BLEND", "surface_render": "BLENDED"}
+[1] cabin {"exists": true, "name": "CockpitCabin", "verts": 8, "mat": "REF_CabinDark"}
+[2] inventory rows=21
+  SUSPECT TailMark faces=1 edges=4 flags=['thin_sheet']
+  SUSPECT TailMark_L faces=1 edges=4 flags=['thin_sheet']
+  SUSPECT Title faces=1 edges=4 flags=['thin_sheet']
+  SUSPECT Title_L faces=1 edges=4 flags=['thin_sheet']
+[Nose] removed loose edges=0
+[2] tip thin-face candidates=930
+[gap strip] faces=1648 verts=964
+[doors] islands=[{"i": 1, "n": 269, "ymin": 14.145999908447266, "ymax": 14.694000244140625, "yc": 14.420000076293945, "xc": -1.9886870980262756, "zc": 0.12029063701629639}, {"i": 5, "n": 269, "ymin": 14.145999908447266, "ymax": 14.694000244140625, "yc": 14.420000076293945, "xc": 1.9886870980262756, "zc": 0.12029063701629639}, {"i": 3, "n": 273, "ymin": 12.645999908447266, "ymax": 13.454000473022461, "yc": 13.050000190734863, "xc": 1.9686965942382812, "zc": 0.05012005567550659}, {"i": 4, "n": 273, "ymin": 12.645999908447266, "ymax": 13.454000473022461, "yc": 13.050000190734863, "xc": -1.9686965942382812, "zc": 0.05012005567550659}, {"i": 2, "n": 269, "ymin": 1.5360000133514404, "ymax": 2.063999891281128, "yc": 1.7999999523162842, "xc": 1.8051875233650208, "zc": 0.9522495865821838}, {"i": 6, "n": 269, "ymin": 1.5360000133514404, "ymax": 2.063999891281128, "yc": 1.7999999523162842, "xc": -1.8051875233650208, "zc": 0.9522495865821838}, {"i": 0, "n": 273, "ymin": -11.854000091552734, "ymax": -11.045999526977539, "yc": -11.449999809265137, "xc": -1.9444918036460876, "zc": 0.05012160539627075}, {"i": 7, "n": 273, "ymin": -11.854000091552734, "ymax": -11.045999526977539, "yc": -11.449999809265137, "xc": 1.9444918036460876, "zc": 0.05012160539627075}]
+[doors] deleted forward islands from Doors: [{'i': 1, 'n': 269, 'ymin': 14.145999908447266, 'ymax': 14.694000244140625, 'yc': 14.420000076293945, 'xc': -1.9886870980262756, 'zc': 0.12029063701629639}, {'i': 5, 'n': 269, 'ymin': 14.145999908447266, 'ymax': 14.694000244140625, 'yc': 14.420000076293945, 'xc': 1.9886870980262756, 'zc': 0.12029063701629639}, {'i': 3, 'n': 273, 'ymin': 12.645999908447266, 'ymax': 13.454000473022461, 'yc': 13.050000190734863, 'xc': 1.9686965942382812, 'zc': 0.05012005567550659}, {'i': 4, 'n': 273, 'ymin': 12.645999908447266, 'ymax': 13.454000473022461, 'yc': 13.050000190734863, 'xc': -1.9686965942382812, 'zc': 0.05012005567550659}]
+[doors] trimmed DoorFrames faces=864
+[doors] trimmed DoorWindows faces=64
+[4] doors deleted_forward_Doors_islands
+[radome] assigned panel mat to 3536 faces color=#C8CACD
+backup C:\Users\希儿\Projects\c919-autonomy\public\models\c919.glb.bak-nose-finish
+GLB 1478112 (1.48 MB)
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\oblique45.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\front.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\nose-finish\full_side.png
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\NOSE_FINISH_NOTES.zh-Hans.md
+=== DONE ===

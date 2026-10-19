@@ -1,0 +1,21 @@
+=== AFT S5b FIX ===
+tip=20.5578 z0=-2.0960
+[apu-fix] TailCone verts touched=337
+[vt-fix] VerticalTail dz=0.9344
+[vt-fix] Rudder dz=0.9344
+[vt] {'status': 'OK', 'gap_avg': -0.04287239909172058}
+[apu] {'mean_diam_tipband': 0.35230823173420067, 'diam_at_38.5': 0.3801986903802168, 'n': 145, 'center_z_target': 0.9540000438690184}
+[meas] td=26 0.014/4.178/2.072 tgt 0/4.16/1.98 pass=True
+[meas] td=28 0.273/4.155/1.952 tgt 0.2/4.16/1.97 pass=True
+[meas] td=29 0.273/4.155/1.952 tgt 0.36/4.15/1.93 pass=True
+[meas] td=30 0.618/4.140/1.828 tgt 0.55/4.14/1.86 pass=True
+[meas] td=31 0.618/4.140/1.828 tgt 0.74/4.14/1.77 pass=True
+[meas] td=32 0.933/4.140/1.656 tgt 0.96/4.14/1.64 pass=True
+[meas] td=33 1.291/4.025/1.352 tgt 1.21/4.05/1.44 pass=True
+[meas] td=34 1.291/4.025/1.352 tgt 1.44/3.98/1.19 pass=False
+[meas] td=35 1.801/3.936/0.981 tgt 1.73/3.95/1.0 pass=True
+[meas] td=36 1.973/3.903/0.934 tgt 1.99/3.9/0.93 pass=True
+[meas] td=37 2.323/3.679/0.756 tgt 2.31/3.69/0.77 pass=True
+[meas] td=38.84 2.849/3.226/0.176 tgt 2.875/3.225/0.175 pass=True
+GLB 1584280
+=== FIX DONE ===

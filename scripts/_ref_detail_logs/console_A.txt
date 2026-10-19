@@ -1,0 +1,31 @@
+=== REF DETAIL PASS A ===
+[delete] CockpitPillar_Center
+[delete] CockpitPillar_L
+[delete] CockpitPillar_R
+[delete] CockpitSeals
+[delete] Wiper_L_Arm
+[delete] Wiper_L_Blade
+[delete] Wiper_R_Arm
+[delete] Wiper_R_Blade
+[delete] CockpitInterior
+[delete] CockpitGlareShield
+[delete] CockpitInstrumentPanel
+[delete] CockpitSeat_L_Base
+[delete] CockpitSeat_L_Back
+[delete] CockpitSeat_R_Base
+[delete] CockpitSeat_R_Back
+[spikes] faces=30 low_verts=335
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\ref-detail\after_delete_oblique45.png
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_机头细节.obj
+[import] objects=['REF_探头天线', 'REF_雨刮器', 'REF_风挡窗框', 'REF_驾驶舱内饰']
+[xform] sx=1.045685 sy=1.021632 sz=0.997579 T=(-0.0013,15.3458,-4.1641)
+[seam] sx2=0.998292 sz2=0.999876 d=(0.0000,-0.0075,0.0000)
+[refine] dx=0.0200 dy=0.1439 dz=-0.5263 (tip/cut blend)
+[interior] added CockpitDarkPlane behind glass
+backup .bak-ref-detail-A
+GLB 1619104 (1.62 MB)
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\ref-detail\front.png
+[render] C:\Users\希儿\Projects\c919-autonomy\public\models\ref-detail\oblique45.png
+[plan] C:\Users\希儿\Projects\c919-autonomy\scripts\REF_LENGTH_SHORTEN_PLAN.zh-Hans.md
+notes -> C:\Users\希儿\Projects\c919-autonomy\scripts\REF_DETAIL_A_NOTES.zh-Hans.md
+=== DONE A ===

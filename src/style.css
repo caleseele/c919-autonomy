@@ -1,0 +1,26 @@
+:root {
+  --navy: #0a2a5e;
+  --ink: #071428;
+  --cloud: #f5f7fa;
+  --gold: #d8a94e;
+  --red: #d6392f;
+  font-family: 'Source Han Sans SC', 'Noto Sans SC', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--ink);
+  color: var(--cloud);
+}
+
+button {
+  font-family: inherit;
+}

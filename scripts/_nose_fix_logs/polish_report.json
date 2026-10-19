@@ -1,0 +1,94 @@
+{
+  "glb_bytes": 1627928,
+  "seal_faces": 328,
+  "glass_faces": 1632,
+  "seal_panes": [
+    {
+      "src": "WS_L",
+      "outer_faces": 408,
+      "boundary": 82,
+      "seal_quads": 82,
+      "c": [
+        -0.655,
+        17.277,
+        1.359
+      ],
+      "n": [
+        -0.507,
+        0.343,
+        0.791
+      ]
+    },
+    {
+      "src": "WS_R",
+      "outer_faces": 408,
+      "boundary": 82,
+      "seal_quads": 82,
+      "c": [
+        0.655,
+        17.277,
+        1.359
+      ],
+      "n": [
+        0.344,
+        0.297,
+        0.891
+      ]
+    },
+    {
+      "src": "SW_L",
+      "outer_faces": 408,
+      "boundary": 82,
+      "seal_quads": 82,
+      "c": [
+        -1.735,
+        16.308,
+        0.38
+      ],
+      "n": [
+        -0.97,
+        0.222,
+        0.102
+      ]
+    },
+    {
+      "src": "SW_R",
+      "outer_faces": 408,
+      "boundary": 82,
+      "seal_quads": 82,
+      "c": [
+        1.736,
+        16.308,
+        0.38
+      ],
+      "n": [
+        0.505,
+        0.862,
+        -0.05
+      ]
+    }
+  ],
+  "boundary_edges": 154,
+  "boundary_loops": 2,
+  "holes": {
+    "WS_R": "OPEN",
+    "WS_L": "OPEN",
+    "SW_R": "OPEN",
+    "SW_L": "OPEN",
+    "tip": "OPEN",
+    "cheek": "OPEN",
+    "_open_windows": 4,
+    "faces": 602,
+    "boundary": 139,
+    "tip_y": 20.371685028076172,
+    "tip_r_mean": 0.4507481699813735,
+    "tip_r_max": 0.7149092266969528
+  },
+  "radome": {
+    "cy": 19.74054527282715,
+    "R": 0.6353733433770374,
+    "old_tip": 20.24054527282715,
+    "new_tip": 20.371685028076172,
+    "moved": 480
+  }
+}

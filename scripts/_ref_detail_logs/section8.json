@@ -1,0 +1,168 @@
+{
+  "backup": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.bak-before-s8.blend",
+  "method": "AABB per-axis align to existing REF_发动机_左/右",
+  "mapping": "OBJ左→场景右, OBJ右→场景左 (sign flip)",
+  "align_L": {
+    "sx": 1.0000001719912581,
+    "sy": 1.0000001809409145,
+    "sz": 1.0,
+    "scale": [
+      1.0000001719912581,
+      1.0000001809409145,
+      1.0
+    ]
+  },
+  "align_R": {
+    "sx": 1.0,
+    "sy": 0.9999998190590855,
+    "sz": 1.0,
+    "scale": [
+      1.0,
+      0.9999998190590855,
+      1.0
+    ]
+  },
+  "old_L": {
+    "xmin": 4.689639091491699,
+    "xmax": 7.462089538574219,
+    "ymin": 3.221512794494629,
+    "ymax": 8.49215316772461,
+    "zmin": -3.50079345703125,
+    "zmax": -0.7283534407615662
+  },
+  "old_R": {
+    "xmin": -7.4596710205078125,
+    "xmax": -4.687221050262451,
+    "ymin": 3.2215147018432617,
+    "ymax": 8.49215316772461,
+    "zmin": -3.50079345703125,
+    "zmax": -0.7283534407615662
+  },
+  "new_L": {
+    "xmin": 4.689638614654541,
+    "xmax": 7.4620890617370605,
+    "ymin": 3.221512794494629,
+    "ymax": 8.49215316772461,
+    "zmin": -3.50079345703125,
+    "zmax": -0.7283535003662109
+  },
+  "new_R": {
+    "xmin": -7.459671497344971,
+    "xmax": -4.687221527099609,
+    "ymin": 3.2215147018432617,
+    "ymax": 8.49215316772461,
+    "zmin": -3.50079345703125,
+    "zmax": -0.7283535003662109
+  },
+  "delta_L_mm": {
+    "xmin": 0.000476837158203125,
+    "xmax": 0.000476837158203125,
+    "ymin": 0.0,
+    "ymax": 0.0,
+    "zmin": 0.0,
+    "zmax": 5.9604644775390625e-05,
+    "max_mm": 0.000476837158203125
+  },
+  "delta_R_mm": {
+    "xmin": 0.000476837158203125,
+    "xmax": 0.000476837158203125,
+    "ymin": 0.0,
+    "ymax": 0.0,
+    "zmin": 0.0,
+    "zmax": 5.9604644775390625e-05,
+    "max_mm": 0.000476837158203125
+  },
+  "imported": [
+    "REF_发动机_左_其他.001",
+    "REF_发动机_左_尾喷锥.001",
+    "REF_发动机_左_整流锥.001",
+    "REF_发动机_左_核心机喷口.001",
+    "REF_发动机_左_短舱外罩.001",
+    "REF_发动机_左_进气唇口.001",
+    "REF_发动机_左_风扇叶片.001",
+    "REF_发动机_左_风扇机匣.001",
+    "REF_发动机_右_其他",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣"
+  ],
+  "purged_before": [],
+  "scripts": [
+    "section8_finish.py"
+  ],
+  "viewer_files": [
+    "src/three/viewer.ts"
+  ],
+  "deleted_engines": [
+    "REF_发动机_左",
+    "REF_发动机_右"
+  ],
+  "pass": true,
+  "stopped": false,
+  "nose_belly": {
+    "tip": 20.572813034057617,
+    "belly_z": -2.141683340072632,
+    "y_band": [
+      13.572813034057617,
+      18.572813034057617
+    ],
+    "candidates": []
+  },
+  "deleted_8_3": [
+    "CockpitDarkPlane"
+  ],
+  "kept_8_3": [],
+  "glb": "C:\\Users\\希儿\\Projects\\c919-autonomy\\public\\models\\c919.glb",
+  "glb_mesh_count": 35,
+  "visible_meshes": [
+    "CockpitGlass_REF",
+    "Fuselage_REF",
+    "REF_APU排气口",
+    "REF_主起落架",
+    "REF_前起落架",
+    "REF_发动机_右_其他",
+    "REF_发动机_右_尾喷锥",
+    "REF_发动机_右_整流锥",
+    "REF_发动机_右_核心机喷口",
+    "REF_发动机_右_短舱外罩",
+    "REF_发动机_右_进气唇口",
+    "REF_发动机_右_风扇叶片",
+    "REF_发动机_右_风扇机匣",
+    "REF_发动机_左_其他",
+    "REF_发动机_左_尾喷锥",
+    "REF_发动机_左_整流锥",
+    "REF_发动机_左_核心机喷口",
+    "REF_发动机_左_短舱外罩",
+    "REF_发动机_左_进气唇口",
+    "REF_发动机_左_风扇叶片",
+    "REF_发动机_左_风扇机匣",
+    "REF_吊挂_右",
+    "REF_吊挂_左",
+    "REF_尾段天线",
+    "REF_探头天线",
+    "REF_方向舵等",
+    "REF_机翼_右",
+    "REF_机翼_左",
+    "REF_水平尾翼_含升降舵",
+    "REF_舱门缝线",
+    "REF_舷窗玻璃",
+    "REF_雨刮器",
+    "REF_风挡窗框",
+    "REF_驾驶舱内饰",
+    "RadomePanelLines"
+  ],
+  "web": {
+    "changed": [
+      "src/three/viewer.ts"
+    ],
+    "changes": [
+      "added RoomEnvironment PMREM → scene.environment",
+      "DirectionalLight key 0xfff4e5 → 0xffffff (intensity 1.55 kept)"
+    ]
+  },
+  "note_8_3": "CockpitDarkPlane deleted (cockpit bulkhead/dark slab; z above belly so not in strict belly band, explicit delete per SPEC)"
+}

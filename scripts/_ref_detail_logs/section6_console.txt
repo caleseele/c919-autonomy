@@ -1,0 +1,22 @@
+=== SECTION 6 cabin doors/windows ===
+[backup] C:\Users\希儿\Projects\c919-autonomy\public\models\c919.bak-section6.blend
+[block] {'name': 'REF_尾段天线', 'zmax': 2.556154727935791, 'zmin': 0.47138547897338867, 'tip_aft': 34.62801933288574, 'under_belly': False, 'score': 2.556154727935791}
+[GearBayDoors] {'name': 'GearBayDoors', 'zmax': -1.8350000381469727, 'under_belly': True}
+[del-block] REF_尾段天线 (upper aft, not belly)
+[del] DoorFrames
+[del] DoorWindows
+[del] Doors
+[del] WindowFrames
+[del] Windows
+[import] C:\Users\希儿\Projects\c919-autonomy\refs\C919_REF_舱门舷窗.obj n=2 ['REF_舱门缝线', 'REF_舷窗玻璃']
+[xform] nose-style sx=1.045685 sy=1.021632 sz=0.997579 T=(0.0,15.3458,-4.1641) seam sx2=0.998292
+[mat] REF_舱门缝线 -> REF_舱门缝线
+[mat] REF_舷窗玻璃 -> Glass
+[wrap] targets=['Fuselage', 'REF_尾段蒙皮_含垂尾']
+[wrap] applied REF_舱门缝线
+[wrap] applied REF_舷窗玻璃
+[count] REF_舱门缝线 islands=8 verts=852
+[count] REF_舷窗玻璃 islands=86 verts=5528
+[cam] tip_sx=0.053776 tail_sx=0.946224 ok=True
+GLB 1062056
+=== §6 DONE ===

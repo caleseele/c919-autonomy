@@ -1,0 +1,9 @@
+{
+  "hits_still_solid": {
+    "WS_R": false,
+    "WS_L": false,
+    "SW_R": false,
+    "SW_L": false
+  },
+  "boundary_edges": 61
+}
