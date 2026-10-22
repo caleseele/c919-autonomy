@@ -191,6 +191,40 @@ button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 #crash h1{color:var(--red)}
 @media (max-width:640px){.modes{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.guide{animation:none}.pb .lg.blink{animation:none}}
+
+/* Phone HUD: viewport-fixed, not a child of the scaled 1600×1000 stage. */
+#mHud{position:fixed;inset:0;z-index:40;pointer-events:none}
+#mHud *{pointer-events:none}
+#mStick,#mTiller,#mThr,#mActs button,#mFs{pointer-events:auto;touch-action:none;-webkit-user-select:none;user-select:none}
+#mActs button,#mFs{touch-action:manipulation}
+#mStick{position:absolute;left:max(12px,env(safe-area-inset-left));bottom:max(64px,calc(56px + env(safe-area-inset-bottom)));width:132px;height:132px;border-radius:50%;background:rgba(18,14,12,.58);border:2px solid rgba(239,232,223,.5);box-shadow:inset 0 0 0 14px rgba(0,0,0,.28),0 8px 22px rgba(0,0,0,.35)}
+#mStickGrip{position:absolute;left:50%;top:50%;width:62px;height:62px;margin:-31px 0 0 -31px;border-radius:50%;background:radial-gradient(circle at 40% 32%,#6e6560,#161311 72%);box-shadow:0 6px 12px rgba(0,0,0,.55)}
+#mStickGrip::after{content:"";position:absolute;left:40px;top:10px;width:11px;height:11px;border-radius:50%;background:#c22a20}
+#mStick span,#mTiller span,#mThr .mh-mark{position:absolute;left:0;right:0;font:700 10px/1 var(--f-ui);letter-spacing:.08em;color:rgba(239,232,223,.8);text-align:center}
+#mStick span{top:-16px}
+#mTiller{position:absolute;left:max(12px,env(safe-area-inset-left));bottom:max(12px,env(safe-area-inset-bottom));width:132px;height:44px;border-radius:22px;background:rgba(18,14,12,.58);border:2px solid rgba(239,232,223,.4)}
+#mTillerKnob{position:absolute;left:50%;top:5px;width:34px;height:30px;margin-left:-17px;border-radius:8px;background:linear-gradient(#f3f0ea,#b7b3ab);box-shadow:0 2px 4px rgba(0,0,0,.45)}
+#mTiller span{top:-13px}
+#mThr{position:absolute;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));width:64px;height:min(220px,calc(100% - 72px));min-height:150px;border-radius:32px;background:rgba(18,14,12,.58);border:2px solid rgba(239,232,223,.45);box-shadow:inset 0 0 0 1px rgba(0,0,0,.4);overflow:hidden}
+#mThrKnob{position:absolute;left:8px;right:8px;height:36px;border-radius:10px;background:linear-gradient(#f7f4ef,#b2aea6);box-shadow:0 3px 6px rgba(0,0,0,.5)}
+#mThr .mh-mark{letter-spacing:.04em;font-size:9px}
+#mThr .mh-mark.top{top:8px}#mThr .mh-mark.bot{bottom:8px}
+#mActs{position:absolute;top:max(8px,env(safe-area-inset-top));left:max(8px,env(safe-area-inset-left));right:max(96px,calc(16px + env(safe-area-inset-right)));display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;scrollbar-width:none}
+#mActs::-webkit-scrollbar{display:none}
+#mActs button,#mFs{appearance:none;border:1px solid rgba(239,232,223,.38);background:rgba(16,13,11,.78);color:var(--engr);font:600 13px/1.15 var(--f-cn);border-radius:8px;min-height:42px;padding:6px 9px;white-space:nowrap}
+#mActs button.on,#mActs button:active,#mFs:active{border-color:var(--cyan);color:#d8f6ff}
+#mFlapNow{align-self:center;padding:0 4px;font:700 12px/1 var(--f-ui);letter-spacing:.06em;color:var(--cyan);white-space:nowrap}
+#mFs{position:absolute;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));z-index:1}
+#mStep{position:absolute;left:50%;top:max(56px,calc(50px + env(safe-area-inset-top)));transform:translateX(-50%);width:max-content;max-width:min(520px,72vw);padding:5px 10px;border-radius:8px;background:rgba(14,11,9,.72);border:1px solid rgba(139,120,104,.45);font:600 13px/1.35 var(--f-cn);color:var(--engr);text-align:center;white-space:nowrap}
+#mLand{display:none;position:absolute;left:50%;top:max(92px,calc(86px + env(safe-area-inset-top)));transform:translateX(-50%);margin:0;padding:4px 8px;border-radius:6px;background:rgba(255,171,46,.16);color:var(--amber);font:600 12px/1.3 var(--f-cn);text-align:center}
+body.m-hud #stage{border-radius:0}
+@media (orientation:portrait){
+  #mActs{top:auto;bottom:max(206px,calc(196px + env(safe-area-inset-bottom)));right:max(8px,env(safe-area-inset-right))}
+  #mStep{top:max(8px,env(safe-area-inset-top))}
+  #mLand{display:block;top:max(44px,calc(40px + env(safe-area-inset-top)))}
+  #mStick{bottom:max(64px,calc(56px + env(safe-area-inset-bottom)))}
+  #mThr{height:min(188px,34vh);min-height:132px}
+}
 </style>
 
 <div id="wrap"><div id="stage">
@@ -361,7 +395,7 @@ button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
     </div>
     <div class="rowbtn">
       <button class="big" id="resume" type="button" hidden>继续飞行</button>
-      <span class="note">键盘：↓ 拉杆、↑ 推杆、← → 转弯、R / F 推力。也可以直接用鼠标操作驾驶舱里的侧杆、推力杆和按钮。屏幕较小时建议横屏或用电脑。</span>
+      <span class="note" id="menuNote">键盘：↓ 拉杆、↑ 推杆、← → 转弯、R / F 推力。也可以直接用鼠标操作驾驶舱里的侧杆、推力杆和按钮。屏幕较小时建议横屏或用电脑。</span>
     </div>
   </div>
 </div>
@@ -371,6 +405,25 @@ button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
     <p class="sub" id="crashWhy"></p>
     <div class="rowbtn"><button class="big" id="retry" type="button">再试一次</button><button class="ghost" id="toMenu" type="button">回到菜单</button></div>
   </div>
+</div>
+
+<div id="mHud" hidden>
+  <div id="mStep"></div>
+  <p id="mLand">竖屏也能飞。点右上角「全屏横屏」画面更大。</p>
+  <button id="mFs" type="button">全屏横屏</button>
+  <div id="mActs">
+    <button id="mFlapDn" type="button">襟翼 −</button>
+    <span id="mFlapNow">襟翼 0</span>
+    <button id="mFlapUp" type="button">襟翼 +</button>
+    <button id="mGear" type="button">起落架</button>
+    <button id="mSb" type="button">减速板</button>
+    <button id="mPark" type="button">停刹</button>
+    <button id="mBrake" type="button">刹车</button>
+    <button id="mPause" type="button">暂停</button>
+  </div>
+  <div id="mStick" aria-label="侧杆"><div id="mStickGrip"></div><span>侧杆</span></div>
+  <div id="mTiller" aria-label="方向舵 / 前轮转弯"><div id="mTillerKnob"></div><span>方向舵</span></div>
+  <div id="mThr" aria-label="推力杆"><span class="mh-mark top">TO/GA</span><span class="mh-mark bot">IDLE</span><div id="mThrKnob"></div></div>
 </div>
 
 <script src="./three.min.js"></script>
@@ -996,8 +1049,43 @@ function renderFallback(){
 }
 
 /* ================= SCALE ================= */
-function layout(){const W=wrap.clientWidth,H=wrap.clientHeight;SC=Math.max(0.1,Math.min((W-32)/1600,(H-16)/1000));
-  stage.style.transform='translate('+((W-1600*SC)/2)+'px,'+((H-1000*SC)/2)+'px) scale('+SC+')';if(W3)W3.resize();guideKey='';}
+// Touch + short side, same gate as the low-quality preset, or a coarse pointer in a narrow window.
+function wantsMobileHud(){
+  const touch=(navigator.maxTouchPoints||0)>0||matchMedia('(pointer: coarse)').matches;
+  if(!touch)return false;
+  const screenMin=Math.min(screen.width||9999,screen.height||9999);
+  const viewMin=Math.min(innerWidth,innerHeight);
+  return screenMin<900||viewMin<820;
+}
+function syncMobileChrome(){
+  const m=wantsMobileHud();
+  document.body.classList.toggle('m-hud',m);
+  const hud=$('mHud');if(!hud)return;
+  const blocked=!$('menu').hidden||!$('crash').hidden;
+  hud.hidden=!m||blocked;
+}
+function layout(){
+  const W=wrap.clientWidth,H=wrap.clientHeight,m=wantsMobileHud();
+  if(m){
+    // Crop toward the windshield. Desktop branch below is the original fit.
+    if(H>W){
+      const top=44,bottom=H-230;
+      SC=Math.max(0.3,Math.min(W/380,(bottom-top)/358));
+      const x=(W-1600*SC)/2,y=top-112*SC;
+      stage.style.transform='translate('+x+'px,'+y+'px) scale('+SC+')';
+    }else{
+      const viewTop=100,viewH=400;
+      SC=Math.max(0.12,Math.min(W/1600,H/viewH));
+      let y=-viewTop*SC;const band=viewH*SC;if(band<H)y+=(H-band)*0.28;
+      stage.style.transform='translate('+((W-1600*SC)/2)+'px,'+y+'px) scale('+SC+')';
+    }
+  }else{
+    SC=Math.max(0.1,Math.min((W-32)/1600,(H-16)/1000));
+    stage.style.transform='translate('+((W-1600*SC)/2)+'px,'+((H-1000*SC)/2)+'px) scale('+SC+')';
+  }
+  syncMobileChrome();
+  if(W3)W3.resize();guideKey='';
+}
 window.addEventListener('resize',layout);new ResizeObserver(layout).observe(wrap);layout();
 
 /* ================= AUDIO ================= */
@@ -1047,12 +1135,12 @@ function ev(type,d){
     case 'grass':toast('偏出跑道了！用 Q / E 或前轮转弯手轮转回来','bad');break;
     case 'land':{const fpm=Math.round(-d.vs*196.85);const r=fpm<120?'黄油般的落地！':fpm<300?'平稳接地':fpm<500?'有点重，但安全':'重着陆，乘客们抖了一下';
       toast(r+'　接地下降率 '+fpm+' 英尺/分'+(d.onRwy?'':'（不在跑道上）'),fpm<300?'good':'warn');break;}
-    case 'crash':$('crashWhy').textContent=d;$('crash').hidden=false;beep(140,0.8,'sawtooth',0.15);break;
+    case 'crash':$('crashWhy').textContent=d;$('crash').hidden=false;syncMobileChrome();beep(140,0.8,'sawtooth',0.15);break;
   }
 }
 
 /* ================= INPUT ================= */
-const keys={},kb={p:0,r:0,y:0},pad={x:0,y:0};let tiller=0,brakeKey=false;
+const keys={},kb={p:0,r:0,y:0},pad={x:0,y:0},mpad={x:0,y:0};let tiller=0,mTiller=0,brakeKey=false,mBrake=false;
 const inGame=()=>!S.paused&&!S.crashed;
 const GK=['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space','BracketLeft','BracketRight'];
 window.addEventListener('keydown',e=>{
@@ -1069,14 +1157,19 @@ function readInput(dt){
   kb.p+=(tp-kb.p)*Math.min(1,dt*(tp?3:9));kb.r+=(tr-kb.r)*Math.min(1,dt*(tr?4:9));kb.y+=(ty-kb.y)*Math.min(1,dt*(ty?3:6));
   const thr=(keys.KeyR?1:0)-(keys.KeyF?1:0);
   if(thr&&inGame()){S.lever=clamp(S.lever+thr*0.4*dt,0,1);if(S.athr){S.athr=false;ev('athroff');}}
-  return{pull:clamp(kb.p+pad.y,-1,1),roll:clamp(kb.r+pad.x,-1,1),rud:clamp(kb.y+tiller,-1,1),brake:!!keys.KeyB};
+  return{pull:clamp(kb.p+pad.y+mpad.y,-1,1),roll:clamp(kb.r+pad.x+mpad.x,-1,1),rud:clamp(kb.y+tiller+mTiller,-1,1),brake:!!keys.KeyB||mBrake};
 }
-function drag(el,onMove,onUp){let id=null;el.addEventListener('pointerdown',e=>{if(!inGame())return;id=e.pointerId;el.setPointerCapture(id);onMove(e,el.getBoundingClientRect());});
+function drag(el,onMove,onUp){let id=null;el.addEventListener('pointerdown',e=>{if(!inGame())return;if(e.pointerType==='touch')e.preventDefault();id=e.pointerId;el.setPointerCapture(id);onMove(e,el.getBoundingClientRect());});
   el.addEventListener('pointermove',e=>{if(e.pointerId===id)onMove(e,el.getBoundingClientRect());});
   const up=e=>{if(e.pointerId!==id)return;id=null;if(onUp)onUp();};el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);}
-drag($('stickMod'),(e,r)=>{const R=r.width/2*0.62;let x=(e.clientX-r.left-r.width/2)/R,y=(e.clientY-r.top-r.height/2)/R;const l=Math.hypot(x,y);if(l>1){x/=l;y/=l;}pad.x=x;pad.y=y;},()=>{pad.x=0;pad.y=0;});
+function stickFrom(e,r,target){const R=r.width/2*0.62;let x=(e.clientX-r.left-r.width/2)/R,y=(e.clientY-r.top-r.height/2)/R;const l=Math.hypot(x,y);if(l>1){x/=l;y/=l;}target.x=x;target.y=y;}
+function leverFrom(e,r){const t=1-(e.clientY-r.top-8)/(r.height-16);S.lever=clamp(t>0.975?1:t<0.025?0:t,0,1);if(S.athr){S.athr=false;ev('athroff');}}
+drag($('stickMod'),(e,r)=>stickFrom(e,r,pad),()=>{pad.x=0;pad.y=0;});
+drag($('mStick'),(e,r)=>stickFrom(e,r,mpad),()=>{mpad.x=0;mpad.y=0;});
 drag($('tillerMod'),(e,r)=>{tiller=clamp((e.clientX-r.left-r.width/2)/(r.width/2.4),-1,1);},()=>{tiller=0;});
-drag($('thrMod'),(e,r)=>{const t=1-(e.clientY-r.top-8)/(r.height-16);S.lever=clamp(t>0.975?1:t<0.025?0:t,0,1);if(S.athr){S.athr=false;ev('athroff');}});
+drag($('mTiller'),(e,r)=>{mTiller=clamp((e.clientX-r.left-r.width/2)/(r.width/2*0.72),-1,1);},()=>{mTiller=0;});
+drag($('thrMod'),leverFrom);
+drag($('mThr'),leverFrom);
 const SB_STOP=[0,0.15,0.53,0.9],FL_STOP=[0,0.225,0.45,0.675,0.9];
 const nearest=(stops,f)=>{let b=0;stops.forEach((s,i)=>{if(Math.abs(s-f)<Math.abs(stops[b]-f))b=i;});return b;};
 drag($('sbMod'),(e,r)=>{const i=nearest(SB_STOP,(e.clientY-r.top-8)/(r.height-16)*0.9);if(i!==S.sb){S.sb=i;click();}});
@@ -1120,6 +1213,16 @@ document.querySelectorAll('[data-dec]').forEach(b=>b.addEventListener('click',()
 const bindClick=(id,fn)=>$(id).addEventListener('click',e=>{e.currentTarget.blur();if(!inGame())return;fn();});
 bindClick('fcpAP',toggleAP);bindClick('fcpATHR',toggleATHR);bindClick('fcpAPPR',toggleAPPR);
 bindClick('gearKnob',toggleGear);bindClick('parkMod',togglePark);
+bindClick('mGear',toggleGear);bindClick('mPark',togglePark);bindClick('mPause',()=>{if(!S.crashed)togglePause();});
+bindClick('mFlapDn',()=>setFlaps(S.flaps-1));bindClick('mFlapUp',()=>setFlaps(S.flaps+1));
+bindClick('mSb',()=>{S.sb=(S.sb+1)%4;click();});
+$('mFs').addEventListener('click',e=>{e.currentTarget.blur();requestLandscape();});
+(function(){const b=$('mBrake');
+  const on=e=>{if(!inGame())return;if(e.pointerType==='touch')e.preventDefault();mBrake=true;b.classList.add('on');try{b.setPointerCapture(e.pointerId);}catch(err){}};
+  const off=()=>{mBrake=false;b.classList.remove('on');};
+  b.addEventListener('pointerdown',on);b.addEventListener('pointerup',off);b.addEventListener('pointercancel',off);b.addEventListener('lostpointercapture',off);
+})();
+if(wantsMobileHud()){$('menuNote').textContent='手机：点一个模式后会尝试全屏并锁定横屏（浏览器拒绝就保持原样）。左侧侧杆管俯仰和坡度，下面的横条是方向舵，右侧是推力。上方按钮：起落架、襟翼、减速板、停留刹车、按住刹车、暂停。';}
 bindClick('abKnob',()=>{S.abrk=(S.abrk+1)%4;click();});
 bindClick('fcL',()=>{S.fuelCtl[0]=!S.fuelCtl[0];click();});bindClick('fcR',()=>{S.fuelCtl[1]=!S.fuelCtl[1];click();});
 bindClick('efTerr',()=>{terrOn=!terrOn;click();});
@@ -1144,18 +1247,24 @@ let hiQ=!(navigator.maxTouchPoints>0&&Math.min(screen.width,screen.height)<900);
 const applyQ=()=>{$('ebQ').textContent=hiQ?'▣ 画质：高':'▢ 画质：低';if(W3)W3.setQuality(hiQ);try{localStorage.setItem('c919q',hiQ?'high':'low');}catch(e){}};
 $('ebQ').addEventListener('click',()=>{hiQ=!hiQ;applyQ();});
 
-function togglePause(){if(S.paused){S.paused=false;$('menu').hidden=true;if(AC&&AC.state==='suspended')AC.resume();}else{S.paused=true;$('resume').hidden=false;$('menu').hidden=false;}guideKey='';}
+function togglePause(){if(S.paused){S.paused=false;$('menu').hidden=true;if(AC&&AC.state==='suspended')AC.resume();}else{S.paused=true;$('resume').hidden=false;$('menu').hidden=false;}guideKey='';syncMobileChrome();}
+function requestLandscape(){
+  const root=document.documentElement;let p=null;
+  try{if(root.requestFullscreen)p=root.requestFullscreen();else if(root.webkitRequestFullscreen)p=root.webkitRequestFullscreen();}catch(e){p=null;}
+  Promise.resolve(p).then(()=>{if(screen.orientation&&screen.orientation.lock)return screen.orientation.lock('landscape');}).catch(()=>{});
+}
 function start(mode){
+  if(wantsMobileHud())requestLandscape();
   initAudio();if(AC&&AC.state==='suspended')AC.resume();
   lastMode=mode;S=newState(mode);AERO=aero(S);lookYaw=0;lookPitch=0;
   clList=mode==='approach'?LD:TO;clIdx=0;clDone=false;cruise=false;renderCCD(true);guideKey='';
-  $('menu').hidden=true;$('crash').hidden=true;
+  $('menu').hidden=true;$('crash').hidden=true;syncMobileChrome();
   toast(mode==='cold'?'上海虹桥 36L 跑道头，驾驶舱全黑。跟着发光的部件一步步来：先打开头顶板的 BAT':mode==='hot'?'发动机已在运转。按提示放襟翼、松刹车、推推力杆':'进近中，A/THR 保持 150 节。按提示做着陆准备','good');
 }
 document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>start(b.dataset.mode)));
 $('resume').addEventListener('click',togglePause);
 $('retry').addEventListener('click',()=>start(lastMode));
-$('toMenu').addEventListener('click',()=>{$('crash').hidden=true;S.paused=true;S.crashed=false;$('resume').hidden=true;$('menu').hidden=false;});
+$('toMenu').addEventListener('click',()=>{$('crash').hidden=true;S.paused=true;S.crashed=false;$('resume').hidden=true;$('menu').hidden=false;syncMobileChrome();});
 
 /* ================= CHECKLISTS + GUIDANCE ================= */
 function engWait(s,i){const e=s.eng[i];if(e.running)return'';if(e.lit)return'点火成功，N1 '+e.n1.toFixed(1)+'% 上升中…';if(e.start)return e.n1<7?'起动机带转中：N1 '+e.n1.toFixed(1)+'%，等到 7% 以上':'N1 '+e.n1.toFixed(1)+'%，现在扳到 RUN';return'';}
@@ -1214,7 +1323,23 @@ function updateChecklist(){
     else{clDone=true;toast('降落完成，飞机停稳了。干得漂亮！','good');ding();$('ccdNote').textContent='完成。EFB 的「菜单」可以再飞一次。';}
   }
 }
+function syncMobileStep(){
+  const step=$('mStep');if(!step||$('mHud').hidden)return;
+  let t='';
+  if(!S.crashed){
+    if(!cruise&&!clDone&&clList[clIdx])t=(clIdx+1)+'/'+clList.length+'  '+clList[clIdx].t;
+    else if(cruise)t='自由飞行';
+    else if(clDone)t='完成';
+  }
+  if(step.textContent!==t)step.textContent=t;
+}
 function updateGuide(){
+  syncMobileStep();
+  if(!$('mHud').hidden){
+    const co=$('callout');
+    if(!co.hidden||document.querySelector('.guide')){co.hidden=true;document.querySelectorAll('.guide').forEach(e=>e.classList.remove('guide'));guideKey='';}
+    return;
+  }
   const it=(!cruise&&!clDone&&guideOn&&inGame())?clList[clIdx]:null,tg=it?it.tg:[],key=it?clList.length+':'+clIdx:'none';
   const co=$('callout');
   if(key!==guideKey){guideKey=key;document.querySelectorAll('.guide').forEach(e=>e.classList.remove('guide'));
@@ -1469,8 +1594,20 @@ function updatePanel(now){
   setP($('abKnob'),'--r',[-60,-25,25,60][S.abrk]+'deg');
   setP($('parkH'),'--r',S.park?'90deg':'0deg');
   [0,1].forEach(i=>{const el=$(i?'fcR':'fcL');setP(el.querySelector('i'),'top',(S.fuelCtl[i]?3:22)+'px');setP($(i?'fcRt':'fcLt'),'text',S.fuelCtl[i]?'RUN':'CUTOFF');});
-  setP($('stickGrip'),'transform','translate('+(pad.x*44+kb.r*44)+'px,'+(pad.y*44+kb.p*44)+'px)');
-  setP($('tiller'),'transform','rotate('+(clamp(tiller+kb.y,-1,1)*70)+'deg)');
+  setP($('stickGrip'),'transform','translate('+((pad.x+mpad.x)*44+kb.r*44)+'px,'+((pad.y+mpad.y)*44+kb.p*44)+'px)');
+  setP($('tiller'),'transform','rotate('+(clamp(tiller+mTiller+kb.y,-1,1)*70)+'deg)');
+  if(!$('mHud').hidden){
+    const sx=clamp(pad.x+mpad.x+kb.r,-1,1),sy=clamp(pad.y+mpad.y+kb.p,-1,1),rud=clamp(tiller+mTiller+kb.y,-1,1);
+    setP($('mStickGrip'),'transform','translate('+(sx*36)+'px,'+(sy*36)+'px)');
+    setP($('mTillerKnob'),'transform','translateX('+(rud*40)+'px)');
+    const span=Math.max(1,$('mThr').clientHeight-16);
+    setP($('mThrKnob'),'top',(8+(1-S.lever)*span-18)+'px');
+    setP($('mGear'),'text',S.gearDown?'起落架 DN':'起落架 UP');
+    setP($('mFlapNow'),'text','襟翼 '+FLAP_LBL[S.flaps]);
+    setP($('mSb'),'text','减速板 '+SB_LBL[S.sb]);
+    setP($('mPark'),'text',S.park?'停刹 开':'停刹');
+    setP($('mPark'),'cls',S.park?'on':'');
+  }
   const fl=((now/400)|0)%2===0;
   const wOn=b&&CAS.w.length&&CAS.w.join()!==ackW,cOn=b&&CAS.c.length&&CAS.c.join()!==ackC;
   ['mwL','mwR'].forEach(id=>setP($(id),'cls','mw red'+(wOn&&fl?' lit':'')));['mcL','mcR'].forEach(id=>setP($(id),'cls','mw amb'+(cOn?' lit':'')));
