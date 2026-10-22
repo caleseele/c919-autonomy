@@ -204,7 +204,7 @@ button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 #mStick span{top:-16px}
 #mTiller{position:absolute;left:max(12px,env(safe-area-inset-left));bottom:max(12px,env(safe-area-inset-bottom));width:132px;height:44px;border-radius:22px;background:rgba(18,14,12,.58);border:2px solid rgba(239,232,223,.4)}
 #mTillerKnob{position:absolute;left:50%;top:5px;width:34px;height:30px;margin-left:-17px;border-radius:8px;background:linear-gradient(#f3f0ea,#b7b3ab);box-shadow:0 2px 4px rgba(0,0,0,.45)}
-#mTiller span{bottom:-14px}
+#mTiller span{top:-13px}
 #mThr{position:absolute;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));width:64px;height:min(220px,calc(100% - 72px));min-height:150px;border-radius:32px;background:rgba(18,14,12,.58);border:2px solid rgba(239,232,223,.45);box-shadow:inset 0 0 0 1px rgba(0,0,0,.4);overflow:hidden}
 #mThrKnob{position:absolute;left:8px;right:8px;height:36px;border-radius:10px;background:linear-gradient(#f7f4ef,#b2aea6);box-shadow:0 3px 6px rgba(0,0,0,.5)}
 #mThr .mh-mark{letter-spacing:.04em;font-size:9px}
@@ -215,7 +215,7 @@ button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 #mActs button.on,#mActs button:active,#mFs:active{border-color:var(--cyan);color:#d8f6ff}
 #mFlapNow{align-self:center;padding:0 4px;font:700 12px/1 var(--f-ui);letter-spacing:.06em;color:var(--cyan);white-space:nowrap}
 #mFs{position:absolute;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));z-index:1}
-#mStep{position:absolute;left:50%;top:max(56px,calc(50px + env(safe-area-inset-top)));transform:translateX(-50%);max-width:min(460px,58vw);padding:5px 10px;border-radius:8px;background:rgba(14,11,9,.72);border:1px solid rgba(139,120,104,.45);font:600 13px/1.35 var(--f-cn);color:var(--engr);text-align:center}
+#mStep{position:absolute;left:50%;top:max(56px,calc(50px + env(safe-area-inset-top)));transform:translateX(-50%);width:max-content;max-width:min(520px,72vw);padding:5px 10px;border-radius:8px;background:rgba(14,11,9,.72);border:1px solid rgba(139,120,104,.45);font:600 13px/1.35 var(--f-cn);color:var(--engr);text-align:center;white-space:nowrap}
 #mLand{display:none;position:absolute;left:50%;top:max(92px,calc(86px + env(safe-area-inset-top)));transform:translateX(-50%);margin:0;padding:4px 8px;border-radius:6px;background:rgba(255,171,46,.16);color:var(--amber);font:600 12px/1.3 var(--f-cn);text-align:center}
 body.m-hud #stage{border-radius:0}
 @media (orientation:portrait){
@@ -1057,15 +1057,22 @@ function wantsMobileHud(){
   const viewMin=Math.min(innerWidth,innerHeight);
   return screenMin<900||viewMin<820;
 }
+function syncMobileChrome(){
+  const m=wantsMobileHud();
+  document.body.classList.toggle('m-hud',m);
+  const hud=$('mHud');if(!hud)return;
+  const blocked=!$('menu').hidden||!$('crash').hidden;
+  hud.hidden=!m||blocked;
+}
 function layout(){
   const W=wrap.clientWidth,H=wrap.clientHeight,m=wantsMobileHud();
-  document.body.classList.toggle('m-hud',m);
-  const hud=$('mHud');if(hud)hud.hidden=!m;
   if(m){
     // Crop toward the windshield. Desktop branch below is the original fit.
     if(H>W){
-      SC=Math.max(0.12,W/1600);
-      stage.style.transform='translate(0px,'+(56-112*SC)+'px) scale('+SC+')';
+      const top=44,bottom=H-230;
+      SC=Math.max(0.3,Math.min(W/380,(bottom-top)/358));
+      const x=(W-1600*SC)/2,y=top-112*SC;
+      stage.style.transform='translate('+x+'px,'+y+'px) scale('+SC+')';
     }else{
       const viewTop=100,viewH=400;
       SC=Math.max(0.12,Math.min(W/1600,H/viewH));
@@ -1076,6 +1083,7 @@ function layout(){
     SC=Math.max(0.1,Math.min((W-32)/1600,(H-16)/1000));
     stage.style.transform='translate('+((W-1600*SC)/2)+'px,'+((H-1000*SC)/2)+'px) scale('+SC+')';
   }
+  syncMobileChrome();
   if(W3)W3.resize();guideKey='';
 }
 window.addEventListener('resize',layout);new ResizeObserver(layout).observe(wrap);layout();
@@ -1127,7 +1135,7 @@ function ev(type,d){
     case 'grass':toast('偏出跑道了！用 Q / E 或前轮转弯手轮转回来','bad');break;
     case 'land':{const fpm=Math.round(-d.vs*196.85);const r=fpm<120?'黄油般的落地！':fpm<300?'平稳接地':fpm<500?'有点重，但安全':'重着陆，乘客们抖了一下';
       toast(r+'　接地下降率 '+fpm+' 英尺/分'+(d.onRwy?'':'（不在跑道上）'),fpm<300?'good':'warn');break;}
-    case 'crash':$('crashWhy').textContent=d;$('crash').hidden=false;beep(140,0.8,'sawtooth',0.15);break;
+    case 'crash':$('crashWhy').textContent=d;$('crash').hidden=false;syncMobileChrome();beep(140,0.8,'sawtooth',0.15);break;
   }
 }
 
@@ -1239,7 +1247,7 @@ let hiQ=!(navigator.maxTouchPoints>0&&Math.min(screen.width,screen.height)<900);
 const applyQ=()=>{$('ebQ').textContent=hiQ?'▣ 画质：高':'▢ 画质：低';if(W3)W3.setQuality(hiQ);try{localStorage.setItem('c919q',hiQ?'high':'low');}catch(e){}};
 $('ebQ').addEventListener('click',()=>{hiQ=!hiQ;applyQ();});
 
-function togglePause(){if(S.paused){S.paused=false;$('menu').hidden=true;if(AC&&AC.state==='suspended')AC.resume();}else{S.paused=true;$('resume').hidden=false;$('menu').hidden=false;}guideKey='';}
+function togglePause(){if(S.paused){S.paused=false;$('menu').hidden=true;if(AC&&AC.state==='suspended')AC.resume();}else{S.paused=true;$('resume').hidden=false;$('menu').hidden=false;}guideKey='';syncMobileChrome();}
 function requestLandscape(){
   const root=document.documentElement;let p=null;
   try{if(root.requestFullscreen)p=root.requestFullscreen();else if(root.webkitRequestFullscreen)p=root.webkitRequestFullscreen();}catch(e){p=null;}
@@ -1250,13 +1258,13 @@ function start(mode){
   initAudio();if(AC&&AC.state==='suspended')AC.resume();
   lastMode=mode;S=newState(mode);AERO=aero(S);lookYaw=0;lookPitch=0;
   clList=mode==='approach'?LD:TO;clIdx=0;clDone=false;cruise=false;renderCCD(true);guideKey='';
-  $('menu').hidden=true;$('crash').hidden=true;
+  $('menu').hidden=true;$('crash').hidden=true;syncMobileChrome();
   toast(mode==='cold'?'上海虹桥 36L 跑道头，驾驶舱全黑。跟着发光的部件一步步来：先打开头顶板的 BAT':mode==='hot'?'发动机已在运转。按提示放襟翼、松刹车、推推力杆':'进近中，A/THR 保持 150 节。按提示做着陆准备','good');
 }
 document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>start(b.dataset.mode)));
 $('resume').addEventListener('click',togglePause);
 $('retry').addEventListener('click',()=>start(lastMode));
-$('toMenu').addEventListener('click',()=>{$('crash').hidden=true;S.paused=true;S.crashed=false;$('resume').hidden=true;$('menu').hidden=false;});
+$('toMenu').addEventListener('click',()=>{$('crash').hidden=true;S.paused=true;S.crashed=false;$('resume').hidden=true;$('menu').hidden=false;syncMobileChrome();});
 
 /* ================= CHECKLISTS + GUIDANCE ================= */
 function engWait(s,i){const e=s.eng[i];if(e.running)return'';if(e.lit)return'点火成功，N1 '+e.n1.toFixed(1)+'% 上升中…';if(e.start)return e.n1<7?'起动机带转中：N1 '+e.n1.toFixed(1)+'%，等到 7% 以上':'N1 '+e.n1.toFixed(1)+'%，现在扳到 RUN';return'';}
